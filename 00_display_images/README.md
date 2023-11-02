@@ -1,7 +1,5 @@
 # Getting started with images
   
-A training to get started with OpenCV 
-  
 ## About
 The notebook is available in the `import` folder.  
 
