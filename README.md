@@ -25,10 +25,10 @@ It is available under the open-source BSD license, making it accessible to a wid
 2. [00_display_image](#00_display_image)
 3. [01_basic_image_manipulation](#01_basic_image_manipulation)
 ***
+  
 ## Installation
 ```
 $ git clone https://github.com/cloraronco/OpenCV-Bootcamp  
-$ make  
 ```
 Each chapter contains one or more files, organized by concepts.  
 Happy exploring!
@@ -45,7 +45,7 @@ In this notebook, you will learn the following:
 * Displaying images using matplotlib
 * Saving images
 
-### Documentation
+#### Documentation
 `imread`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23ga288b8b3da0892bd651fce07b3bbd3a56)  
 `imreadModes`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd8%2Fd6a%2Fgroup__imgcodecs__flags.html%23ga61d9b0126a3e57d9277ac48327799c80)  
 `split`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd2%2Fde8%2Fgroup__core__array.html%23ga0547c7fed86152d7e9d0096029c8518a)  
@@ -55,4 +55,4 @@ In this notebook, you will learn the following:
 `imwriteFlags`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd8%2Fd6a%2Fgroup__imgcodecs__flags.html%23ga292d81be8d76901bff7988d18d2b42ac)  
 
 More explanations [here]()
-
+***
