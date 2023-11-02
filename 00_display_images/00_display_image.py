@@ -85,7 +85,7 @@ plt.imshow(cb_img_fuzzy, cmap="gray")
 plt.show()
 
 _________________________________
-WITH COCA-COLA
+# WITH COCA-COLA
 
 # Read in image
 coke_img = cv2.imread("image/coca-cola-logo.png", 1)
