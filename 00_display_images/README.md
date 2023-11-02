@@ -2,16 +2,20 @@
   
 A training to get started with OpenCV 
   
-## About OpenCV-bootcamp
-This free bootcamp is available on https://opencv.org/.  
-To obtain a certificate, I must complete the quiz for each chapter.  
-It is not possible to retake a quiz.  
+## About
+The notebook is available in the `import` folder.  
 
 ## Introduction
-OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library.  
-It provides a comprehensive set of tools and functions for tasks such as image and video analysis, object detection, face recognition, feature extraction, and more.  
-OpenCV is widely used in various applications, including robotics, computer vision research, and computer vision-based software development.  
-It is available under the open-source BSD license, making it accessible to a wide range of developers and researchers.  
+This course helped me take my first steps in learning Image Processing and Computer Vision using OpenCV.  
+I learned some important lessons using some simple examples.  
+In this notebook, I learned the following:  
+  
+* Read an image  
+* Checked image attributes like datatype and shape  
+* Represented an image as a matrix in Numpy  
+* Dealt with color images and splitting/merging image channels  
+* Displayed images using matplotlib  
+* Saved images"  
   
 
 ***
@@ -20,25 +24,6 @@ It is available under the open-source BSD license, making it accessible to a wid
 2. [00_display_image](#00_display_image)
 3. [01_basic_image_manipulation](#01_basic_image_manipulation)
 ***
-  
-## Installation
-```
-$ git clone https://github.com/cloraronco/OpenCV-Bootcamp  
-```
-Each chapter contains one or more files, organized by concepts.  
-Happy exploring!
-***
-## 00_display_image
-This notebook will help you take your first steps in learning Image Processing and Computer Vision using OpenCV.  
-You will learn some important lessons using some simple examples.  
-In this notebook, you will learn the following:
-
-* Reading an image
-* Check image attributes like datatype and shape
-* Matrix representation of an image in Numpy
-* Color Images and splitting/merging image channels
-* Displaying images using matplotlib
-* Saving images
 
 #### Documentation
 `imread`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23ga288b8b3da0892bd651fce07b3bbd3a56)  
