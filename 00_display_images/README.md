@@ -17,14 +17,8 @@ In this notebook, I learned the following:
 * Displayed images using matplotlib  
 * Saved images"  
   
-
-***
-## Table of Contents
-1. [Installation](#installation)
-2. [00_display_image](#00_display_image)
-3. [01_basic_image_manipulation](#01_basic_image_manipulation)
-***
-
+***  
+  
 #### Documentation
 `imread`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23ga288b8b3da0892bd651fce07b3bbd3a56)  
 `imreadModes`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd8%2Fd6a%2Fgroup__imgcodecs__flags.html%23ga61d9b0126a3e57d9277ac48327799c80)  
