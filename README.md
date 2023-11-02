@@ -9,7 +9,7 @@ A training to get started with OpenCV
   
 ## About OpenCV-bootcamp
 This free bootcamp is available on https://opencv.org/.  
-To obtain a certificate, you must complete the quiz for each chapter.  
+To obtain a certificate, I must complete the quiz for each chapter.  
 It is not possible to retake a quiz.  
 
 ## Introduction
