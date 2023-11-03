@@ -2,10 +2,6 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-from IPython.display import Image
-
-#_________________________________________________________
-
 
 # Read in an image
 image = cv.imread("images/Apollo_11_Launch.jpg", cv.IMREAD_COLOR)
