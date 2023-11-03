@@ -58,7 +58,7 @@ In this notebook, I learned the following:
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)
 ***
-## Basic_image manipulations
+## Basic image manipulations
 In this course I covered how to perform image transformations including:  
   
 * Accessing and manipulating images pixels  
