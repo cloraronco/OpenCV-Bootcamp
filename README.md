@@ -9,8 +9,14 @@ A training to get started with OpenCV
   
 ## About OpenCV-bootcamp
 This free bootcamp is available on https://opencv.org/.  
-To obtain a certificate, I must complete the quiz for each chapter.  
-It is not possible to retake a quiz.  
+### Grading Policy and Certification 
+#### Quizzes Breakdown
+Out of a total of 14 quizzes, the best 10 will be considered for the final evaluation.  
+Students are awarded one of the following two certificates, based on the final marks they obtain in this course:  
+<div align="center">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-plain.svg" alt="c" width="60" height="60" style="max-width: 100%;">  
+  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-plain.svg" alt="c" width="60" height="60" style="max-width: 100%;">  
+</div>
 
 ## Introduction
 OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library.  
