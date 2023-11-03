@@ -1,5 +1,5 @@
   
-      ____________==============/////////////    ONGOING TRAINING    \\\\\\\\\\\\\\==============____________  
+      _________===========//////////    ONGOING TRAINING    \\\\\\\\\\\===========_________  
   
 ***
   
@@ -13,9 +13,9 @@ This free bootcamp is available on https://opencv.org/.
 #### Quizzes Breakdown
 Out of a total of 14 quizzes, the best 10 will be considered for the final evaluation.  
 Students are awarded one of the following two certificates, based on the final marks they obtain in this course:  
-<div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-plain.svg" alt="c" width="60" height="60" style="max-width: 100%;">  
-  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-plain.svg" alt="c" width="60" height="60" style="max-width: 100%;">  
+<div align="left">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade60.png" alt="c" width="381" height="318" style="max-width: 100%;">  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade90.png" alt="c" width="381" height="318" style="max-width: 100%;">  
 </div>
 
 ## Introduction
