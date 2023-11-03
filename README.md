@@ -40,8 +40,8 @@ Happy exploring!
 1. [Display Image](#00_display_image) :white_check_mark:
 2. [Basic Image Manipulation](#01_basic_image_manipulations) :white_check_mark:
 3. [Image Annotation](#02_image_annotation) :white_check_mark:
-4. [Image Enhancement](#03_image_enhancement) :beginner:        I'm there!
-5. [Accessing the Camera](#04_accessing_the_camera)
+4. [Image Enhancement](#03_image_enhancement) :white_check_mark:
+5. [Accessing the Camera](#04_accessing_the_camera) :beginner:        I'm there!
 6. [Video Writing](#05_video_writing)
 7. [Image Writing](#06_image_writing)
 8. [Image Features and Alignment](#07_image_features_and_alignment)
