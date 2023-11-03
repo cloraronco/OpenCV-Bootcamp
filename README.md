@@ -11,8 +11,8 @@ A training to get started with OpenCV
 This free bootcamp is available on https://opencv.org/.  
 ### Grading Policy and Certification 
 #### Quizzes Breakdown
-Out of a total of 14 quizzes, the best 10 will be considered for the final evaluation.  
-Students are awarded one of the following two certificates, based on the final marks they obtain in this course:  
+Out of a total of 14 quizzes, the top 10 will be taken into account for the final evaluation.  
+Students will receive one of the two following certificates based on their final course marks:  
 <div align="left">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade60.png" alt="c" width="381" height="318" style="max-width: 100%;">  
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade90.png" alt="c" width="381" height="318" style="max-width: 100%;">  
