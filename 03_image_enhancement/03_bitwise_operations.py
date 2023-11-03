@@ -17,14 +17,17 @@ print(img_rec.shape)
 # Bitwise AND Operator
 result = cv.bitwise_and(img_rec, img_cir, mask=None)
 plt.imshow(result, cmap="gray")
+print("Bitwise AND")
 plt.show()
 
 # Bitwise OR Operator
 result = cv.bitwise_or(img_rec, img_cir, mask=None)
 plt.imshow(result, cmap="gray")
+print("Bitwise OR")
 plt.show()
 
 # Bitwise XOR Operator
 result = cv.bitwise_xor(img_rec, img_cir, mask=None)
 plt.imshow(result, cmap="gray")
+print("Bitwise XOR")
 plt.show()
