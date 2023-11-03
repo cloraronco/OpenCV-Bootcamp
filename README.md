@@ -22,8 +22,9 @@ It is available under the open-source BSD license, making it accessible to a wid
 ***
 ## Table of Contents
 1. [Installation](#installation)
-2. [00_display_image](#00_display_image)
-3. [01_basic_image_manipulation](#01_basic_image_manipulation)
+2. [00_Display_image](#00_display_image)
+3. [01_Basic_image_manipulations](#01_basic_image_manipulations)
+4. [02_Image_annotation](#02_image_annotation)
 ***
   
 ## Installation
@@ -33,11 +34,11 @@ $ git clone https://github.com/cloraronco/OpenCV-Bootcamp
 Each chapter contains one or more files, organized by concepts.  
 Happy exploring!
 ***
-## 00_display_image
-This notebook will help you take your first steps in learning Image Processing and Computer Vision using OpenCV.  
-You will learn some important lessons using some simple examples.  
-In this notebook, you will learn the following:
-
+## 00_Display_image
+This course helped me take my first steps in learning Image Processing and Computer Vision using OpenCV.  
+I learned some important lessons using some simple examples.  
+In this notebook, I learned the following:  
+  
 * Reading an image
 * Check image attributes like datatype and shape
 * Matrix representation of an image in Numpy
@@ -56,3 +57,26 @@ In this notebook, you will learn the following:
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)
 ***
+## 01_Basic_image_manipulations
+In this course I covered how to perform image transformations including:  
+  
+* Accessing and manipulating images pixels  
+* Image resizing  
+* Cropping  
+* Flipping
+
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)  
+***
+## 02_Image_annotation
+In this notebook, I covered how to annotate images using OpenCV.  
+I learned how to peform the following annotations to images.  
+  
+* Draw lines  
+* Draw circles  
+* Draw rectangles  
+* Add text
+  
+These are useful when you want to annotate your results for presentations or show a demo of your application.  
+Annotations can also be useful during development and debugging.
+
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)  
