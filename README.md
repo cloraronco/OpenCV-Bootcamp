@@ -1,5 +1,5 @@
   
-            ____________==============/////////////    ONGOING TRAINING    \\\\\\\\\\\\\\==============____________  
+      ____________==============/////////////    ONGOING TRAINING    \\\\\\\\\\\\\\==============____________  
   
 ***
   
@@ -17,16 +17,8 @@ OpenCV (Open Source Computer Vision Library) is an open-source computer vision a
 It provides a comprehensive set of tools and functions for tasks such as image and video analysis, object detection, face recognition, feature extraction, and more.  
 OpenCV is widely used in various applications, including robotics, computer vision research, and computer vision-based software development.  
 It is available under the open-source BSD license, making it accessible to a wide range of developers and researchers.  
-  
 
-***
-## Table of Contents
-1. [Installation](#installation)
-2. [Display_image](#00_display_image)
-3. [Basic_image_manipulations](#01_basic_image_manipulations)
-4. [Image_annotation](#02_image_annotation)
-***
-  
+
 ### Installation
 ```
 $ git clone https://github.com/cloraronco/OpenCV-Bootcamp  
@@ -34,6 +26,14 @@ $ git clone https://github.com/cloraronco/OpenCV-Bootcamp
 Each chapter contains one or more files, organized by concepts.  
 Happy exploring!
 ***
+[Installation](#installation)
+***
+## Table of Contents
+1. [Display_image](#00_display_image)
+2. [Basic_image_manipulations](#01_basic_image_manipulations)
+3. [Image_annotation](#02_image_annotation)
+***
+  
 ## Display_image
 This course helped me take my first steps in learning Image Processing and Computer Vision using OpenCV.  
 I learned some important lessons using some simple examples.  
