@@ -22,9 +22,9 @@ It is available under the open-source BSD license, making it accessible to a wid
 ***
 ## Table of Contents
 1. [Installation](#installation)
-2. [00_Display_image](#00_display_image)
-3. [01_Basic_image_manipulations](#01_basic_image_manipulations)
-4. [02_Image_annotation](#02_image_annotation)
+2. [Display_image](#00_display_image)
+3. [Basic_image_manipulations](#01_basic_image_manipulations)
+4. [Image_annotation](#02_image_annotation)
 ***
   
 ## Installation
@@ -34,7 +34,7 @@ $ git clone https://github.com/cloraronco/OpenCV-Bootcamp
 Each chapter contains one or more files, organized by concepts.  
 Happy exploring!
 ***
-## 00_Display_image
+## Display_image
 This course helped me take my first steps in learning Image Processing and Computer Vision using OpenCV.  
 I learned some important lessons using some simple examples.  
 In this notebook, I learned the following:  
@@ -57,7 +57,7 @@ In this notebook, I learned the following:
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)
 ***
-## 01_Basic_image_manipulations
+## Basic_image_manipulations
 In this course I covered how to perform image transformations including:  
   
 * Accessing and manipulating images pixels  
@@ -67,7 +67,7 @@ In this course I covered how to perform image transformations including:
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)  
 ***
-## 02_Image_annotation
+## Image_annotation
 In this notebook, I covered how to annotate images using OpenCV.  
 I learned how to peform the following annotations to images.  
   
