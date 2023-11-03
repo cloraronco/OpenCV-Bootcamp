@@ -9,8 +9,11 @@ A training to get started with OpenCV
   
 ## About OpenCV-bootcamp
 This free bootcamp is available on https://opencv.org/.  
+
+
 ### Grading Policy and Certification 
 #### Quizzes Breakdown
+
 Out of a total of 14 quizzes, the top 10 will be taken into account for the final evaluation.  
 Students will receive one of the two following certificates based on their final course marks:  
 <div align="left">
@@ -34,14 +37,23 @@ Happy exploring!
 
 ***
 ## Table of Contents
-1. [Display image](#00_display_image)
-2. [Basic image manipulations](#01_basic_image_manipulations)
-3. [Image annotation](#02_image_annotation)
-4. [Image enhancement](#03_image_enhancement)
-5. [Accessing the camera](#04_accessing_the_camera)
+1. [Display Image](#00_display_image)
+2. [Basic Image Manipulation](#01_basic_image_manipulations)
+3. [Image Annotation](#02_image_annotation)
+4. [Image Enhancement](#03_image_enhancement)
+5. [Accessing the Camera](#04_accessing_the_camera)
+6. [Video Writing](#05_video_writing)
+7. [Image Writing](#06_image_writing)
+8. [Image Features and Alignment](#07_image_features_and_alignment)
+9. [Panorama](#08_panorama)
+10. [HDR](#09_HDR)
+11. [Object Tracking](#10_object_tracking)
+12. [Face Detection](#11_face_detection)
+13. [TensorFlow Object Detection](#12_TensorFlow_object_detection)
+14. [Pose Estimation using OpenPose](#13_pose_estimation_using_OpenPose)
 ***
   
-## Display image
+## Display Image
 This course helped me take my first steps in learning Image Processing and Computer Vision using OpenCV.  
 I learned some important lessons using some simple examples.  
 In this notebook, I learned the following:  
@@ -64,7 +76,7 @@ In this notebook, I learned the following:
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)
 ***
-## Basic image manipulations
+## Basic Image Manipulation
 In this course I covered how to perform image transformations including:  
   
 * Accessing and manipulating images pixels  
@@ -74,7 +86,7 @@ In this course I covered how to perform image transformations including:
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)  
 ***
-## Image annotation
+## Image Annotation
 In this notebook, I covered how to annotate images using OpenCV.  
 I learned how to peform the following annotations to images.  
   
@@ -88,7 +100,7 @@ Annotations can also be useful during development and debugging.
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)  
 ***
-## Image enhancement
+## Image Enhancement
 Image Processing techniques take advantage of mathematical operations to achieve different results.  
 Most often we arrive at an enhanced version of the image using some basic operations.  
 We will take a look at some of the fundamental operations often used in computer vision pipelines.  \
@@ -100,7 +112,40 @@ In this course, I covered:
   
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/03_image_enhancement)  
 ***
-## Accessing the camera
+## Accessing the Camera
 In this short course, I learned how to access to the camera.  
   
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)  
+  
+  
+***
+  I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
+***
+## Video Writing
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing) 
+***
+## Image Writing
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_writing) 
+***
+## Image Features and Alignment
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment) 
+***
+## Panorama
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama) 
+***
+## HDR
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#09_HDR) 
+***
+## Object Tracking
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking) 
+***
+## Face Detection
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection) 
+***
+## TensorFlow Object Detection
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection) 
+***
+## Pose Estimation using OpenPose
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose) 
+***
+
