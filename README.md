@@ -27,7 +27,7 @@ It is available under the open-source BSD license, making it accessible to a wid
 4. [Image_annotation](#02_image_annotation)
 ***
   
-## Installation
+### Installation
 ```
 $ git clone https://github.com/cloraronco/OpenCV-Bootcamp  
 ```
