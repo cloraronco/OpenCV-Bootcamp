@@ -25,8 +25,7 @@ $ git clone https://github.com/cloraronco/OpenCV-Bootcamp
 ```
 Each chapter contains one or more files, organized by concepts.  
 Happy exploring!
-***
-[Installation](#installation)
+
 ***
 ## Table of Contents
 1. [Display_image](#00_display_image)
