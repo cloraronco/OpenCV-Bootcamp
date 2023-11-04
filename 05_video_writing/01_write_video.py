@@ -40,3 +40,35 @@ while cap.isOpened():
 cap.release()
 out_avi.release()
 out_mp4.release()
+
+
+#___________________________________________________
+
+import subprocess
+
+# Commande d'installation de ffmpeg
+command = "sudo apt-get -qq install ffmpeg"
+
+# Exécution de la commande
+subprocess.call(command, shell=True)
+
+# Change video encoding of mp4 file from XVID to h264
+subprocess.call(f'ffmpeg -y -i "video/race_car_out.mp4" -c:v libx264 "race_car_out_x264.mp4"  -hide_banner -loglevel error', shell=True)
+
+cap = cv.VideoCapture("race_car_out_x264.mp4")
+if not cap.isOpened():
+    print("Error opening video stream or file")
+
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        break  # Fin de la vidéo
+
+    cv.imshow('Video', frame)
+
+    # Appuyez sur la touche 'q' pour quitter la lecture
+    if cv.waitKey(25) & 0xFF == ord('q'):
+        break
+
+cap.release()
+cv.destroyAllWindows()
