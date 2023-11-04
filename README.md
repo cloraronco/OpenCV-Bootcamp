@@ -42,9 +42,9 @@ Happy exploring!
 3. [Image Annotation](#02_image_annotation) :white_check_mark:
 4. [Image Enhancement](#03_image_enhancement) :white_check_mark:
 5. [Accessing the Camera](#04_accessing_the_camera) :white_check_mark:
-6. [Video Writing](#05_video_writing) :beginner:        I'm there!
-7. [Image Writing](#06_image_writing)
-8. [Image Features and Alignment](#07_image_features_and_alignment)
+6. [Video Writing](#05_video_writing) :white_check_mark:
+7. [Image Filtering (Edge Detection)](#06_image_filtering) :white_check_mark:
+8. [Image Features and Alignment](#07_image_features_and_alignment) :beginner:        I'm there!
 9. [Panorama](#08_panorama)
 10. [HDR](#09_HDR)
 11. [Object Tracking](#10_object_tracking)
@@ -117,9 +117,7 @@ In this short course, I learned how to access to the camera.
   
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)  
   
-  
-***
-  I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
+
 ***
 ## Video Writing
 While building applications, it becomes important to save demo videos of your work as well as many applications themselves might require saving a video clip.  
@@ -129,8 +127,13 @@ In this course, I describe how to save a video in avi and mp4 formats using open
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing) 
 ***
-## Image Writing
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_writing) 
+## Image Filtering (Edge Detection)
+In this short course, I learned how to set image filters.  
+
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering) 
+  
+***
+  I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
 ***
 ## Image Features and Alignment
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment) 
