@@ -122,6 +122,11 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
   I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
 ***
 ## Video Writing
+While building applications, it becomes important to save demo videos of your work as well as many applications themselves might require saving a video clip.  
+For example, in a surveiallance application, you might have to save a video clip as soon as you see something unusual happening.  
+  
+In this course, I describe how to save a video in avi and mp4 formats using openCV.  
+
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing) 
 ***
 ## Image Writing
