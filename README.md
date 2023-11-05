@@ -43,14 +43,14 @@ Happy exploring!
 4. [Image Enhancement](#image-enhancement) :white_check_mark:
 5. [Accessing the Camera](#accessing-the-camera) :white_check_mark:
 6. [Video Writing](#video-writing) :white_check_mark:
-7. [Image Filtering (Edge Detection)](#image-filtering[edge-detection]) :white_check_mark:
+7. [Image Filtering (Edge Detection)](#image-filtering-edge-detection) :white_check_mark:
 8. [Image Features and Alignment](#image-features-and-alignment) :white_check_mark:
 9. [Panorama](#panorama) :white_check_mark:
-10. [HDR - High Dynamic Range Imaging](#HDR-[-]-High-Dynamic-Range-Imaging) :beginner:        I'm there!
-11. [Object Tracking](#10_object_tracking)
-12. [Face Detection](#11_face_detection)
-13. [TensorFlow Object Detection](#12_TensorFlow_object_detection)
-14. [Pose Estimation using OpenPose](#13_pose_estimation_using_OpenPose)
+10. [HDR - High Dynamic Range Imaging](#hdr---high-dynamic-range-imaging) :beginner:        I'm there!
+11. [Object Tracking](#object-tracking)
+12. [Face Detection](#face-detection)
+13. [TensorFlow Object Detection](#tensorFlow-object-detection)
+14. [Pose Estimation using OpenPose](#pose-estimation-using-openpose)
 ***
   
 ## Display Image
