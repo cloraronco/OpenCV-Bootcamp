@@ -38,15 +38,15 @@ Happy exploring!
 ***
 ## Table of Contents
 1. [Display Image](#display-image) :white_check_mark:
-2. [Basic Image Manipulation](#01_basic_image_manipulations) :white_check_mark:
-3. [Image Annotation](#02_image_annotation) :white_check_mark:
-4. [Image Enhancement](#03_image_enhancement) :white_check_mark:
-5. [Accessing the Camera](#04_accessing_the_camera) :white_check_mark:
-6. [Video Writing](#05_video_writing) :white_check_mark:
-7. [Image Filtering (Edge Detection)](#06_image_filtering) :white_check_mark:
-8. [Image Features and Alignment](#07_image_features_and_alignment) :white_check_mark:
-9. [Panorama](#08_panorama) :white_check_mark:
-10. [HDR](#09_HDR) :beginner:        I'm there!
+2. [Basic Image Manipulation](#basic-image-manipulation) :white_check_mark:
+3. [Image Annotation](#image-annotation) :white_check_mark:
+4. [Image Enhancement](#image-enhancement) :white_check_mark:
+5. [Accessing the Camera](#accessing-the-camera) :white_check_mark:
+6. [Video Writing](#video-writing) :white_check_mark:
+7. [Image Filtering (Edge Detection)](#image-filtering[edge-detection]) :white_check_mark:
+8. [Image Features and Alignment](#image-features-and-alignment) :white_check_mark:
+9. [Panorama](#panorama) :white_check_mark:
+10. [HDR - High Dynamic Range Imaging](#HDR-[-]-High-Dynamic-Range-Imaging) :beginner:        I'm there!
 11. [Object Tracking](#10_object_tracking)
 12. [Face Detection](#11_face_detection)
 13. [TensorFlow Object Detection](#12_TensorFlow_object_detection)
@@ -149,7 +149,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 ***
   I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
 ***
-## HDR
+## HDR - High Dynamic Range Imaging
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#09_HDR) 
 ***
 ## Object Tracking
