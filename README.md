@@ -37,7 +37,7 @@ Happy exploring!
 
 ***
 ## Table of Contents
-1. [Display Image](#Display_Image) :white_check_mark:
+1. [Display Image](#display-image) :white_check_mark:
 2. [Basic Image Manipulation](#01_basic_image_manipulations) :white_check_mark:
 3. [Image Annotation](#02_image_annotation) :white_check_mark:
 4. [Image Enhancement](#03_image_enhancement) :white_check_mark:
