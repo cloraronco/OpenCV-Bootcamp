@@ -37,8 +37,8 @@ Happy exploring!
 
 ***
 ## Table of Contents
-1. [Display Image](#display-image) :white_check_mark:
-2. [Basic Image Manipulation](#basic-image-manipulation) :white_check_mark:
+1. [Display Image](#01-display-image) :white_check_mark:
+2. [Basic Image Manipulation](#02---basic-image-manipulation) :white_check_mark:
 3. [Image Annotation](#image-annotation) :white_check_mark:
 4. [Image Enhancement](#image-enhancement) :white_check_mark:
 5. [Accessing the Camera](#accessing-the-camera) :white_check_mark:
@@ -53,7 +53,7 @@ Happy exploring!
 14. [Pose Estimation using OpenPose](#pose-estimation-using-openpose)
 ***
   
-## Display Image
+## 01 Display Image
 This course helped me take my first steps in learning Image Processing and Computer Vision using OpenCV.  
 I learned some important lessons using some simple examples.  
 In this notebook, I learned the following:  
@@ -78,7 +78,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
-## Basic Image Manipulation
+## 02 - Basic Image Manipulation
 In this course I covered how to perform image transformations including:  
   
 * Accessing and manipulating images pixels  
