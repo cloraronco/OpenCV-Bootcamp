@@ -45,8 +45,8 @@ Happy exploring!
 6. [Video Writing](#05_video_writing) :white_check_mark:
 7. [Image Filtering (Edge Detection)](#06_image_filtering) :white_check_mark:
 8. [Image Features and Alignment](#07_image_features_and_alignment) :white_check_mark:
-9. [Panorama](#08_panorama) :beginner:        I'm there!
-10. [HDR](#09_HDR)
+9. [Panorama](#08_panorama) :white_check_mark:
+10. [HDR](#09_HDR) :beginner:        I'm there!
 11. [Object Tracking](#10_object_tracking)
 12. [Face Detection](#11_face_detection)
 13. [TensorFlow Object Detection](#12_TensorFlow_object_detection)
@@ -124,7 +124,7 @@ While building applications, it becomes important to save demo videos of your wo
 For example, in a surveiallance application, you might have to save a video clip as soon as you see something unusual happening.  
   
 In this course, I describe how to save a video in avi and mp4 formats using openCV.  
-
+  
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing) 
 ***
 ## Image Filtering (Edge Detection)
@@ -134,12 +134,20 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 ***
 ## Image Features and Alignment
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment) 
+***
+## Panorama
+Steps for Creating Panoramas:  
+  
+* Find keypoints in all images  
+* Find pairwise correspondences  
+* Estimate pairwise Homographies  
+* Refine Homographies  
+* Stitch with Blending  
+
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama) 
   
 ***
   I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
-***
-## Panorama
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama) 
 ***
 ## HDR
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#09_HDR) 
