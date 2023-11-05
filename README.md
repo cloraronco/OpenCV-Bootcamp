@@ -44,8 +44,8 @@ Happy exploring!
 5. [Accessing the Camera](#04_accessing_the_camera) :white_check_mark:
 6. [Video Writing](#05_video_writing) :white_check_mark:
 7. [Image Filtering (Edge Detection)](#06_image_filtering) :white_check_mark:
-8. [Image Features and Alignment](#07_image_features_and_alignment) :beginner:        I'm there!
-9. [Panorama](#08_panorama)
+8. [Image Features and Alignment](#07_image_features_and_alignment) :white_check_mark:
+9. [Panorama](#08_panorama) :beginner:        I'm there!
 10. [HDR](#09_HDR)
 11. [Object Tracking](#10_object_tracking)
 12. [Face Detection](#11_face_detection)
@@ -131,12 +131,12 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 In this short course, I learned how to set image filters.  
 
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering) 
-  
-***
-  I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
 ***
 ## Image Features and Alignment
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment) 
+  
+***
+  I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
 ***
 ## Panorama
 More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama) 
