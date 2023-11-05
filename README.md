@@ -74,7 +74,10 @@ In this notebook, I learned the following:
 `imwrite`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23gabbc7ef1aa2edfaa87772f1202d67e0ce)  
 `imwriteFlags`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd8%2Fd6a%2Fgroup__imgcodecs__flags.html%23ga292d81be8d76901bff7988d18d2b42ac)  
 
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)
+More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)  
+<div align="centre">
+  [Table of Contents](#table-of-contents)
+</div>
 ***
 ## Basic Image Manipulation
 In this course I covered how to perform image transformations including:  
