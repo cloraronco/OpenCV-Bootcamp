@@ -22,3 +22,5 @@ def estimate_camera_response_function(images, times):
     plt.show()
 
     return images, times, responseDebevec
+    # image_opencv = cv2.cvtColor(np.array(ax), cv2.COLOR_RGB2BGR)
+
