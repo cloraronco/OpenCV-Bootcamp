@@ -197,6 +197,10 @@ Steps for Creating Panoramas:
 
 
 ## 10 HDR - High Dynamic Range Imaging
+This course has been structured differently.  
+Each file includes one or more methods, corresponding to a step in the HDR process.  
+To compile the entire course, simply run the command `python3 _init.py`.  
+  
 Here are the different steps involved in creating an HDR (High Dynamic Range) image with OpenCV:
 1. [Bracketed Image Capture](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/A_capture_multi_explosures.py): Capture multiple photos of the same scene at different exposures (underexposed, properly exposed, and overexposed). These images should cover the dynamic range of the scene.
 2. [Image Reading](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/A_capture_multi_explosures.py): Import these images using OpenCV.
@@ -209,9 +213,6 @@ Here are the different steps involved in creating an HDR (High Dynamic Range) im
 These steps will guide you through the process of creating an HDR image from a set of bracketed images.  
 OpenCV provides tools to perform these steps, making it easier to create HDR images from real shots.
   
-This course has been structured differently.  
-Each file includes one or more methods, corresponding to a step in the HDR process.  
-To compile the entire course, simply run the command `python3 _init.py`.  
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -224,8 +225,8 @@ To compile the entire course, simply run the command `python3 _init.py`.
   I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
 ***
 ## 11 Object Tracking
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking) 
 ***  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
@@ -233,8 +234,8 @@ To compile the entire course, simply run the command `python3 _init.py`.
 
 
 ## 12 Face Detection
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection) 
 ***  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
@@ -242,8 +243,8 @@ To compile the entire course, simply run the command `python3 _init.py`.
 
 
 ## 13 TensorFlow Object Detection
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection) 
 ***  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
@@ -251,8 +252,8 @@ To compile the entire course, simply run the command `python3 _init.py`.
 
 
 ## 14 Pose Estimation using OpenPose
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose) 
 ***  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
