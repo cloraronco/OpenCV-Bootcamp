@@ -73,9 +73,10 @@ In this notebook, I learned the following:
 `imwrite`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23gabbc7ef1aa2edfaa87772f1202d67e0ce)  
 `imwriteFlags`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd8%2Fd6a%2Fgroup__imgcodecs__flags.html%23ga292d81be8d76901bff7988d18d2b42ac)  
 
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)  
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -88,9 +89,10 @@ In this course I covered how to perform image transformations including:
 * Cropping  
 * Flipping
 
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)  
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -107,9 +109,10 @@ I learned how to peform the following annotations to images.
 These are useful when you want to annotate your results for presentations or show a demo of your application.  
 Annotations can also be useful during development and debugging.
 
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)  
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**(https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -124,9 +127,10 @@ In this course, I covered:
 * Thresholding & Masking  
 * Bitwise Operations like OR, AND, XOR  
   
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/03_image_enhancement)  
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**(https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/03_image_enhancement)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -134,9 +138,10 @@ In this course, I covered:
 ## 05 Accessing the Camera
 In this short course, I learned how to access to the camera.  
   
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)  
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -147,9 +152,10 @@ For example, in a surveiallance application, you might have to save a video clip
   
 In this course, I describe how to save a video in avi and mp4 formats using openCV.  
   
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing) 
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -157,17 +163,19 @@ In this course, I describe how to save a video in avi and mp4 formats using open
 ## 07 Image Filtering (Edge Detection)
 In this short course, I learned how to set image filters.  
 
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering) 
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)</sub>
 ***
 
 
 
 ## 08 Image Features and Alignment
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment) 
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)</sub>
 ***
 
 
@@ -181,9 +189,10 @@ Steps for Creating Panoramas:
 * Refine Homographies  
 * Stitch with Blending  
 
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama) 
 ***  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)</sub>
 ***
   I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
 ***
@@ -206,9 +215,10 @@ OpenCV provides tools to perform these steps, making it easier to create HDR ima
 This course has been structured differently.  
 Each file includes one or more methods, corresponding to a step in the HDR process.  
 To compile the entire course, simply run the command `python3 _init.py`.  
-<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)</sub>
 ***
 
 
@@ -216,7 +226,8 @@ To compile the entire course, simply run the command `python3 _init.py`.
 ## 11 Object Tracking
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking) 
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)</sub>
 ***
 
 
@@ -224,7 +235,8 @@ To compile the entire course, simply run the command `python3 _init.py`.
 ## 12 Face Detection
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection) 
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)</sub>
 ***
 
 
@@ -232,7 +244,8 @@ To compile the entire course, simply run the command `python3 _init.py`.
 ## 13 TensorFlow Object Detection
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection) 
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)</sub>
 ***
 
 
@@ -240,6 +253,7 @@ To compile the entire course, simply run the command `python3 _init.py`.
 ## 14 Pose Estimation using OpenPose
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose) 
 ***  
-<sub>**[Table of Contents](#table-of-contents)**</sub>
+<sub>**[Table of Contents](#table-of-contents)**</sub>  
+<sub>**[Top of page](#opencv-bootcamp)</sub>
 ***
 
