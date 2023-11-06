@@ -204,10 +204,10 @@ To compile the entire course, simply run the command `python3 _init.py`.
 Here are the different steps involved in creating an HDR (High Dynamic Range) image with OpenCV:
 1. [Bracketed Image Capture](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/A_capture_multi_explosures.py): Capture multiple photos of the same scene at different exposures (underexposed, properly exposed, and overexposed). These images should cover the dynamic range of the scene.
 <div align="left">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_0.25.jpg" alt="c" width="381" height="300" style="max-width: 100%;">  
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_0.033.jpg" alt="c" width="381" height="300" style="max-width: 100%;">  
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_2.5.jpg" alt="c" width="381" height="300" style="max-width: 100%;">  
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_15.jpg" alt="c" width="381" height="300" style="max-width: 100%;">  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_0.25.jpg" alt="c" width="381" height="280" style="max-width: 100%;">  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_0.033.jpg" alt="c" width="381" height="280" style="max-width: 100%;">  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_2.5.jpg" alt="c" width="381" height="280" style="max-width: 100%;">  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_15.jpg" alt="c" width="381" height="280" style="max-width: 100%;">  
 </div>
 2. [Image Reading](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/A_capture_multi_explosures.py): Import these images using OpenCV.
 3. [Image Alignment](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/B_align_images.py): Align the images to correct for variations in movement or rotation between shots. This ensures that scene features match correctly.
