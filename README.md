@@ -192,21 +192,21 @@ Steps for Creating Panoramas:
 
 ## 10 HDR - High Dynamic Range Imaging
 Here are the different steps involved in creating an HDR (High Dynamic Range) image with OpenCV:
-1. Bracketed Image Capture: Capture multiple photos of the same scene at different exposures (underexposed, properly exposed, and overexposed). These images should cover the dynamic range of the scene.
-2. Image Reading: Import these images using OpenCV.
-3. Image Alignment: Align the images to correct for variations in movement or rotation between shots. This ensures that scene features match correctly.
-4. Camera Response Function Estimation: Calculate the camera's response curves for each image to correct for differences in camera sensitivity.
-5. Image Fusion: Merge the properly exposed images using an HDR fusion algorithm to obtain a high dynamic range image.
-6. Tone Mapping: The resulting HDR image will have a high dynamic range, which may look unusual on standard displays. Apply a tone mapping operation to perceptually reduce the dynamic range, creating a displayable LDR (Low Dynamic Range) image.
-7. Saving the Final Image: Save the resulting LDR image, which can be viewed on standard screens.
+1. [Bracketed Image Capture](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/A_capture_multi_explosures.py): Capture multiple photos of the same scene at different exposures (underexposed, properly exposed, and overexposed). These images should cover the dynamic range of the scene.
+2. [Image Reading](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/A_capture_multi_explosures.py): Import these images using OpenCV.
+3. [Image Alignment](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/B_align_images.py): Align the images to correct for variations in movement or rotation between shots. This ensures that scene features match correctly.
+4. [Camera Response Function Estimation](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/C_estimate_camera_response_function.py): Calculate the camera's response curves for each image to correct for differences in camera sensitivity.
+5. [Image Fusion](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/D_merge_exposure_into_HDR_image.py): Merge the properly exposed images using an HDR fusion algorithm to obtain a high dynamic range image.
+6. [Tone Mapping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): The resulting HDR image will have a high dynamic range, which may look unusual on standard displays. Apply a tone mapping operation to perceptually reduce the dynamic range, creating a displayable LDR (Low Dynamic Range) image.
+7. [Saving the Final Image](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): Save the resulting LDR image, which can be viewed on standard screens.
 
 These steps will guide you through the process of creating an HDR image from a set of bracketed images.  
 OpenCV provides tools to perform these steps, making it easier to create HDR images from real shots.
   
 This course has been structured differently.  
 Each file includes one or more methods, corresponding to a step in the HDR process.  
-To compile the entire course, simply run the command 'python3 _init.py'.
-[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#09_HDR) 
+To compile the entire course, simply run the command 'python3 _init.py'.  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
