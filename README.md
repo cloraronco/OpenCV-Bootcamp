@@ -213,6 +213,10 @@ Here are the different steps involved in creating an HDR (High Dynamic Range) im
 2. [Image Reading](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/A_capture_multi_explosures.py): Import these images using OpenCV.
 3. [Image Alignment](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/B_align_images.py): Align the images to correct for variations in movement or rotation between shots. This ensures that scene features match correctly.
 4. [Camera Response Function Estimation](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/C_estimate_camera_response_function.py): Calculate the camera's response curves for each image to correct for differences in camera sensitivity.
+<div align="left">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/estimate_camera_response_function.png" alt="c" style="max-width: 100%;">   
+</div>  
+
 5. [Image Fusion](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/D_merge_exposure_into_HDR_image.py): Merge the properly exposed images using an HDR fusion algorithm to obtain a high dynamic range image.
 6. [Tone Mapping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): The resulting HDR image will have a high dynamic range, which may look unusual on standard displays. Apply a tone mapping operation to perceptually reduce the dynamic range, creating a displayable LDR (Low Dynamic Range) image.
 7. [Saving the Final Image](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): Save the resulting LDR image, which can be viewed on standard screens.
