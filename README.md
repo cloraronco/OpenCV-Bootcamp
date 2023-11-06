@@ -43,8 +43,8 @@ Happy exploring!
 8. [Image Features and Alignment](#08-image-features-and-alignment) :white_check_mark:
 9. [Panorama](#09-panorama) :white_check_mark:
 10. [HDR - High Dynamic Range Imaging](#10-hdr---high-dynamic-range-imaging) :white_check_mark:
-11. [Object Tracking](#11-object-tracking) :beginner:        I'm there!
-12. [Face Detection](#12-face-detection)
+11. [Object Tracking](#11-object-tracking) :white_check_mark:
+12. [Face Detection](#12-face-detection) :beginner:        I'm there!
 13. [TensorFlow Object Detection](#13-tensorflow-object-detection)
 14. [Pose Estimation using OpenPose](#14-pose-estimation-using-openpose)
 ***
@@ -194,9 +194,6 @@ Steps for Creating Panoramas:
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
-  I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
-***
-
 
 
 ## 10 HDR - High Dynamic Range Imaging
@@ -223,6 +220,9 @@ To compile the entire course, simply run the command `python3 _init.py`.
 
 
 
+***
+  I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
+***
 ## 11 Object Tracking
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking) 
 ***  
