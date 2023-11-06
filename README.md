@@ -240,17 +240,17 @@ Here are the different steps involved in creating an HDR (High Dynamic Range) im
 </div> -->
 <div align="center">
   <figure style="display: inline-block;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Drago.jpg" alt="c" width="30%" style="margin: 10px;">
+    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Drago.jpg" alt="c" width="20%" style="margin: 10px;">
     <figcaption style="text-align: center; font-size: 18px;">Tonemapped with Drago</figcaption>
   </figure>
 
   <figure style="display: inline-block;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Mantiuk.jpg" alt="c" width="30%" style="margin: 10px;">
+    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Mantiuk.jpg" alt="c" width="20%" style="margin: 10px;">
     <figcaption style="text-align: center; font-size: 18px;">Tonemapped with Mantiuk</figcaption>
   </figure>
 
   <figure style="display: inline-block;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Reinhard.jpg" alt="c" width="30%" style="margin: 10px;">
+    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Reinhard.jpg" alt="c" width="20%" style="margin: 10px;">
     <figcaption style="text-align: center; font-size: 18px;">Tonemapped with Reinhard</figcaption>
   </figure>
 </div>
