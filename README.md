@@ -166,7 +166,7 @@ In this short course, I learned how to set image filters.
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
-<sub>**[Top of page](#opencv-bootcamp)</sub>
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -175,7 +175,7 @@ In this short course, I learned how to set image filters.
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
-<sub>**[Top of page](#opencv-bootcamp)</sub>
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -192,7 +192,7 @@ Steps for Creating Panoramas:
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
-<sub>**[Top of page](#opencv-bootcamp)</sub>
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
   I'M CURRENTLY WORKING ON THE FOLLOWING CONTENTS!  
 ***
@@ -218,7 +218,7 @@ To compile the entire course, simply run the command `python3 _init.py`.
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
-<sub>**[Top of page](#opencv-bootcamp)</sub>
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -227,7 +227,7 @@ To compile the entire course, simply run the command `python3 _init.py`.
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
-<sub>**[Top of page](#opencv-bootcamp)</sub>
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -236,7 +236,7 @@ To compile the entire course, simply run the command `python3 _init.py`.
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
-<sub>**[Top of page](#opencv-bootcamp)</sub>
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -245,7 +245,7 @@ To compile the entire course, simply run the command `python3 _init.py`.
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
-<sub>**[Top of page](#opencv-bootcamp)</sub>
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
 
@@ -254,6 +254,6 @@ To compile the entire course, simply run the command `python3 _init.py`.
 [View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
-<sub>**[Top of page](#opencv-bootcamp)</sub>
+<sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
