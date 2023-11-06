@@ -219,42 +219,23 @@ Here are the different steps involved in creating an HDR (High Dynamic Range) im
 
 5. [Image Fusion](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/D_merge_exposure_into_HDR_image.py): Merge the properly exposed images using an HDR fusion algorithm to obtain a high dynamic range image.
 6. [Tone Mapping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): The resulting HDR image will have a high dynamic range, which may look unusual on standard displays. Apply a tone mapping operation to perceptually reduce the dynamic range, creating a displayable LDR (Low Dynamic Range) image.  The best tonemapping method depends on the type of scene you're dealing with and your artistic preferences. Experiment with these methods to find the one that best suits your HDR images. Reinhard is commonly used for its simplicity, while Mantiuk is suitable for high-contrast scenes, Drago for low-contrast scenes.
-<!-- <div align="center">
-  <div style="display: inline-block; text-align: center;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Drago.jpg" alt="c" width="30%">
-    <br>
-    <strong>Image Title 1</strong>
-  </div>
+<p align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Drago.jpg" alt="c" width="30%">
+  <br>
+  <strong>Tonnemapping with Drago</strong>
+</p>
 
-  <div style="display: inline-block; text-align: center;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Mantiuk.jpg" alt="c" width="30%">
-    <br>
-    <strong>Image Title 2</strong>
-  </div>
+<p align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Mantiuk.jpg" alt="c" width="30%">
+  <br>
+  <strong>Tonnemapping with Mantiuk</strong>
+</p>
 
-  <div style="display: inline-block; text-align: center;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Reinhard.jpg" alt="c" width="30%">
-    <br>
-    <strong>Image Title 3</strong>
-  </div>
-</div> -->
-<div align="center">
-  <figure style="display: inline-block;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Drago.jpg" alt="c" width="20%" style="margin: 10px;">
-    <figcaption style="text-align: center; font-size: 18px;">Tonemapped with Drago</figcaption>
-  </figure>
-
-  <figure style="display: inline-block;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Mantiuk.jpg" alt="c" width="20%" style="margin: 10px;">
-    <figcaption style="text-align: center; font-size: 18px;">Tonemapped with Mantiuk</figcaption>
-  </figure>
-
-  <figure style="display: inline-block;">
-    <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Reinhard.jpg" alt="c" width="20%" style="margin: 10px;">
-    <figcaption style="text-align: center; font-size: 18px;">Tonemapped with Reinhard</figcaption>
-  </figure>
-</div>
-
+<p align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr-Reinhard.jpg" alt="c" width="30%">
+  <br>
+  <strong>Tonnemapping with Reinhard</strong>
+</p>
 
 7. [Saving the Final Image](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): Save the resulting LDR image, which can be viewed on standard screens.
 
