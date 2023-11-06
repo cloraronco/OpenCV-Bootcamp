@@ -205,7 +205,7 @@ OpenCV provides tools to perform these steps, making it easier to create HDR ima
   
 This course has been structured differently.  
 Each file includes one or more methods, corresponding to a step in the HDR process.  
-To compile the entire course, simply run the command 'python3 _init.py'.  
+To compile the entire course, simply run the command `python3 _init.py`.  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
