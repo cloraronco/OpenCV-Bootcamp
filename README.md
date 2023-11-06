@@ -42,8 +42,8 @@ Happy exploring!
 7. [Image Filtering (Edge Detection)](#07-image-filtering-edge-detection) :white_check_mark:
 8. [Image Features and Alignment](#08-image-features-and-alignment) :white_check_mark:
 9. [Panorama](#09-panorama) :white_check_mark:
-10. [HDR - High Dynamic Range Imaging](#10-hdr---high-dynamic-range-imaging) :beginner:        I'm there!
-11. [Object Tracking](#11-object-tracking)
+10. [HDR - High Dynamic Range Imaging](#10-hdr---high-dynamic-range-imaging) :white_check_mark:
+11. [Object Tracking](#11-object-tracking) :beginner:        I'm there!
 12. [Face Detection](#12-face-detection)
 13. [TensorFlow Object Detection](#13-tensorflow-object-detection)
 14. [Pose Estimation using OpenPose](#14-pose-estimation-using-openpose)
@@ -73,7 +73,7 @@ In this notebook, I learned the following:
 `imwrite`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23gabbc7ef1aa2edfaa87772f1202d67e0ce)  
 `imwriteFlags`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd8%2Fd6a%2Fgroup__imgcodecs__flags.html%23ga292d81be8d76901bff7988d18d2b42ac)  
 
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)  
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)  
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -88,7 +88,7 @@ In this course I covered how to perform image transformations including:
 * Cropping  
 * Flipping
 
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)  
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)  
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -107,7 +107,7 @@ I learned how to peform the following annotations to images.
 These are useful when you want to annotate your results for presentations or show a demo of your application.  
 Annotations can also be useful during development and debugging.
 
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)  
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)  
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -124,7 +124,7 @@ In this course, I covered:
 * Thresholding & Masking  
 * Bitwise Operations like OR, AND, XOR  
   
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/03_image_enhancement)  
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/03_image_enhancement)  
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -134,7 +134,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 ## 05 Accessing the Camera
 In this short course, I learned how to access to the camera.  
   
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)  
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)  
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -147,7 +147,7 @@ For example, in a surveiallance application, you might have to save a video clip
   
 In this course, I describe how to save a video in avi and mp4 formats using openCV.  
   
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing) 
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -157,7 +157,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 ## 07 Image Filtering (Edge Detection)
 In this short course, I learned how to set image filters.  
 
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering) 
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -165,7 +165,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 
 
 ## 08 Image Features and Alignment
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment) 
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -181,7 +181,7 @@ Steps for Creating Panoramas:
 * Refine Homographies  
 * Stitch with Blending  
 
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama) 
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 ***
@@ -191,7 +191,22 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 
 
 ## 10 HDR - High Dynamic Range Imaging
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#09_HDR) 
+Here are the different steps involved in creating an HDR (High Dynamic Range) image with OpenCV:
+1. Bracketed Image Capture: Capture multiple photos of the same scene at different exposures (underexposed, properly exposed, and overexposed). These images should cover the dynamic range of the scene.
+2. Image Reading: Import these images using OpenCV.
+3. Image Alignment: Align the images to correct for variations in movement or rotation between shots. This ensures that scene features match correctly.
+4. Camera Response Function Estimation: Calculate the camera's response curves for each image to correct for differences in camera sensitivity.
+5. Image Fusion: Merge the properly exposed images using an HDR fusion algorithm to obtain a high dynamic range image.
+6. Tone Mapping: The resulting HDR image will have a high dynamic range, which may look unusual on standard displays. Apply a tone mapping operation to perceptually reduce the dynamic range, creating a displayable LDR (Low Dynamic Range) image.
+7. Saving the Final Image: Save the resulting LDR image, which can be viewed on standard screens.
+
+These steps will guide you through the process of creating an HDR image from a set of bracketed images.  
+OpenCV provides tools to perform these steps, making it easier to create HDR images from real shots.
+  
+This course has been structured differently.  
+Each file includes one or more methods, corresponding to a step in the HDR process.  
+To compile the entire course, simply run the command 'python3 _init.py'.
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#09_HDR) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -199,7 +214,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 
 
 ## 11 Object Tracking
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking) 
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -207,7 +222,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 
 
 ## 12 Face Detection
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection) 
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -215,7 +230,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 
 
 ## 13 TensorFlow Object Detection
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection) 
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
@@ -223,7 +238,7 @@ More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main
 
 
 ## 14 Pose Estimation using OpenPose
-More explanations [here](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose) 
+[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose) 
 ***  
 <sub>**[Table of Contents](#table-of-contents)**</sub>
 ***
