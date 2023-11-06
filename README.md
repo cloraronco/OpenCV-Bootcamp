@@ -214,7 +214,7 @@ Here are the different steps involved in creating an HDR (High Dynamic Range) im
 3. [Image Alignment](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/B_align_images.py): Align the images to correct for variations in movement or rotation between shots. This ensures that scene features match correctly.
 4. [Camera Response Function Estimation](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/C_estimate_camera_response_function.py): Calculate the camera's response curves for each image to correct for differences in camera sensitivity.
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/estimate_camera_response_function.png" alt="c" style="max-width: 50%;">   
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/estimate_camera_response_function.png" alt="c" style="max-width: 50%; display: block; margin: 0 auto;">   
 </div>  
 
 5. [Image Fusion](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/D_merge_exposure_into_HDR_image.py): Merge the properly exposed images using an HDR fusion algorithm to obtain a high dynamic range image.
