@@ -203,7 +203,7 @@ To compile the entire course, simply run the command `python3 _init.py`.
   
 Here are the different steps involved in creating an HDR (High Dynamic Range) image with OpenCV:
 1. [Bracketed Image Capture](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/A_capture_multi_explosures.py): Capture multiple photos of the same scene at different exposures (underexposed, properly exposed, and overexposed). These images should cover the dynamic range of the scene.
-<div align="left">
+<div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_0.25.jpg" alt="c" width="200" height="140" style="max-width: 100%;">  
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_0.033.jpg" alt="c" width="200" height="140" style="max-width: 100%;">  
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/import/img_2.5.jpg" alt="c" width="200" height="140" style="max-width: 100%;">  
@@ -218,8 +218,16 @@ Here are the different steps involved in creating an HDR (High Dynamic Range) im
 </p>
 
 5. [Image Fusion](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/D_merge_exposure_into_HDR_image.py): Merge the properly exposed images using an HDR fusion algorithm to obtain a high dynamic range image.
-6. [Tone Mapping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): The resulting HDR image will have a high dynamic range, which may look unusual on standard displays. Apply a tone mapping operation to perceptually reduce the dynamic range, creating a displayable LDR (Low Dynamic Range) image.
+6. [Tone Mapping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): The resulting HDR image will have a high dynamic range, which may look unusual on standard displays. Apply a tone mapping operation to perceptually reduce the dynamic range, creating a displayable LDR (Low Dynamic Range) image.  The best tonemapping method depends on the type of scene you're dealing with and your artistic preferences. Experiment with these methods to find the one that best suits your HDR images. Reinhard is commonly used for its simplicity, while Mantiuk is suitable for high-contrast scenes, Drago for low-contrast scenes.
+<p align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr_Drago.png" alt="c" width="80%">
+  <p>Drago's method</p>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr_Mantiuk.png" alt="c" width="80%">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/ldr_Reinhard.png" alt="c" width="80%">
+</p>
+
 7. [Saving the Final Image](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/09_HDR/E_tonnemapping.py): Save the resulting LDR image, which can be viewed on standard screens.
+
 
 These steps will guide you through the process of creating an HDR image from a set of bracketed images.  
 OpenCV provides tools to perform these steps, making it easier to create HDR images from real shots.
