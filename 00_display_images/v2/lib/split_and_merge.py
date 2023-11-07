@@ -11,7 +11,7 @@ import numpy as np
 
 def split_merge_display(img_bgr):
 	# Split the image into the B,G,R components
-	b, g, r = cv.split(img_bgr)
+	b, g, r = cv2.split(img_bgr)
 
 	# Show the channels
 	plt.figure(figsize=[18, 5])
@@ -21,7 +21,7 @@ def split_merge_display(img_bgr):
 	plt.subplot(143);plt.imshow(b, cmap="gray");plt.title("Blue Channel")
 
 	# Merge the individual channels into a BGR image
-	imgMerged = cv.merge((b, g, r))
+	imgMerged = cv2.merge((b, g, r))
 	# Show the merged output
 	plt.subplot(144)
 	plt.imshow(imgMerged[:, :, ::-1])

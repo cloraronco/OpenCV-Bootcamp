@@ -28,7 +28,6 @@ cv2.waitKey(0)
 cv2.destroyWindow(window3)
 
 window4 = cv2.namedWindow("w4")
-
 Alive = True
 while Alive:
     # Use OpenCV imshow(), display until 'q' key is pressed

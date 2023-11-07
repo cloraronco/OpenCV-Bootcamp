@@ -32,9 +32,7 @@ plt.imshow(img_NZ_rgb)
 plt.show()
 
 
-#____________________________________________________________
-# CHANGING TO HSV COLOR SPACE
-
+# Changing to HSV color space
 img_hsv = cv.cvtColor(img_NZ_bgr, cv.COLOR_BGR2HSV)
 
 # Split the image into the B,G,R components

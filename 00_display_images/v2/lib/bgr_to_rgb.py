@@ -9,3 +9,6 @@ def bgr_to_rgb(img_bgr):
 	plt.imshow(img_rgb)
 	plt.show()
 
+	return img_rgb
+
+# or Simply use cv.COLOR_BGR2RGB

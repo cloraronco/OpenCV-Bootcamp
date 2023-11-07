@@ -13,6 +13,10 @@ def p():
 
 
 # Read image as gray scale.
+# Read image as unchaged = -1 or cv2.IMREAD_UNCHANGED
+# Read image as gray scale = 0 or cv2.IMREAD_GRAYSCALE
+# Read image as color scale = 1 or cv2.IMREAD_COLOR  (default flag)
+
 cb_img = cv2.imread("import/checkerboard_18x18.png", 0)
 
 # Print the image data (pixel values), element of a 2D numpy array.
@@ -66,7 +70,6 @@ plt.show()
 # This is because matplotlib expects the image in RGB format
 # whereas OpenCV stores images in BGR format.
 # Thus, for correct display, we need to reverse the channels of the image.
-# We will discuss about the channels in the sections below.
 
 coke_img_channels_reversed = coke_img[:, :, ::-1]
 plt.imshow(coke_img_channels_reversed)

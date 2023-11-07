@@ -10,6 +10,4 @@ import numpy as np
 
 def reverse_channels(img):
 	img_channels_reversed = img[:, :, ::-1]
-	plt.imshow(img_channels_reversed)
-	plt.show()
 	return img_channels_reversed
