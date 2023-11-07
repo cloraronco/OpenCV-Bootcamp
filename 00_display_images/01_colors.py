@@ -2,42 +2,36 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
 
-def p():
-	input("Press Enter to continue...")
 
-#____________________________________________________________
 # Splitting and Merging Color Channels
 
-# cv.split() Divides a multi-channel array into several single-channel arrays.
-# cv.merge() Merges several arrays to make a single multi-channel array.
-# 	All the input matrices must have the same size.
-
-# Split the image into the B,G,R components
 img_NZ_bgr = cv.imread("image/New_Zealand_Lake.jpg", cv.IMREAD_COLOR)
-b, g, r = cv.split(img_NZ_bgr)
 
-# Show the channels
-plt.figure(figsize=[18, 5])
+def split_and_merge(img_bgr):
+	# Split the image into the B,G,R components
+	b, g, r = cv.split(img_NZ_bgr)
 
-plt.subplot(141);plt.imshow(r, cmap="gray");plt.title("Red Channel")
-plt.subplot(142);plt.imshow(g, cmap="gray");plt.title("Green Channel")
-plt.subplot(143);plt.imshow(b, cmap="gray");plt.title("Blue Channel")
+	# Show the channels
+	plt.figure(figsize=[18, 5])
 
-# Merge the individual channels into a BGR image
-imgMerged = cv.merge((b, g, r))
-# Show the merged output
-plt.subplot(144)
-plt.imshow(imgMerged[:, :, ::-1])
-plt.title("Merged Output")
-plt.show(), p()
+	plt.subplot(141);plt.imshow(r, cmap="gray");plt.title("Red Channel")
+	plt.subplot(142);plt.imshow(g, cmap="gray");plt.title("Green Channel")
+	plt.subplot(143);plt.imshow(b, cmap="gray");plt.title("Blue Channel")
 
-#______________________________________________
-# CHANGING FROM BGR TO RGB
+	# Merge the individual channels into a BGR image
+	imgMerged = cv.merge((b, g, r))
+	# Show the merged output
+	plt.subplot(144)
+	plt.imshow(imgMerged[:, :, ::-1])
+	plt.title("Merged Output")
+	plt.show()
 
-# OpenCV stores color channels in a differnet order than most other applications (BGR vs RGB).
-img_NZ_rgb = cv.cvtColor(img_NZ_bgr, cv.COLOR_BGR2RGB)
-plt.imshow(img_NZ_rgb)
-plt.show()
+
+def bgr_to_rgb(img_bgr):
+	# OpenCV stores color channels in a differnet order than most other applications (BGR vs RGB).
+	img_rgb = cv.cvtColor(img_bgr, cv.COLOR_BGR2RGB)
+	plt.imshow(img_rgb)
+	plt.show()
 
 
 #____________________________________________________________
@@ -76,8 +70,9 @@ plt.subplot(144);plt.imshow(img_NZ_rgb);   plt.title("Original"); plt.show()
 #____________________________________________________________
 # SAVING IMAGES
 
-# save image
-cv.imwrite("image/New_Zealand_Lake_SAVED.png", img_NZ_bgr)
+def save_image(file_path, img):
+	# save image
+	cv.imwrite("image/New_Zealand_Lake_SAVED.png", img_NZ_bgr)
 
 #read image
 lake_img = cv.imread("image/New_Zealand_Lake_SAVED.png")
