@@ -57,12 +57,12 @@ Welcome to this course that will guide you through your first steps in the field
 In this initial module, we will explore the fundamental basics and lay the foundation for the upcoming concepts.  
 Here's an overview of the topics you'll cover in this initial module:
   
-1. **Reading an Image:** You will learn how to load an image from a file and bring it into your working environment.  
-2. **Checking Image Attributes:** Understand the essential attributes of an image, such as data type and image shape.  
-3. **Matrix Representation:** Discover how images are represented as matrices with NumPy, an essential tool for image processing.  
-4. **Color Images:** Explore the concept of color images and how color channels can be split and merged.  
-5. **Displaying Images:** Learn how to display images in your environment using the Matplotlib library.  
-6. **Saving Images:** Find out how to save your images after making modifications.  
+* **Reading an Image:** You will learn how to load an image from a file and bring it into your working environment.  
+* **Checking Image Attributes:** Understand the essential attributes of an image, such as data type and image shape.  
+* **Matrix Representation:** Discover how images are represented as matrices with NumPy, an essential tool for image processing.  
+* **Color Images:** Explore the concept of color images and how color channels can be split and merged.  
+* **Displaying Images:** Learn how to display images in your environment using the Matplotlib library.  
+* **Saving Images:** Find out how to save your images after making modifications.  
   
 As you progress through this course, you will gain a strong understanding of the fundamentals of image processing and how to use OpenCV for various operations. So, let's get started and begin with the first module.
 
