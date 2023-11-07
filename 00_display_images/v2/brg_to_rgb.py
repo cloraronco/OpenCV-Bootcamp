@@ -1,4 +1,4 @@
-import cv2
+import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -8,3 +8,4 @@ def bgr_to_rgb(img_bgr):
 	img_rgb = cv.cvtColor(img_bgr, cv.COLOR_BGR2RGB)
 	plt.imshow(img_rgb)
 	plt.show()
+

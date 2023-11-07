@@ -6,39 +6,11 @@ import numpy as np
 from zipfile import ZipFile
 from urllib.request import urlretrieve
 
-# %matplotlib inline
-
 
 def p():
 	input("Press Enter to continue...")
 
-def download_and_unzip(url, save_path):
-	print(f"Downloading and extracting assests....", end="")
 
-	# Downloading zip file using urllib package.
-	urlretrieve(url, save_path)
-
-	try:
-		# Extracting zip file using the zipfile package.
-		with ZipFile(save_path) as z:
-			# Extract ZIP file contents in the same directory.
-			z.extractall(os.path.split(save_path)[0])
-
-		print("Done")
-
-	except Exception as e:
-		print("\nInvalid file.", e)
-
-URL = r"https://www.dropbox.com/s/qhhlqcica1nvtaw/opencv_bootcamp_assets_NB1.zip?dl=1"
-
-asset_zip_path = os.path.join(os.getcwd(), "import/opencv_bootcamp_assets_NB1.zip")
-
-## Download if assest ZIP does not exists.
-if not os.path.exists(asset_zip_path):
-	download_and_unzip(URL, asset_zip_path)
-
-
-#_________________________________________________________________________#
 
 # Read image as gray scale.
 cb_img = cv2.imread("import/checkerboard_18x18.png", 0)
@@ -75,7 +47,7 @@ print(cb_img_fuzzy), p()
 plt.imshow(cb_img_fuzzy, cmap="gray")
 plt.show()
 
-_________________________________
+# _________________________________
 # WITH COCA-COLA
 
 # Read in image
