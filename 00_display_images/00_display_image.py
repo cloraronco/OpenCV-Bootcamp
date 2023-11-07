@@ -6,8 +6,6 @@ import numpy as np
 from zipfile import ZipFile
 from urllib.request import urlretrieve
 
-from IPython.display import Image
-
 # %matplotlib inline
 
 
@@ -42,15 +40,8 @@ if not os.path.exists(asset_zip_path):
 
 #_________________________________________________________________________#
 
-
-# Display 18x18 pixel image.
-Image(filename="image/checkerboard_18x18.png")
-
-# Display 84x84 pixel image.
-Image(filename="image/checkerboard_84x84.jpg")
-
 # Read image as gray scale.
-cb_img = cv2.imread("image/checkerboard_18x18.png", 0)
+cb_img = cv2.imread("import/checkerboard_18x18.png", 0)
 
 # Print the image data (pixel values), element of a 2D numpy array.
 # Each pixel value is 8-bits [0,255]
@@ -75,7 +66,7 @@ plt.show(), p()
 # ANOTHER EXEMPLE
 
 # Read image as gray scale.
-cb_img_fuzzy = cv2.imread("image/checkerboard_fuzzy_18x18.jpg", 0)
+cb_img_fuzzy = cv2.imread("import/checkerboard_fuzzy_18x18.jpg", 0)
 
 # print image
 print(cb_img_fuzzy), p()
@@ -88,7 +79,7 @@ _________________________________
 # WITH COCA-COLA
 
 # Read in image
-coke_img = cv2.imread("image/coca-cola-logo.png", 1)
+coke_img = cv2.imread("import/coca-cola-logo.png", 1)
 
 # print the size  of image
 print("Image size (H, W, C) is:", coke_img.shape)
