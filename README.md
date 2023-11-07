@@ -64,9 +64,9 @@ Here's an overview of the topics you'll cover in this initial module:
 * [Displaying Images](): Learn how to display images in your environment using the Matplotlib library.  
 * [Saving Images](): Find out how to save your images after making modifications.  
   
-As you progress through this course, you will gain a strong understanding of the fundamentals of image processing and how to use OpenCV for various operations. So, let's get started and begin with the first module.
-[v1]() for beginners
-[v2]() for confirmed
+As you progress through this course, you will gain a strong understanding of the fundamentals of image processing and how to use OpenCV for various operations. So, let's get started and begin with the first module.  
+[v1]() for beginners  
+[v2]() for confirmed  
 
 #### Documentation
 [`cv2.imread`](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23ga288b8b3da0892bd651fce07b3bbd3a56)  
