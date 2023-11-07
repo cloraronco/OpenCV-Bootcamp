@@ -67,7 +67,7 @@ Here's an overview of the topics you'll cover in this initial module:
 As you progress through this course, you will gain a strong understanding of the fundamentals of image processing and how to use OpenCV for various operations. So, let's get started and begin with the first module.  
 [display_images_v1](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images/display_images_v1) in two big files.  
 [display_images_v2](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images/display_images_v2) in using methods in one file.  
-Please check files in `lib/` to understand functions. 
+Please check `lib/` to understand functions. 
 
 #### Documentation
 [`cv2.imread`](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23ga288b8b3da0892bd651fce07b3bbd3a56)  
