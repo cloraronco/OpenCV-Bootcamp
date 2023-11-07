@@ -53,16 +53,18 @@ Happy exploring!
 
   
 ## 01 Display Image
-This course helped me take my first steps in learning Image Processing and Computer Vision using OpenCV.  
-I learned some important lessons using some simple examples.  
-In this notebook, I learned the following:  
+Welcome to this course that will guide you through your first steps in the field of image processing and computer vision using the OpenCV library.  
+In this initial module, we will explore the fundamental basics and lay the foundation for the upcoming concepts.  
+Here's an overview of the topics you'll cover in this initial module:
   
-* Reading an image
-* Check image attributes like datatype and shape
-* Matrix representation of an image in Numpy
-* Color Images and splitting/merging image channels
-* Displaying images using matplotlib
-* Saving images
+1. **Reading an Image**: You will learn how to load an image from a file and bring it into your working environment.  
+2. Checking Image Attributes: Understand the essential attributes of an image, such as data type and image shape.  
+3. Matrix Representation: Discover how images are represented as matrices with NumPy, an essential tool for image processing.  
+4. Color Images: Explore the concept of color images and how color channels can be split and merged.  
+5. Displaying Images: Learn how to display images in your environment using the Matplotlib library.  
+6. Saving Images: Find out how to save your images after making modifications.  
+  
+As you progress through this course, you will gain a strong understanding of the fundamentals of image processing and how to use OpenCV for various operations. So, let's get started and begin with the first module.
 
 #### Documentation
 `imread`: [Documentation link](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdocs.opencv.org%2F4.5.1%2Fd4%2Fda8%2Fgroup__imgcodecs.html%23ga288b8b3da0892bd651fce07b3bbd3a56)  
