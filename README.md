@@ -290,7 +290,7 @@ The combination of the motion model and the appearance model allows tracking alg
 
 ### OpenCV API Tracker Class
 
-OpenCV, one of the most popular computer vision libraries, offers a comprehensive set of tracking algorithms through its Tracker Class API. This API simplifies the process of implementing object tracking by providing access to a range of tracking algorithms and methods. These algorithms are optimized for various tracking scenarios and are designed to work with different types of objects, ensuring flexibility and applicability in a wide range of computer vision projects.  
+OpenCV offers a comprehensive set of tracking algorithms through its Tracker Class API. This API simplifies the process of implementing object tracking by providing access to a range of tracking algorithms and methods. These algorithms are optimized for various tracking scenarios and are designed to work with different types of objects, ensuring flexibility and applicability in a wide range of computer vision projects.  
   
 In summary, object tracking is a vital component of computer vision that allows for the continuous monitoring and prediction of an object's position across a sequence of images or video frames. It relies on motion and appearance models to accommodate variations in object movement and appearance. OpenCV's Tracker Class API is a valuable resource for developers seeking efficient and accurate object tracking solutions for diverse applications.
 ***  
