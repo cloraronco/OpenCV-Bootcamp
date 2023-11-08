@@ -65,8 +65,8 @@ Here's an overview of the topics you'll cover in this initial module:
 * [Saving Images](): Find out how to save your images after making modifications.  
   
 As you progress through this course, you will gain a strong understanding of the fundamentals of image processing and how to use OpenCV for various operations. So, let's get started and begin with the first module.  
-[display_images_v1](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images/display_images_v1) in two big files.  
-[display_images_v2](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images/display_images_v2) in using methods in one file.  
+[display_images_v1](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images/display_images_v1) two big files.  
+[display_images_v2](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images/display_images_v2) using methods in one file.  
 Please check `lib/` to understand functions. 
 
 #### Documentation
