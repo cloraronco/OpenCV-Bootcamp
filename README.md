@@ -22,13 +22,13 @@ Students will receive one of the two following certificates based on their final
 </div>
 
 #### Course Marks
-<div align="left">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade60.png" alt="c" width="100%";>
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Course_Marks.png" alt="c" width="100%";>
 </div>
 
 #### Certification
-<div align="left">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade60.png" alt="c" width="100%";>
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Certificate.png" alt="c" width="100%";>
 </div>
 
 ## Introduction
