@@ -135,6 +135,9 @@ In this course, I learned various methods of image transformations, exploring es
 4. [Flipping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/D_flipping_images.py):  
 * Exploring methods to flip or mirror images horizontally and vertically.  
 * Use cases for flipping in image augmentation and processing pipelines.  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/flip_img.png" alt="c" width="60%";>
+</div>  
 
 #### Documentation
 
