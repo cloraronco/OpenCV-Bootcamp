@@ -112,8 +112,8 @@ In this course, I learned various methods of image transformations, exploring es
 * Understanding how to access individual pixels in an image.  
 
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_img.png" alt="c" width="35%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_pixel.png" alt="c" width="50%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_img.png" alt="c" width="25%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_pixel.png" alt="c" width="40%";>
 </div>
 
 * Manipulating pixel values for various effects and alterations.  
