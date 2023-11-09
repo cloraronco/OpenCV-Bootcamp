@@ -106,12 +106,27 @@ Please check `lib/` to understand functions.
 
 
 ## 02 Basic Image Manipulation
-In this course I covered how to perform image transformations including:  
+In this course, I delved into various image transformations, exploring essential techniques such as:  
   
-* Accessing and manipulating images pixels  
-* Image resizing  
-* Cropping  
-* Flipping
+Accessing and Manipulating Pixels:  
+
+* Understanding how to access individual pixels in an image.  
+* Manipulating pixel values for various effects and alterations.  
+
+Image Resizing:  
+
+* Techniques for resizing images while maintaining aspect ratios.  
+* Applications of resizing for different display and processing requirements.  
+
+Cropping:  
+
+* Understanding the concept of cropping to extract specific regions of an image.  
+* Practical applications of cropping for focusing on relevant details.  
+
+Flipping:
+
+* Exploring methods to flip or mirror images horizontally and vertically.  
+* Use cases for flipping in image augmentation and processing pipelines.  
 
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)**</sub>  
