@@ -263,7 +263,7 @@ OpenCV provides tools to perform these steps, making it easier to create HDR ima
 
 Object tracking is a fundamental task in the field of computer vision that involves following the movement or position of objects in a sequence of images or frames, typically extracted from videos. It is a critical component in various applications such as surveillance, autonomous navigation, augmented reality, and more. The primary goal of object tracking is to continuously monitor and predict the location of a specific object as it moves through the frames, even when the object undergoes changes in scale, rotation, or lighting conditions.  
 
----
+___
 <sub>**[What is Tracking?](https://github.com/cloraronco/OpenCV-Bootcamp#what-is-tracking)**</sub>  
 <sub>**[Tracking in Computer Vision](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision)**</sub>  
 <sub>**[Motion Model and Appearance Model](https://github.com/cloraronco/OpenCV-Bootcamp#motion-model-and-appearance-model)**</sub>  
