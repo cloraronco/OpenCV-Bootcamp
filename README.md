@@ -262,9 +262,10 @@ OpenCV provides tools to perform these steps, making it easier to create HDR ima
 ## 11 Object Tracking
 
 Object tracking is a fundamental task in the field of computer vision that involves following the movement or position of objects in a sequence of images or frames, typically extracted from videos. It is a critical component in various applications such as surveillance, autonomous navigation, augmented reality, and more. The primary goal of object tracking is to continuously monitor and predict the location of a specific object as it moves through the frames, even when the object undergoes changes in scale, rotation, or lighting conditions.  
-<sub>**[1. What is Tracking?](https://github.com/cloraronco/OpenCV-Bootcamp#what-is-tracking)**</sub>  
-<sub>**[2. Tracking in Computer Vision](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision)**</sub>  
-<sub>**[3. Motion Model and Appearance Model](https://github.com/cloraronco/OpenCV-Bootcamp#motion-model-and-appearance-model)**</sub>  
+<sub>**[What is Tracking?](https://github.com/cloraronco/OpenCV-Bootcamp#what-is-tracking)**</sub>  
+<sub>**[Tracking in Computer Vision](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision)**</sub>  
+<sub>**[Motion Model and Appearance Model](https://github.com/cloraronco/OpenCV-Bootcamp#motion-model-and-appearance-model)**</sub>  
+<sub>**[OpenCV API Tracker Class](https://github.com/cloraronco/OpenCV-Bootcamp#opencv-api-tracker-class)**</sub>  
   
 ### [What is Tracking?](https://github.com/cloraronco/OpenCV-Bootcamp#what-is-tracking)  
 
@@ -291,7 +292,7 @@ To successfully track an object, two essential models are utilized:
 
 The combination of the motion model and the appearance model allows tracking algorithms to make predictions about an object's position while simultaneously adapting to changes in its visual characteristics. This hybrid approach is essential for robust and reliable object tracking.
 
-### [OpenCV API Tracker Class]
+### [OpenCV API Tracker Class](https://github.com/cloraronco/OpenCV-Bootcamp#opencv-api-tracker-class)
 
 OpenCV offers a comprehensive set of tracking algorithms through its Tracker Class API. This API simplifies the process of implementing object tracking by providing access to a range of tracking algorithms and methods. These algorithms are optimized for various tracking scenarios and are designed to work with different types of objects, ensuring flexibility and applicability in a wide range of computer vision projects.  
   
