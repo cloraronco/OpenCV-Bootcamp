@@ -268,7 +268,7 @@ The primary goal of object tracking is to continuously monitor and predict the l
 <sub>**[Tracking in Computer Vision](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision)**</sub>  
 <sub>**[Motion Model and Appearance Model](https://github.com/cloraronco/OpenCV-Bootcamp#motion-model-and-appearance-model)**</sub>  
 <sub>**[OpenCV API Tracker Class](https://github.com/cloraronco/OpenCV-Bootcamp#opencv-api-tracker-class)**</sub>  
----
+***
   
 ### [What is Tracking?](https://github.com/cloraronco/OpenCV-Bootcamp#what-is-tracking)  
 
