@@ -321,7 +321,8 @@ Here is a detailed explanation:
 
 The script takes a command-line argument, which is the number of the video source (0 for the default camera).  
 A cv2.VideoCapture object is created to capture the video sequence from the specified source.  
-A face detection model is loaded using cv2.dnn.readNetFromCaffe. The files deploy.prototxt and res10_300x300_ssd_iter_140000_fp16.caffemodel are used to define the architecture of the model and its weights.  
+A face detection model is loaded using cv2.dnn.readNetFromCaffe.  
+The files deploy.prototxt and res10_300x300_ssd_iter_140000_fp16.caffemodel are used to define the architecture of the model and its weights.  
 
 ### [Main Loop for Real-Time Detection](https://github.com/cloraronco/OpenCV-Bootcamp#main-loop-for-real-time-detection)
 
