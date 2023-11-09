@@ -263,11 +263,11 @@ OpenCV provides tools to perform these steps, making it easier to create HDR ima
 
 Object tracking is a fundamental task in the field of computer vision that involves following the movement or position of objects in a sequence of images or frames, typically extracted from videos. It is a critical component in various applications such as surveillance, autonomous navigation, augmented reality, and more. The primary goal of object tracking is to continuously monitor and predict the location of a specific object as it moves through the frames, even when the object undergoes changes in scale, rotation, or lighting conditions.  
 
-### What is Tracking?
+### [What is Tracking?]
 
 Tracking, in the context of computer vision, refers to the process of keeping tabs on one or more objects as they traverse through a series of images or video frames. The key challenge in tracking is to maintain the object's identity while compensating for variations in its appearance and position. Effective tracking requires a combination of techniques, models, and algorithms to ensure accurate and robust results.  
 
-### Tracking in Computer Vision
+### [Tracking in Computer Vision]
 
 In computer vision, tracking plays a pivotal role in various real-world applications. These applications include:    
 
@@ -278,7 +278,7 @@ In computer vision, tracking plays a pivotal role in various real-world applicat
 * Augmented Reality: Tracking markers or objects in the environment to overlay digital information or virtual objects.  
 * Medical Imaging: Tracking anatomical structures or medical instruments for diagnostics and surgery.  
 
-### Motion Model and Appearance Model
+### [Motion Model and Appearance Model]
 
 To successfully track an object, two essential models are utilized:
 
@@ -288,7 +288,7 @@ To successfully track an object, two essential models are utilized:
 
 The combination of the motion model and the appearance model allows tracking algorithms to make predictions about an object's position while simultaneously adapting to changes in its visual characteristics. This hybrid approach is essential for robust and reliable object tracking.
 
-### OpenCV API Tracker Class
+### [OpenCV API Tracker Class]
 
 OpenCV offers a comprehensive set of tracking algorithms through its Tracker Class API. This API simplifies the process of implementing object tracking by providing access to a range of tracking algorithms and methods. These algorithms are optimized for various tracking scenarios and are designed to work with different types of objects, ensuring flexibility and applicability in a wide range of computer vision projects.  
   
@@ -303,6 +303,29 @@ In summary, object tracking is a vital component of computer vision that allows 
 
 ## 12 Face Detection
 ***  
+This code is an implementation of real-time face detection using OpenCV and its Object Detection (DNN) module. Here is a detailed explanation:
+
+
+Initialization of Camera and Detection Model:
+
+The script takes a command-line argument, which is the number of the video source (0 for the default camera).
+A cv2.VideoCapture object is created to capture the video sequence from the specified source.
+A face detection model is loaded using cv2.dnn.readNetFromCaffe. The files deploy.prototxt and res10_300x300_ssd_iter_140000_fp16.caffemodel are used to define the architecture of the model and its weights.
+Main Loop for Real-Time Detection:
+
+A while loop is used to process images from the real-time video sequence.
+Captured images are transformed (flipped horizontally in this case) and converted into a "blob" (input object for the neural network).
+The model is fed with the blob to obtain detections.
+Detections are iterated through, and if the confidence of the detection is above a threshold (conf_threshold), a rectangle is drawn around the detected face.
+Confidence information is also displayed next to the rectangle.
+Displaying Results:
+
+Results are displayed in an OpenCV window with live camera feed.
+Inference performance (inference time) is also displayed at the bottom of the image.
+Properly Stopping the Camera and Closing the Window:
+
+The video sequence is released (source.release()), and the OpenCV window is destroyed (cv2.destroyWindow(win_name)).
+In summary, this script uses OpenCV and a neural network model to detect faces in real-time from a video sequence coming from the camera or another video source.
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
