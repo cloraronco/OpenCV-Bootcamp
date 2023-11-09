@@ -149,7 +149,7 @@ These are useful when you want to annotate your results for presentations or sho
 Annotations can also be useful during development and debugging.
 
 ***  
-<sub>**(https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)**</sub>  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
