@@ -278,12 +278,12 @@ Tracking, in the context of computer vision, refers to the process of keeping ta
 
 In computer vision, tracking plays a pivotal role in various real-world applications. These applications include:    
 
-* **Surveillance**: Tracking objects in video feeds from security cameras to detect and monitor activities.  
-* **Autonomous Vehicles**: Enabling vehicles to track the movement of other vehicles, pedestrians, and objects on the road to make informed decisions.  
-* **Object Recognition**: Tracking objects as they move within a video frame, aiding in their identification.  
-* **Gesture Recognition**: Keeping track of hand movements in real time to recognize gestures and interactions.  
-* **Augmented Reality:** Tracking markers or objects in the environment to overlay digital information or virtual objects.  
-* **Medical Imaging:** Tracking anatomical structures or medical instruments for diagnostics and surgery.  
+* [Surveillance](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision): Tracking objects in video feeds from security cameras to detect and monitor activities.  
+* [Autonomous Vehicles](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision): Enabling vehicles to track the movement of other vehicles, pedestrians, and objects on the road to make informed decisions.  
+* [Object Recognition](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision): Tracking objects as they move within a video frame, aiding in their identification.  
+* [Gesture Recognition](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision): Keeping track of hand movements in real time to recognize gestures and interactions.  
+* [Augmented Reality](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision): Tracking markers or objects in the environment to overlay digital information or virtual objects.  
+* [Medical Imaging](https://github.com/cloraronco/OpenCV-Bootcamp#tracking-in-computer-vision): Tracking anatomical structures or medical instruments for diagnostics and surgery.  
 
 ### [Motion Model and Appearance Model](https://github.com/cloraronco/OpenCV-Bootcamp#motion-model-and-appearance-model)
 
