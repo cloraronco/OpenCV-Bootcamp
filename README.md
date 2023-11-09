@@ -44,8 +44,8 @@ Happy exploring!
 9. [Panorama](#09-panorama) :white_check_mark:
 10. [HDR - High Dynamic Range Imaging](#10-hdr---high-dynamic-range-imaging) :white_check_mark:
 11. [Object Tracking](#11-object-tracking) :white_check_mark:
-12. [Face Detection](#12-face-detection) :beginner:        I'm there!
-13. [TensorFlow Object Detection](#13-tensorflow-object-detection)
+12. [Face Detection](#12-face-detection) :white_check_mark:
+13. [TensorFlow Object Detection](#13-tensorflow-object-detection) :beginner:        I'm there!
 14. [Pose Estimation using OpenPose](#14-pose-estimation-using-openpose)
 ***
 
