@@ -21,10 +21,6 @@ Students will receive one of the two following certificates based on their final
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade90.png" alt="c" width="381" height="318" style="max-width: 100%;">  
 </div>
 
-#### Course Marks
-<div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Course_Marks.png" alt="c" width="80%";>
-</div>
 
 #### Certification
 I am proud to have achieved the OpenCV Bootcamp Excellence Certification. I found this training to be highly enriching, well-explained, and comprehensive.  
@@ -34,9 +30,14 @@ Additionally, documenting this project on GitHub has significantly aided my in-d
 Overall, this certification marks a milestone in my professional growth, and the entire experience has been a valuable opportunity for advancing my computer vision skills.  
   
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Certificate.png" alt="c" width="80%";>
-</div>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Certificate.png" alt="c" width="90%";>
+</div>  
 
+#### Course Marks
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Course_Marks.png" alt="c" width="90%";>
+</div>  
+***
 ## Introduction
 OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library.  
 It provides a comprehensive set of tools and functions for tasks such as image and video analysis, object detection, face recognition, feature extraction, and more.  
