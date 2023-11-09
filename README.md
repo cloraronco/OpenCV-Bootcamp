@@ -310,17 +310,20 @@ In summary, object tracking is a vital component of computer vision that allows 
 
 ## 12 Face Detection
 
-The code is an implementation of real-time face detection using OpenCV and its Object Detection (DNN) module.  
+Face detection in OpenCV is achieved using the face detection API, which provides various algorithms for this task.  
+
+In this course, we will see an implementation of real-time face detection using OpenCV and its Object Detection (DNN) module.  
+The code utilizes a face detection model based on a convolutional neural network (Caffe) to perform real-time face detection from a video source. It uses the features of the OpenCV library for video capture, object detection, and displaying results.
 Here is a detailed explanation:  
 
 
-### Initialization of Camera and Detection Model:
+### [Initialization of Camera and Detection Model](https://github.com/cloraronco/OpenCV-Bootcamp#initialization-of-camera-and-detection-model)
 
 The script takes a command-line argument, which is the number of the video source (0 for the default camera).  
 A cv2.VideoCapture object is created to capture the video sequence from the specified source.  
 A face detection model is loaded using cv2.dnn.readNetFromCaffe. The files deploy.prototxt and res10_300x300_ssd_iter_140000_fp16.caffemodel are used to define the architecture of the model and its weights.  
 
-### Main Loop for Real-Time Detection:
+### [Main Loop for Real-Time Detection](https://github.com/cloraronco/OpenCV-Bootcamp#main-loop-for-real-time-detection)
 
 A while loop is used to process images from the real-time video sequence.  
 Captured images are transformed (flipped horizontally in this case) and converted into a "blob" (input object for the neural network).  
@@ -328,7 +331,7 @@ The model is fed with the blob to obtain detections.
 Detections are iterated through, and if the confidence of the detection is above a threshold (conf_threshold), a rectangle is drawn around the detected face.  
 Confidence information is also displayed next to the rectangle.  
 
-### Displaying Results:
+### [Displaying Results](https://github.com/cloraronco/OpenCV-Bootcamp#displaying-results)
 
 Results are displayed in an OpenCV window with live camera feed.  
 Inference performance (inference time) is also displayed at the bottom of the image.  
