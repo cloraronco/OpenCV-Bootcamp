@@ -113,16 +113,16 @@ In this course, I learned various methods of image transformations, exploring es
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_img.png" alt="c" width="25%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_pixel.png" alt="c" width="40%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_pixel.png" alt="c" width="35%";>
 </div>
 
 * Manipulating pixel values for various effects and alterations.  
 
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_img.png" alt="c" width="40%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_img.png" alt="c" width="25%";>
 </div>  
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_pixel.png" alt="c" width="40%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_pixel.png" alt="c" width="35%";>
 </div>  
 
 
