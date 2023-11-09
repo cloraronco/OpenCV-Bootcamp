@@ -309,30 +309,33 @@ In summary, object tracking is a vital component of computer vision that allows 
 
 
 ## 12 Face Detection
-***  
-This code is an implementation of real-time face detection using OpenCV and its Object Detection (DNN) module. Here is a detailed explanation:
+
+The code is an implementation of real-time face detection using OpenCV and its Object Detection (DNN) module.  
+Here is a detailed explanation:  
 
 
-Initialization of Camera and Detection Model:
+### Initialization of Camera and Detection Model:
 
-The script takes a command-line argument, which is the number of the video source (0 for the default camera).
-A cv2.VideoCapture object is created to capture the video sequence from the specified source.
-A face detection model is loaded using cv2.dnn.readNetFromCaffe. The files deploy.prototxt and res10_300x300_ssd_iter_140000_fp16.caffemodel are used to define the architecture of the model and its weights.
-Main Loop for Real-Time Detection:
+The script takes a command-line argument, which is the number of the video source (0 for the default camera).  
+A cv2.VideoCapture object is created to capture the video sequence from the specified source.  
+A face detection model is loaded using cv2.dnn.readNetFromCaffe. The files deploy.prototxt and res10_300x300_ssd_iter_140000_fp16.caffemodel are used to define the architecture of the model and its weights.  
 
-A while loop is used to process images from the real-time video sequence.
-Captured images are transformed (flipped horizontally in this case) and converted into a "blob" (input object for the neural network).
-The model is fed with the blob to obtain detections.
-Detections are iterated through, and if the confidence of the detection is above a threshold (conf_threshold), a rectangle is drawn around the detected face.
-Confidence information is also displayed next to the rectangle.
-Displaying Results:
+### Main Loop for Real-Time Detection:
 
-Results are displayed in an OpenCV window with live camera feed.
-Inference performance (inference time) is also displayed at the bottom of the image.
+A while loop is used to process images from the real-time video sequence.  
+Captured images are transformed (flipped horizontally in this case) and converted into a "blob" (input object for the neural network).  
+The model is fed with the blob to obtain detections.  
+Detections are iterated through, and if the confidence of the detection is above a threshold (conf_threshold), a rectangle is drawn around the detected face.  
+Confidence information is also displayed next to the rectangle.  
+
+### Displaying Results:
+
+Results are displayed in an OpenCV window with live camera feed.  
+Inference performance (inference time) is also displayed at the bottom of the image.  
 Properly Stopping the Camera and Closing the Window:
-
-The video sequence is released (source.release()), and the OpenCV window is destroyed (cv2.destroyWindow(win_name)).
-In summary, this script uses OpenCV and a neural network model to detect faces in real-time from a video sequence coming from the camera or another video source.
+The video sequence is released (source.release()), and the OpenCV window is destroyed (cv2.destroyWindow(win_name)).  
+In summary, this script uses OpenCV and a neural network model to detect faces in real-time from a video sequence coming from the camera or another video source.  
+***
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
