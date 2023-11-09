@@ -136,7 +136,7 @@ In this course, I learned various methods of image transformations, exploring es
 * Exploring methods to flip or mirror images horizontally and vertically.  
 * Use cases for flipping in image augmentation and processing pipelines.  
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/flip_img.png" alt="c" width="90%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/flip_img.png" alt="c" width="100%";>
 </div>  
 
 #### Documentation
