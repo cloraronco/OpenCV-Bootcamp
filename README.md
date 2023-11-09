@@ -289,9 +289,9 @@ In computer vision, tracking plays a pivotal role in various real-world applicat
 
 To successfully track an object, two essential models are utilized:
 
-* Motion Model: The motion model describes how the object of interest is expected to move from one frame to the next. It predicts the object's position and other parameters in the subsequent frame. This model helps maintain tracking accuracy when there's no drastic change in the object's appearance.
+* [Motion Model](https://github.com/cloraronco/OpenCV-Bootcamp#motion-model-and-appearance-model): The motion model describes how the object of interest is expected to move from one frame to the next. It predicts the object's position and other parameters in the subsequent frame. This model helps maintain tracking accuracy when there's no drastic change in the object's appearance.
 
-* Appearance Model: The appearance model is focused on how the object looks. It encompasses the object's visual features, such as color, texture, and shape. This model helps to handle situations where the object's appearance changes due to factors like lighting conditions, occlusions, or object deformations.
+* [Appearance Model](https://github.com/cloraronco/OpenCV-Bootcamp#motion-model-and-appearance-model): The appearance model is focused on how the object looks. It encompasses the object's visual features, such as color, texture, and shape. This model helps to handle situations where the object's appearance changes due to factors like lighting conditions, occlusions, or object deformations.
 
 The combination of the motion model and the appearance model allows tracking algorithms to make predictions about an object's position while simultaneously adapting to changes in its visual characteristics. This hybrid approach is essential for robust and reliable object tracking.
 
