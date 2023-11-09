@@ -120,8 +120,6 @@ In this course, I learned various methods of image transformations, exploring es
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_img.png" alt="c" width="25%";>
-</div>  
-<div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_pixel.png" alt="c" width="35%";>
 </div>  
 
