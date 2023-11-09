@@ -21,6 +21,16 @@ Students will receive one of the two following certificates based on their final
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade90.png" alt="c" width="381" height="318" style="max-width: 100%;">  
 </div>
 
+#### Course Marks
+<div align="left">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade60.png" alt="c" width="100%";>
+</div>
+
+#### Certification
+<div align="left">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade60.png" alt="c" width="100%";>
+</div>
+
 ## Introduction
 OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library.  
 It provides a comprehensive set of tools and functions for tasks such as image and video analysis, object detection, face recognition, feature extraction, and more.  
