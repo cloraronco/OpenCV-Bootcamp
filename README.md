@@ -23,12 +23,18 @@ Students will receive one of the two following certificates based on their final
 
 #### Course Marks
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Course_Marks.png" alt="c" width="100%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Course_Marks.png" alt="c" width="80%";>
 </div>
 
 #### Certification
+I am proud to have achieved the OpenCV Bootcamp Excellence Certification. I found this training to be highly enriching, well-explained, and comprehensive.  
+  
+Additionally, documenting this project on GitHub has significantly aided my in-depth understanding of each concept, providing a tangible representation of my skills. Moreover, taking the course in English has enhanced my listening, reading, and written expression skills in the language.  
+  
+Overall, this certification marks a milestone in my professional growth, and the entire experience has been a valuable opportunity for advancing my computer vision skills.  
+  
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Certificate.png" alt="c" width="100%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Certificate.png" alt="c" width="80%";>
 </div>
 
 ## Introduction
