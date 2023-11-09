@@ -106,23 +106,42 @@ Please check `lib/` to understand functions.
 
 
 ## 02 Basic Image Manipulation
-In this course, I delved into various image transformations, exploring essential techniques such as:  
+In this course, I learned various methods of image transformations, exploring essential techniques such as:  
   
-1. [Accessing and Manipulating Pixels](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/00_pixels_manipulation.py):  
+1. [Accessing and Manipulating Pixels](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/A_pixels_manipulation.py):  
 * Understanding how to access individual pixels in an image.  
-* Manipulating pixel values for various effects and alterations.  
-2. [Cropping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/01_cropping_images.py):  
 
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_img.png" alt="c" width="60%";>
+</div>  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_pixel.png" alt="c" width="60%";>
+</div>
+
+* Manipulating pixel values for various effects and alterations.  
+
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_img.png" alt="c" width="60%";>
+</div>  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_pixel.png" alt="c" width="60%";>
+</div>  
+
+
+2. [Cropping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/B_cropping_images.py):  
 * Understanding the concept of cropping to extract specific regions of an image.  
 * Practical applications of cropping for focusing on relevant details.  
 
-3. [Image Resizing](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/02_resizing_images.py):  
+3. [Image Resizing](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/C_resizing_images.py):  
 * Techniques for resizing images while maintaining aspect ratios.  
 * Applications of resizing for different display and processing requirements.  
 
-4. [Flipping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/03_flipping_images.py):  
+4. [Flipping](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/01_basic_image_manipulations/D_flipping_images.py):  
 * Exploring methods to flip or mirror images horizontally and vertically.  
 * Use cases for flipping in image augmentation and processing pipelines.  
+
+#### Documentation
+
 
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/01_basic_image_manipulations)**</sub>  
