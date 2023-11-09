@@ -337,6 +337,7 @@ Results are displayed in an OpenCV window with live camera feed.
 Inference performance (inference time) is also displayed at the bottom of the image.  
 Properly Stopping the Camera and Closing the Window:
 The video sequence is released (source.release()), and the OpenCV window is destroyed (cv2.destroyWindow(win_name)).  
+  
 In summary, this script uses OpenCV and a neural network model to detect faces in real-time from a video sequence coming from the camera or another video source.  
 ***
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection)**</sub>  
