@@ -37,7 +37,8 @@ Overall, this certification marks a milestone in my professional growth, and the
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Course_Marks.png" alt="c" width="90%";>
 </div>  
-***
+***  
+
 ## Introduction
 OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library.  
 It provides a comprehensive set of tools and functions for tasks such as image and video analysis, object detection, face recognition, feature extraction, and more.  
