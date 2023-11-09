@@ -37,6 +37,7 @@ Overall, this certification marks a milestone in my professional growth, and the
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/OpenCV_Bootcamp_Course_Marks.png" alt="c" width="90%";>
 </div>  
+
 ***  
 
 ## Introduction
