@@ -80,7 +80,7 @@ Here's an overview of the topics you'll cover in this initial module:
 * [Checking Image Attributes](): Understand the essential attributes of an image, such as data type and image shape.  
   
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/check_attributes.png" alt="c" width="60%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/check_attributes.png" alt="c" width="35%";>
 </div>  
   
 * [Matrix Representation](): Discover how images are represented as matrices with NumPy, an essential tool for image processing.  
