@@ -57,19 +57,19 @@ Happy exploring!
 
 ***
 ## Table of Contents
-1. [Display Image](#01-display-image) :white_check_mark:
-2. [Basic Image Manipulation](#02-basic-image-manipulation) :white_check_mark:
-3. [Image Annotation](#03-image-annotation) :white_check_mark:
-4. [Image Enhancement](#04-image-enhancement) :white_check_mark:
-5. [Accessing the Camera](#05-accessing-the-camera) :white_check_mark:
-6. [Video Writing](#06-video-writing) :white_check_mark:
-7. [Image Filtering (Edge Detection)](#07-image-filtering-edge-detection) :white_check_mark:
-8. [Image Features and Alignment](#08-image-features-and-alignment) :white_check_mark:
-9. [Panorama](#09-panorama) :white_check_mark:
-10. [HDR - High Dynamic Range Imaging](#10-hdr---high-dynamic-range-imaging) :white_check_mark:
-11. [Object Tracking](#11-object-tracking) :white_check_mark:
-12. [Face Detection](#12-face-detection) :white_check_mark:
-13. [TensorFlow Object Detection](#13-tensorflow-object-detection) :beginner:        I'm there!
+1. [Display Image](#01-display-image)
+2. [Basic Image Manipulation](#02-basic-image-manipulation)
+3. [Image Annotation](#03-image-annotation)
+4. [Image Enhancement](#04-image-enhancement)
+5. [Accessing the Camera](#05-accessing-the-camera)
+6. [Video Writing](#06-video-writing)
+7. [Image Filtering (Edge Detection)](#07-image-filtering-edge-detection)
+8. [Image Features and Alignment](#08-image-features-and-alignment)
+9. [Panorama](#09-panorama)
+10. [HDR - High Dynamic Range Imaging](#10-hdr---high-dynamic-range-imaging)
+11. [Object Tracking](#11-object-tracking)
+12. [Face Detection](#12-face-detection)
+13. [TensorFlow Object Detection](#13-tensorflow-object-detection)
 14. [Pose Estimation using OpenPose](#14-pose-estimation-using-openpose)
 ***
 
