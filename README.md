@@ -16,9 +16,9 @@ This free bootcamp is available on https://opencv.org/.
 
 Out of a total of 14 quizzes, the top 10 will be taken into account for the final evaluation.  
 Students will receive one of the two following certificates based on their final course marks:  
-<div align="left">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade60.png" alt="c" width="381" height="318" style="max-width: 100%;">  
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade90.png" alt="c" width="381" height="318" style="max-width: 100%;">  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade60.png" alt="c" width="80%";>  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/grade90.png" alt="c" width="80%";>  
 </div>
 
 
