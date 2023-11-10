@@ -64,6 +64,7 @@ print("Image size (H, W, C) is:", coke_img.shape)
 print("Data type of image is:", coke_img.dtype), p()
 
 plt.imshow(coke_img)
+cv2.imwrite("images/coke_img_BGR.jpg", coke_img)
 plt.show()
 
 # The color displayed above is different from the actual image.
@@ -72,5 +73,27 @@ plt.show()
 # Thus, for correct display, we need to reverse the channels of the image.
 
 coke_img_channels_reversed = coke_img[:, :, ::-1]
+
+cv2.imwrite("images/coke_img_RGB.jpg", coke_img_channels_reversed)
 plt.imshow(coke_img_channels_reversed)
+plt.show()
+
+
+fig, axes = plt.subplots(1, 2, figsize=(18, 5))
+
+# Affichage de la première image
+axes[0].imshow(coke_img)
+axes[0].set_title("Image in BGR format")
+axes[0].axis("off")
+
+# Affichage de la deuxième image
+axes[1].imshow(coke_img_channels_reversed)
+axes[1].set_title("Reverse the channels - RGB format")
+axes[1].axis("off")
+
+# Ajustement automatique de la disposition pour éviter le chevauchement
+plt.tight_layout()
+
+# Enregistrement de l'image
+plt.savefig("images/BGR_to_RGB.jpg")
 plt.show()

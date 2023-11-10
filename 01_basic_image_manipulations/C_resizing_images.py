@@ -50,14 +50,35 @@ pause()
 
 
 # Swap channel order
-resized_cropped_region_2x = resized_cropped_region_2x[:, :, ::-1]
+resized_cropped_region1_2x = resized_cropped_region_2x[:, :, ::-1]
 
 # Save resized image to disk
-cv.imwrite("images/resized_cropped_region_2x.png", resized_cropped_region_2x)
+cv.imwrite("images/resized_cropped_region_2x.png", resized_cropped_region1_2x)
 
 # Display the cropped and resized image
 resized_cropped_region_bgr = cv.imread("images/resized_cropped_region_2x.png", cv.IMREAD_COLOR)
 resized_cropped_region_rgb = resized_cropped_region_bgr[:, :, ::-1]
 
 plt.imshow(resized_cropped_region_rgb)
+plt.show()
+
+
+
+fig, axes = plt.subplots(1, 2, figsize=(18, 5))
+
+# Affichage de la première image
+axes[0].imshow(resized_cropped_region_bgr)
+axes[0].set_title("Resized cropped region BGR")
+axes[0].axis("off")
+
+# Affichage de la deuxième image
+axes[1].imshow(resized_cropped_region_rgb)
+axes[1].set_title("Resized cropped region RGB")
+axes[1].axis("off")
+
+# Ajustement automatique de la disposition pour éviter le chevauchement
+plt.tight_layout()
+
+# Enregistrement de l'image
+plt.savefig("images/resize_crop_process.jpg")
 plt.show()

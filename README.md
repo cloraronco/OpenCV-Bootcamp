@@ -81,6 +81,11 @@ Here's an overview of the topics you'll cover in this initial module:
 * [Matrix Representation](): Discover how images are represented as matrices with NumPy, an essential tool for image processing.  
 * [Color Images](): Explore the concept of color images and how color channels can be split and merged.  
 * [Displaying Images](): Learn how to display images in your environment using the Matplotlib library.  
+
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/BGR_to_RGB.png" alt="c" width="25%";>
+</div>  
+  
 * [Saving Images](): Find out how to save your images after making modifications.  
   
 As you progress through this course, you will gain a strong understanding of the fundamentals of image processing and how to use OpenCV for various operations. So, let's get started and begin with the first module.  
