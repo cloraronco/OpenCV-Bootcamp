@@ -80,7 +80,7 @@ Here's an overview of the topics you'll cover in this initial module:
 * [Checking Image Attributes](): Understand the essential attributes of an image, such as data type and image shape.  
   
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/check_attributes.png" alt="c" width="35%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/check_attributes.png" alt="c" width="30%";>
 </div>  
   
 * [Matrix Representation](): Discover how images are represented as matrices with NumPy, an essential tool for image processing.  
@@ -135,14 +135,14 @@ In this course, I learned various methods of image transformations, exploring es
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_img.png" alt="c" width="25%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_pixel.png" alt="c" width="35%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square_pixel.png" alt="c" width="40%";>
 </div>
 
 * Manipulating pixel values for various effects and alterations.  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_img.png" alt="c" width="25%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_pixel.png" alt="c" width="35%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square1_pixel.png" alt="c" width="40%";>
 </div>  
 
 
