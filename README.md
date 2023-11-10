@@ -1,5 +1,8 @@
+***
+<div align="center">  
+  <strong>WORK IN PROGRESS</strong>
+</div>  
   
-      _________===========//////////    ONGOING TRAINING    \\\\\\\\\\\===========_________  
   
 ***
   
@@ -567,3 +570,5 @@ _
 _
 []()  
 []()  
+
+Cette certification d'excellence du Bootcamp OpenCV est le fruit de mon engagement et de mon investissement dans le projet. La démarche d'écrire ce projet sur GitHub a grandement contribué à ma compréhension approfondie de chaque notion enseignée, offrant une visualisation concrète de mes compétences. Suivre la formation en anglais a constitué un défi enrichissant qui a considérablement amélioré ma compréhension orale, écrite et renforcé mes compétences en expression écrite dans cette langue. Dans l'ensemble, cette expérience a été une opportunité précieuse pour le développement de mes compétences en vision par ordinateur et une étape significative dans ma croissance professionnelle.
