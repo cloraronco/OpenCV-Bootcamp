@@ -86,7 +86,7 @@ Here's an overview of the topics you'll cover in this initial module:
 * [Matrix Representation](): Discover how images are represented as matrices with NumPy, an essential tool for image processing.  
   
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square2_img.png" alt="c" width="30%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square2_img.png" alt="c" width="25%";>
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square2_pixel.png" alt="c" width="40%";>
 </div>  
   
