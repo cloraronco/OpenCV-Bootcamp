@@ -83,7 +83,7 @@ Here's an overview of the topics you'll cover in this initial module:
 * [Displaying Images](): Learn how to display images in your environment using the Matplotlib library.  
 
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/BGR_to_RGB.png" alt="c" width="25%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/BGR_to_RGB.jpg" alt="c" width="25%";>
 </div>  
   
 * [Saving Images](): Find out how to save your images after making modifications.  
