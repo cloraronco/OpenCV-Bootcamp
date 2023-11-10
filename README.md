@@ -96,6 +96,9 @@ Here's an overview of the topics you'll cover in this initial module:
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/coke_img_BGR.jpg" alt="c" width="25%";>
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/coke_img_RGB.jpg" alt="c" width="25%";>
 </div>  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/split_merge_color.jpg" alt="c" width="100%";>
+</div>  
   
 * [Displaying Images](): Learn how to display images in your environment using the Matplotlib library.  
 

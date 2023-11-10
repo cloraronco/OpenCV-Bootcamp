@@ -10,19 +10,35 @@ img_NZ_bgr = cv.imread("import/New_Zealand_Lake.jpg", cv.IMREAD_COLOR)
 # Split the image into the B,G,R components
 b, g, r = cv.split(img_NZ_bgr)
 
-# Show the channels
-plt.figure(figsize=[18, 5])
+plt.imshow(b)
+plt.show()
 
-plt.subplot(141);plt.imshow(r, cmap="gray");plt.title("Red Channel")
-plt.subplot(142);plt.imshow(g, cmap="gray");plt.title("Green Channel")
-plt.subplot(143);plt.imshow(b, cmap="gray");plt.title("Blue Channel")
+# Show the channels
+fig, axes = plt.subplots(1, 4, figsize=(18, 5))
+
+axes[0].imshow(r, cmap="gray")
+axes[0].set_title("Red Channel")
+axes[0].axis("off")
+
+axes[1].imshow(g, cmap="gray")
+axes[1].set_title("Green Channel")
+axes[1].axis("off")
+
+axes[2].imshow(b, cmap="gray")
+axes[2].set_title("Blue Channel")
+axes[2].axis("off")
 
 # Merge the individual channels into a BGR image
 imgMerged = cv.merge((b, g, r))
+
 # Show the merged output
-plt.subplot(144)
-plt.imshow(imgMerged[:, :, ::-1])
-plt.title("Merged Output")
+axes[3].imshow(imgMerged[:, :, ::-1])
+axes[3].set_title("Merged Output")
+axes[3].axis("off")
+
+# Ajustement automatique de la disposition pour éviter le chevauchement
+plt.tight_layout()
+plt.savefig("images/split_merge_color.jpg")
 plt.show()
 
 
