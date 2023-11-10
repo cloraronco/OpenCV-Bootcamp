@@ -80,21 +80,21 @@ Here's an overview of the topics you'll cover in this initial module:
 * [Checking Image Attributes](): Understand the essential attributes of an image, such as data type and image shape.  
   
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/check_attributes.png" alt="c" width="100%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/check_attributes.png" alt="c" width="60%";>
 </div>  
   
 * [Matrix Representation](): Discover how images are represented as matrices with NumPy, an essential tool for image processing.  
   
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square2_img.png" alt="c" width="25%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square2_pixel.png" alt="c" width="35%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square2_img.png" alt="c" width="30%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/square2_pixel.png" alt="c" width="40%";>
 </div>  
   
 * [Color Images](): Explore the concept of color images and how color channels can be split and merged.  
   
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/coke_ing_BGR.jpg" alt="c" width="25%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/coke_ing_RGB.jpg" alt="c" width="25%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/coke_img_BGR.jpg" alt="c" width="25%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/coke_img_RGB.jpg" alt="c" width="25%";>
 </div>  
   
 * [Displaying Images](): Learn how to display images in your environment using the Matplotlib library.  
