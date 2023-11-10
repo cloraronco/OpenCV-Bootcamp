@@ -47,6 +47,8 @@ OpenCV is widely used in various applications, including robotics, computer visi
 It is available under the open-source BSD license, making it accessible to a wide range of developers and researchers.  
   
   
+Before this bootcamp, I underwent a brief training to acquire the fundamentals of Python. This is why the structure and complexity of the code increase as the training progresses.  
+  
 Each chapter contains one or more files, organized by concepts.  
 Happy exploring!
 
@@ -128,7 +130,7 @@ Please check `lib/` to understand functions.
 | [`cv2.namedWindow`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga5afdf8410934fd099df85c75b2e0888b) | [`plt.imshow`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html) | |
 | [`cv2.imshow`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga453d42fe4cb60e5723281a89973ee563) | [`plt.subplot`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot.html) | |
 | [`cv2.destroyWindow`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga851ccdd6961022d1d5b4c4f255dbab34) | [`plt.set_title`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.set_title.html) | |
-| **User Interaction** | [`cv2.waitKey`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga5628525ad33f52eab17feebcfba38bd7) | |
+| **User Interaction** | | |
 | | [`plt.axis`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axis.html) | |
 | [`cv2.waitKey`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga5628525ad33f52eab17feebcfba38bd7) | [`plt.tight_layout`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tight_layout.html) | |
 | **Color Conversion** | | |
@@ -140,6 +142,13 @@ Please check `lib/` to understand functions.
 | [`cv2.split`](https://docs.opencv.org/4.5.1/de/d09/group__cudaarithm__core.html#gaf1714e7a9ea0719c29bf378beaf5f99d) | | [`np.shape`](https://numpy.org/doc/stable/reference/generated/numpy.shape.html#numpy.shape) |
 | [`cv2.merge`](https://docs.opencv.org/4.5.1/d2/de8/group__core__array.html#ga61f2f2bde4a0a0154b2333ea504fab1d) | | [`np.dtype`](https://numpy.org/doc/stable/reference/generated/numpy.dtype.html) |  
   
+
+
+
+
+
+
+
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -183,6 +192,12 @@ In this course, I learned various methods of image transformations, exploring es
 </div>  
 
 #### Documentation
+[.copy](https://docs.python.org/fr/3/library/copy.html)  
+[]()  
+[]()  
+[]()  
+[]()  
+[]()  
 
 
 ***  
@@ -455,3 +470,100 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
 
+## Documentation
+
+_  
+[cv2.flip]()  
+[plt.figure]()  
+[cv2.resize]()  
+[cv2.INTER_AREA]()  
+
+_  
+[cv2.line]()  
+[cv2.LINE_AA]()  
+[cv2.LINE_8]()  
+[cv2.rectangle]()  
+[cv2.FONT_HERSHEY_PLAIN]()  
+
+_  
+[np.ones]()  
+[cv2.add]()  
+[cv2.subtract]()  
+[np.uint8]()  
+[cv2.multiply]()  
+[np.float64]()  
+[np.clip]()  
+[cv2.threshold]()  
+[cv2.THRESH_BINARY]()  
+[cv2.adaptiveThreshold]()  
+[cv2.ADAPTIVE_THRESH_MEAN_C]()  
+[cv.bitwise_and]()  
+[cv.bitwise_or]()  
+[cv.bitwise_xor]()  
+
+_  
+[sys.argv]()  
+[cv2.VideoCapture]()  
+[cv2.namedWindow]()  
+[cv2.WINDOW_NORMAL]()  
+[.read]()  
+[.release]()  
+
+_  
+[.isOpened]()  
+[.get]()  
+[cv2.VideoWriter]()  
+[cv2.VideoWriter_fourcc]()  
+[.write(]()  
+[subprocess.call(]()  
+
+_  
+[cv2.CAP_DSHOW]()  
+[cv2.goodFeaturesToTrack]()  
+[np.float32]()  
+[np.reshape]()  
+
+_  
+[cv2.COLOR_BGR2GRAY]()  
+[cv2.ORB_create]()  
+[cv2.detectAndCompute]()  
+[cv2.drawKeypoints]()  
+[np.array]()  
+[cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS]()  
+[cv2.DescriptorMatcher_create]()  
+[cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING]()  
+[.match]()  
+[cv2.drawMatches]()  
+[np.zeros]()  
+[.queryIdx]()  
+[.trainIdx]()  
+[cv2.findHomography]()  
+[cv2.RANSAC]()  
+[cv2.warpPerspective]()  
+
+_  
+[glob.glob]()  
+[os.sep]()  
+[.append]()  
+[math.ceil]()  
+[cv2.Stitcher_create]()  
+[.stitch]()  
+
+_  
+[cv2.createCalibrateDebevec]()  
+[.process]()  
+[np.arange]()  
+[np.squeeze]()  
+[plt.xlabel]()  
+[plt.ylabel]()  
+[plt.xlim]()  
+[plt.grid]()  
+[plt.plot]()  
+[cv2.createMergeDebevec]()  
+[cv2.createTonemapDrago]()  
+[cv2.createTonemapReinhard]()  
+[cv2.createTonemapMantiuk]()  
+
+_
+[]()  
+[]()  

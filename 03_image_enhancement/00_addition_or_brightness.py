@@ -1,10 +1,10 @@
-import cv2 as cv
+import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-img_bgr = cv.imread("images/New_Zealand_Coast.jpg", cv.IMREAD_COLOR)
-img_rgb = cv.cvtColor(img_bgr, cv.COLOR_BGR2RGB)
+img_bgr = cv2.imread("images/New_Zealand_Coast.jpg", cv2.IMREAD_COLOR)
+img_rgb = cv2.cv2tColor(img_bgr, cv2.COLOR_BGR2RGB)
 
 #  --> img_rgb = img_bgr[:, :, ::-1]
 
@@ -14,8 +14,8 @@ plt.show()
 
 matrix = np.ones(img_rgb.shape, dtype="uint8") * 50
 
-img_rgb_brighter = cv.add(img_rgb, matrix)
-img_rgb_darker   = cv.subtract(img_rgb, matrix)
+img_rgb_brighter = cv2.add(img_rgb, matrix)
+img_rgb_darker   = cv2.subtract(img_rgb, matrix)
 
 
 # Show the images

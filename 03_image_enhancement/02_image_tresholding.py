@@ -1,10 +1,10 @@
-import cv2 as cv
+import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-img_read = cv.imread("images/building-windows.jpg", cv.IMREAD_GRAYSCALE)
-retval, img_thresh = cv.threshold(img_read, 100, 255, cv.THRESH_BINARY)
+img_read = cv2.imread("images/building-windows.jpg", cv2.IMREAD_GRAYSCALE)
+retval, img_thresh = cv2.threshold(img_read, 100, 255, cv2.THRESH_BINARY)
 
 # Show the images
 plt.figure(figsize=[18, 5])
@@ -20,16 +20,16 @@ print(img_thresh.shape)
 # APPLICATION: sheet music reader
 
 # Read the original image
-img_read = cv.imread("images/Piano_Sheet_Music.png", cv.IMREAD_GRAYSCALE)
+img_read = cv2.imread("images/Piano_Sheet_Music.png", cv2.IMREAD_GRAYSCALE)
 
 # Perform global thresholding
-retval, img_thresh_gbl_1 = cv.threshold(img_read, 50, 255, cv.THRESH_BINARY)
+retval, img_thresh_gbl_1 = cv2.threshold(img_read, 50, 255, cv2.THRESH_BINARY)
 
 # Perform global thresholding
-retval, img_thresh_gbl_2 = cv.threshold(img_read, 130, 255, cv.THRESH_BINARY)
+retval, img_thresh_gbl_2 = cv2.threshold(img_read, 130, 255, cv2.THRESH_BINARY)
 
 # Perform adaptive thresholding
-img_thresh_adp = cv.adaptiveThreshold(img_read, 255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY, 11, 7)
+img_thresh_adp = cv2.adaptiveThreshold(img_read, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 7)
 
 # Show the images
 plt.figure(figsize=[18,15])

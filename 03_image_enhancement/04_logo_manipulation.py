@@ -26,6 +26,12 @@ img_background_rgb = cv.cvtColor(img_background_bgr, cv.COLOR_BGR2RGB)
 aspect_ratio = logo_w / img_background_rgb.shape[1]
 dim = (logo_w, int(img_background_rgb.shape[0] * aspect_ratio))
 
+
+# REMIND : interpolation
+# interpolation=cv.INTER_AREA: This argument specifies the interpolation algorithm used to resize the image.
+# In this example, cv.INTER_AREA is used, indicating the use of Area-based interpolation, which is commonly employed for downsampling.
+
+
 # Resize background image to sae size as logo image
 img_background_rgb = cv.resize(img_background_rgb, dim, interpolation=cv.INTER_AREA)
 

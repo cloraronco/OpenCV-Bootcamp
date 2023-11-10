@@ -2,8 +2,6 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-from IPython.display import Image
-
 
 
 img_NZ_bgr = cv2.imread("images/New_Zealand_Boat.jpg", cv2.IMREAD_COLOR)

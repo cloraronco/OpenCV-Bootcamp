@@ -23,6 +23,9 @@ desired_height = 200
 dim = (desired_width, desired_height)
 
 # Resize background image to sae size as logo image
+# interpolation=cv.INTER_AREA: This argument specifies the interpolation algorithm used to resize the image.
+# In this example, cv.INTER_AREA is used, indicating the use of Area-based interpolation, which is commonly employed for downsampling.
+
 resized_cropped_region = cv.resize(cropped_region, dsize=dim, interpolation=cv.INTER_AREA)
 plt.imshow(resized_cropped_region)
 plt.show()

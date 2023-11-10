@@ -5,30 +5,30 @@ import matplotlib.pyplot as plt
 # Read reference image
 refFilename = "images/form.jpg"
 print("Reading reference image:", refFilename)
-im1 = cv.imread(refFilename, cv.IMREAD_COLOR)
-im1 = cv.cvtColor(im1, cv.COLOR_BGR2RGB)
+im1 = cv2.imread(refFilename, cv2.IMREAD_COLOR)
+im1 = cv2.cvtColor(im1, cv2.COLOR_BGR2RGB)
 
 # Read image to be aligned
 imFilename = "images/scanned-form.jpg"
 print("Reading image to align:", imFilename)
-im2 = cv.imread(imFilename, cv.IMREAD_COLOR)
-im2 = cv.cvtColor(im2, cv.COLOR_BGR2RGB)
+im2 = cv2.imread(imFilename, cv2.IMREAD_COLOR)
+im2 = cv2.cvtColor(im2, cv2.COLOR_BGR2RGB)
 
 
 # Convert images to grayscale
-im1_gray = cv.cvtColor(im1, cv.COLOR_BGR2GRAY)
-im2_gray = cv.cvtColor(im2, cv.COLOR_BGR2GRAY)
+im1_gray = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)
+im2_gray = cv2.cvtColor(im2, cv2.COLOR_BGR2GRAY)
 
 
 # Detect ORB features and compute descriptors.
 MAX_NUM_FEATURES = 500
-orb = cv.ORB_create(MAX_NUM_FEATURES)
+orb = cv2.ORB_create(MAX_NUM_FEATURES)
 keypoints1, descriptors1 = orb.detectAndCompute(im1_gray, None)
 keypoints2, descriptors2 = orb.detectAndCompute(im2_gray, None)
 
 
 # Match features.
-matcher = cv.DescriptorMatcher_create(cv.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING)
+matcher = cv2.DescriptorMatcher_create(cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING)
 
 # Converting to list for sorting as tuples are immutable objects.
 matches = list(matcher.match(descriptors1, descriptors2, None))
@@ -41,7 +41,7 @@ numGoodMatches = int(len(matches) * 0.1)
 matches = matches[:numGoodMatches]
 
 # Draw top matches
-im_matches = cv.drawMatches(im1, keypoints1, im2, keypoints2, matches, None)
+im_matches = cv2.drawMatches(im1, keypoints1, im2, keypoints2, matches, None)
 
 
 #_____________________________________________________
@@ -56,13 +56,13 @@ for i, match in enumerate(matches):
     points2[i, :] = keypoints2[match.trainIdx].pt
 
 # Find homography
-h, mask = cv.findHomography(points2, points1, cv.RANSAC)
+h, mask = cv2.findHomography(points2, points1, cv2.RANSAC)
 
 #           WRAP IMAGE
 
 # Use homography to warp image
 height, width, channels = im1.shape
-im2_reg = cv.warpPerspective(im2, h, (width, height))
+im2_reg = cv2.warpPerspective(im2, h, (width, height))
 
 # Display results
 plt.figure(figsize=[20, 10])

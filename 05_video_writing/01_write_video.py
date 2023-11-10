@@ -1,5 +1,5 @@
 import os
-import cv2 as cv
+import cv2
 import matplotlib.pyplot as plt
 
 from IPython.display import YouTubeVideo, display, HTML
@@ -8,7 +8,7 @@ from base64 import b64encode
 
 source = 'video/race_car.mp4'  # source = 0 for webcam
 
-cap = cv.VideoCapture(source)
+cap = cv2.VideoCapture(source)
 
 if not cap.isOpened():
     print("Error opening video stream or file")
@@ -19,8 +19,8 @@ frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 
 # Define the codec and create VideoWriter object.
-out_avi = cv.VideoWriter("video/race_car_out.avi", cv.VideoWriter_fourcc(*'XVID'), 10, (frame_width, frame_height))
-out_mp4 = cv.VideoWriter("video/race_car_out.mp4", cv.VideoWriter_fourcc(*'mp4v'), 10, (frame_width, frame_height))
+out_avi = cv2.VideoWriter("video/race_car_out.avi", cv2.VideoWriter_fourcc(*'XVID'), 10, (frame_width, frame_height))
+out_mp4 = cv2.VideoWriter("video/race_car_out.mp4", cv2.VideoWriter_fourcc(*'mp4v'), 10, (frame_width, frame_height))
 
 #Read frames and write to file
 while cap.isOpened():
@@ -55,7 +55,7 @@ subprocess.call(command, shell=True)
 # Change video encoding of mp4 file from XVID to h264
 subprocess.call(f'ffmpeg -y -i "video/race_car_out.mp4" -c:v libx264 "race_car_out_x264.mp4"  -hide_banner -loglevel error', shell=True)
 
-cap = cv.VideoCapture("race_car_out_x264.mp4")
+cap = cv2.VideoCapture("race_car_out_x264.mp4")
 if not cap.isOpened():
     print("Error opening video stream or file")
 
@@ -64,11 +64,11 @@ while True:
     if not ret:
         break  # Fin de la vidéo
 
-    cv.imshow('Video', frame)
+    cv2.imshow('Video', frame)
 
     # Appuyez sur la touche 'q' pour quitter la lecture
-    if cv.waitKey(25) & 0xFF == ord('q'):
+    if cv2.waitKey(25) & 0xFF == ord('q'):
         break
 
 cap.release()
-cv.destroyAllWindows()
+cv2.destroyAllWindows()
