@@ -114,33 +114,6 @@ As you progress through this course, you will gain a strong understanding of the
 Please check `lib/` to understand functions. 
 
 #### Documentation
-OpenCV:  
-[`cv2.imreadModes`](https://docs.opencv.org/4.5.1/d8/d6a/group__imgcodecs__flags.html#ga61d9b0126a3e57d9277ac48327799c80)  
-[`cv2.imread`](https://docs.opencv.org/4.5.1/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56)  
-[`cv2.namedWindow`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga5afdf8410934fd099df85c75b2e0888b)  
-[`cv2.imshow`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga453d42fe4cb60e5723281a89973ee563)  
-[`cv2.waitKey`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga5628525ad33f52eab17feebcfba38bd7)  
-[`cv2.destroyWindow`](https://docs.opencv.org/4.5.1/d7/dfc/group__highgui.html#ga851ccdd6961022d1d5b4c4f255dbab34)  
-[`cv2.imwriteFlags`](https://docs.opencv.org/4.5.1/d8/d6a/group__imgcodecs__flags.html#ga292d81be8d76901bff7988d18d2b42ac)  
-[`cv2.imwrite`](https://docs.opencv.org/4.5.1/d4/da8/group__imgcodecs.html#gabbc7ef1aa2edfaa87772f1202d67e0ce)  
-[`cv2.split`](https://docs.opencv.org/4.5.1/de/d09/group__cudaarithm__core.html#gaf1714e7a9ea0719c29bf378beaf5f99d)  
-[`cv2.merge`](https://docs.opencv.org/4.5.1/d2/de8/group__core__array.html#ga61f2f2bde4a0a0154b2333ea504fab1d)  
-[`cv2.cvtColor`](https://docs.opencv.org/4.5.1/d8/d01/group__imgproc__color__conversions.html#ga397ae87e1288a81d2363b61574eb8cab)  
-[`cv2.ColorConversionCodes`](https://docs.opencv.org/4.5.1/d8/d01/group__imgproc__color__conversions.html#ga4e0972be5de079fed4e3a10e24ef5ef0)  
-[`cv2.COLOR_BGR2RGB`](https://docs.opencv.org/4.5.1/d8/d01/group__imgproc__color__conversions.html#gga4e0972be5de079fed4e3a10e24ef5ef0ad3db9ff253b87d02efe4887b2f5d77ee)  
-[`cv2.COLOR_BGR2HSV`](https://docs.opencv.org/4.5.1/d8/d01/group__imgproc__color__conversions.html#gga4e0972be5de079fed4e3a10e24ef5ef0aa4a7f0ecf2e94150699e48c79139ee12)  
-Matplotlib:  
-[`plt.imshow`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imshow.html)  
-[`plt.subplot`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot.html)  
-[`plt.set_title`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.set_title.html)  
-[`plt.axis`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axis.html)  
-[`plt.tight_layout`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tight_layout.html)  
-[`plt.savefig`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html)  
-[`plt.show`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html)  
-Numpy:  
-[`np.shape`](https://numpy.org/doc/stable/reference/generated/numpy.shape.html#numpy.shape)  
-[`np.dtype`](https://numpy.org/doc/stable/reference/generated/numpy.dtype.html)  
-
 | OpenCV | Matplotlib | Numpy |
 | --- | --- | --- |
 | **Image Reading/Writing** | | |
@@ -160,8 +133,10 @@ Numpy:
 | [`cv2.ColorConversionCodes`](https://docs.opencv.org/4.5.1/d8/d01/group__imgproc__color__conversions.html#ga4e0972be5de079fed4e3a10e24ef5ef0) | | |
 | [`cv2.COLOR_BGR2RGB`](https://docs.opencv.org/4.5.1/d8/d01/group__imgproc__color__conversions.html#gga4e0972be5de079fed4e3a10e24ef5ef0ad3db9ff253b87d02efe4887b2f5d77ee) | | |
 | [`cv2.COLOR_BGR2HSV`](https://docs.opencv.org/4.5.1/d8/d01/group__imgproc__color__conversions.html#gga4e0972be5de079fed4e3a10e24ef5ef0aa4a7f0ecf2e94150699e48c79139ee12) | | |
-
-
+| **Image Manipulation** | | |
+| [`cv2.split`](https://docs.opencv.org/4.5.1/de/d09/group__cudaarithm__core.html#gaf1714e7a9ea0719c29bf378beaf5f99d) | | [`np.shape`](https://numpy.org/doc/stable/reference/generated/numpy.shape.html#numpy.shape) |
+| [`cv2.merge`](https://docs.opencv.org/4.5.1/d2/de8/group__core__array.html#ga61f2f2bde4a0a0154b2333ea504fab1d) | | [`np.dtype`](https://numpy.org/doc/stable/reference/generated/numpy.dtype.html) |  
+  
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/00_display_images)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
