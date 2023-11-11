@@ -281,9 +281,9 @@ In this short course, I learned how to access to the camera.
 [cv2.VideoCapture](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html)  
 [cv2.namedWindow](https://docs.opencv.org/3.4/d7/dfc/group__highgui.html#ga5afdf8410934fd099df85c75b2e0888b)  
 [cv2.WINDOW_NORMAL](https://docs.opencv.org/3.4/d0/d90/group__highgui__window__flags.html#ggabf7d2c5625bc59ac130287f925557ac3a29e45c5af696f73ce5e153601e5ca0f1)  
-[sys.argv](https://docs.python.org/3/library/sys.html)  
 [.read](https://docs.python.org/3/library/io.html#io.TextIOBase.read)  
 [.release](https://docs.python.org/3/library/threading.html#threading.Lock.release)  
+[sys.argv](https://docs.python.org/3/library/sys.html)  
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)**</sub>  
@@ -300,12 +300,12 @@ For example, in a surveiallance application, you might have to save a video clip
 In this course, I describe how to save a video in avi and mp4 formats using openCV.  
 
 #### Documentation
-[.isOpened]()  
-[.get]()  
-[cv2.VideoWriter]()  
-[cv2.VideoWriter_fourcc]()  
-[.write]()  
-[subprocess.call]()  
+[cv2.VideoWriter](https://docs.opencv.org/3.4/dd/d9e/classcv_1_1VideoWriter.html#ad59c61d8881ba2b2da22cff5487465b5)  
+[cv2.VideoWriter_fourcc](https://docs.opencv.org/4.x/dd/d9e/classcv_1_1VideoWriter.html#afec93f94dc6c0b3e28f4dd153bc5a7f0)  
+[.isOpened](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#a9d2ca36789e7fcfe7a7be3b328038585)  
+[.get](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#aa6480e6972ef4c00d74814ec841a2939)  
+[.write](https://docs.opencv.org/3.4/d7/d7c/structCvTypeInfo.html#a55f7489aa2cbcba7d98079014dc8d6ec)  
+[subprocess.call](https://docs.python.org/fr/3/library/subprocess.html)  
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing)**</sub>  
@@ -319,10 +319,10 @@ In this course, I describe how to save a video in avi and mp4 formats using open
 In this short course, I learned how to set image filters.  
 
 #### Documentation
-[cv2.CAP_DSHOW]()  
-[cv2.goodFeaturesToTrack]()  
-[np.float32]()  
-[np.reshape]()  
+[cv2.goodFeaturesToTrack](https://docs.opencv.org/3.4/dd/d1a/group__imgproc__feature.html#ga1d6bb77486c8f92d79c8793ad995d541)  
+[cv2.CAP_DSHOW](https://docs.opencv.org/3.4/d4/d15/group__videoio__flags__base.html#gga023786be1ee68a9105bf2e48c700294dab6ac3effa04f41ed5470375c85a23504)  
+[np.float32](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float32)  
+[np.reshape](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html#numpy-reshape)  
 
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering)**</sub>  
@@ -336,22 +336,22 @@ In this short course, I learned how to set image filters.
 
 
 #### Documentation
-[cv2.COLOR_BGR2GRAY]()  
 [cv2.ORB_create]()  
 [cv2.detectAndCompute]()  
 [cv2.drawKeypoints]()  
-[np.array]()  
-[cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS]()  
-[cv2.DescriptorMatcher_create]()  
-[cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING]()  
-[.match]()  
 [cv2.drawMatches]()  
+[cv2.DescriptorMatcher_create]()  
+[cv2.findHomography]()  
+[cv2.warpPerspective]() 
+[cv2.COLOR_BGR2GRAY]()  
+[cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS]()  
+[cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING]()  
+[cv2.RANSAC]()  
 [np.zeros]()  
+[np.array]()  
+[.match]()  
 [.queryIdx]()  
 [.trainIdx]()  
-[cv2.findHomography]()  
-[cv2.RANSAC]()  
-[cv2.warpPerspective]() 
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment)**</sub>  
@@ -371,12 +371,12 @@ Steps for Creating Panoramas:
 * Stitch with Blending  
 
 #### Documentation
-[glob.glob]()  
-[os.sep]()  
-[.append]()  
-[math.ceil]()  
 [cv2.Stitcher_create]()  
+[.append]()  
 [.stitch]()
+[glob.glob]()  
+[math.ceil]()  
+[os.sep]()  
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama)**</sub>  
@@ -434,18 +434,18 @@ OpenCV provides tools to perform these steps, making it easier to create HDR ima
   
 #### Documentation
 [cv2.createCalibrateDebevec]()  
-[.process]()  
-[np.arange]()  
-[np.squeeze]()  
+[cv2.createMergeDebevec]()  
+[cv2.createTonemapDrago]()  
+[cv2.createTonemapReinhard]()  
+[cv2.createTonemapMantiuk]()  
 [plt.xlabel]()  
 [plt.ylabel]()  
 [plt.xlim]()  
 [plt.grid]()  
 [plt.plot]()  
-[cv2.createMergeDebevec]()  
-[cv2.createTonemapDrago]()  
-[cv2.createTonemapReinhard]()  
-[cv2.createTonemapMantiuk]()  
+[np.arange]()  
+[np.squeeze]()  
+[.process]()   
 
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
@@ -595,67 +595,67 @@ _4
 [np.float64]()  
 
 _5  
-[sys.argv]()  
 [cv2.VideoCapture]()  
 [cv2.namedWindow]()  
 [cv2.WINDOW_NORMAL]()  
 [.read]()  
 [.release]()  
+[sys.argv]()  
 
 _6  
-[.isOpened]()  
-[.get]()  
 [cv2.VideoWriter]()  
 [cv2.VideoWriter_fourcc]()  
+[.isOpened]()  
+[.get]()  
 [.write]()  
 [subprocess.call]()  
 
 _7  
-[cv2.CAP_DSHOW]()  
 [cv2.goodFeaturesToTrack]()  
+[cv2.CAP_DSHOW]()  
 [np.float32]()  
 [np.reshape]()  
 
 _8  
-[cv2.COLOR_BGR2GRAY]()  
 [cv2.ORB_create]()  
 [cv2.detectAndCompute]()  
 [cv2.drawKeypoints]()  
-[np.array]()  
-[cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS]()  
-[cv2.DescriptorMatcher_create]()  
-[cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING]()  
-[.match]()  
 [cv2.drawMatches]()  
+[cv2.DescriptorMatcher_create]()  
+[cv2.findHomography]()  
+[cv2.warpPerspective]() 
+[cv2.COLOR_BGR2GRAY]()  
+[cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS]()  
+[cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING]()  
+[cv2.RANSAC]()  
 [np.zeros]()  
+[np.array]()  
+[.match]()  
 [.queryIdx]()  
 [.trainIdx]()  
-[cv2.findHomography]()  
-[cv2.RANSAC]()  
-[cv2.warpPerspective]()  
 
 _9  
-[glob.glob]()  
-[os.sep]()  
-[.append]()  
-[math.ceil]()  
 [cv2.Stitcher_create]()  
-[.stitch]()  
+[.append]()  
+[.stitch]()
+[glob.glob]()  
+[math.ceil]()  
+[os.sep]()   
 
 _10  
 [cv2.createCalibrateDebevec]()  
-[.process]()  
-[np.arange]()  
-[np.squeeze]()  
+[cv2.createMergeDebevec]()  
+[cv2.createTonemapDrago]()  
+[cv2.createTonemapReinhard]()  
+[cv2.createTonemapMantiuk]()  
 [plt.xlabel]()  
 [plt.ylabel]()  
 [plt.xlim]()  
 [plt.grid]()  
 [plt.plot]()  
-[cv2.createMergeDebevec]()  
-[cv2.createTonemapDrago]()  
-[cv2.createTonemapReinhard]()  
-[cv2.createTonemapMantiuk]()  
+[np.arange]()  
+[np.squeeze]()  
+[.process]()  
 
 _11
 []()  
