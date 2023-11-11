@@ -278,12 +278,12 @@ In this short course, I learned how to access to the camera.
 
 
 #### Documentation
+[cv2.VideoCapture](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html)  
+[cv2.namedWindow](https://docs.opencv.org/3.4/d7/dfc/group__highgui.html#ga5afdf8410934fd099df85c75b2e0888b)  
+[cv2.WINDOW_NORMAL](https://docs.opencv.org/3.4/d0/d90/group__highgui__window__flags.html#ggabf7d2c5625bc59ac130287f925557ac3a29e45c5af696f73ce5e153601e5ca0f1)  
 [sys.argv](https://docs.python.org/3/library/sys.html)  
-[cv2.VideoCapture]()  
-[cv2.namedWindow]()  
-[cv2.WINDOW_NORMAL]()  
-[.read]()  
-[.release]()  
+[.read](https://docs.python.org/3/library/io.html#io.TextIOBase.read)  
+[.release](https://docs.python.org/3/library/threading.html#threading.Lock.release)  
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)**</sub>  
