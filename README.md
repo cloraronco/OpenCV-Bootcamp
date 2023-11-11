@@ -196,12 +196,11 @@ In this course, I learned various methods of image transformations, exploring es
 </div>  
 
 #### Documentation
+[cv2.flip](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gaca7be533e3dac7feb70fc60635adf441)  
+[cv2.resize](https://docs.opencv.org/3.4/da/d54/group__imgproc__transform.html#ga47a974309e9102f5f08231edc7e7529d)  
+[cv2.INTER_AREA](https://docs.opencv.org/3.4/da/d54/group__imgproc__transform.html#gga5bb5a1fea74ea38e1a5445ca803ff121acf959dca2480cc694ca016b81b442ceb) 
+[plt.figure](https://matplotlib.org/stable/api/figure_api.html#module-matplotlib.figure)  
 [.copy](https://docs.python.org/fr/3/library/copy.html)  
-[]()  
-[]()  
-[]()  
-[]()  
-[]()  
 
 
 ***  
@@ -224,6 +223,13 @@ I learned how to peform the following annotations to images.
 These are useful when you want to annotate your results for presentations or show a demo of your application.  
 Annotations can also be useful during development and debugging.
 
+#### Documentation
+[cv2.line](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#ga7078a9fae8c7e7d13d24dac2520ae4a2)  
+[cv2.rectangle](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#ga07d2f74cadcf8e305e810ce8eed13bc9)  
+[cv2.LINE_AA](https://docs.opencv.org/3.4/d0/de1/group__core.html#ggaf076ef45de481ac96e0ab3dc2c29a777a85fdabe5335c9e6656563dfd7c94fb4f)  
+[cv2.LINE_8](https://docs.opencv.org/3.4/d0/de1/group__core.html#ggaf076ef45de481ac96e0ab3dc2c29a777a5d32eda7017db273a37f158e5b51442a)  
+[cv2.FONT_HERSHEY_PLAIN](https://docs.opencv.org/3.4/d0/de1/group__core.html#gga0f9314ea6e35f99bb23f29567fc16e11a08cf3b0a37729fbb62a3007d499cbd8b) 
+
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/02_image_annotation)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -241,6 +247,23 @@ In this course, I covered:
 * Arithmetic Operations like addition, multiplication  
 * Thresholding & Masking  
 * Bitwise Operations like OR, AND, XOR  
+
+
+#### Documentation
+[cv2.add](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga10ac1bfb180e2cfda1701d06c24fdbd6)  
+[cv2.subtract](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gaa0f00d98b4b5edeaeb7b8333b2de353b)  
+[cv2.multiply](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga979d898a58d7f61c53003e162e7ad89f)  
+[cv2.threshold](https://docs.opencv.org/3.4/d7/d1b/group__imgproc__misc.html#gae8a4a146d1ca78c626a53577199e9c57)  
+[cv2.adaptiveThreshold](https://docs.opencv.org/3.4/d7/d1b/group__imgproc__misc.html#ga72b913f352e4a1b1b397736707afcde3)  
+[cv2.bitwise_and](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga60b4d04b251ba5eb1392c34425497e14)  
+[cv2.bitwise_or](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gab85523db362a4e26ff0c703793a719b4)  
+[cv2.bitwise_xor](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga84b2d8188ce506593dcc3f8cd00e8e2c)
+[cv2.THRESH_BINARY](https://docs.opencv.org/3.4/d7/d1b/group__imgproc__misc.html#ggaa9e58d2860d4afa658ef70a9b1115576a147222a96556ebc1d948b372bcd7ac59)  
+[cv2.ADAPTIVE_THRESH_MEAN_C](https://docs.opencv.org/3.4/d7/d1b/group__imgproc__misc.html#ggaa42a3e6ef26247da787bf34030ed772cad0c5199ae8637a6b195062fea4789fa9)  
+[np.ones](https://numpy.org/doc/stable/reference/generated/numpy.ones.html#numpy.ones)  
+[np.clip](https://numpy.org/doc/stable/reference/generated/numpy.clip.html#numpy.clip)  
+[np.uint8](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.uint8)  
+[np.float64](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float64)  
   
 ***  
 <sub>**(https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/03_image_enhancement)**</sub>  
@@ -252,6 +275,15 @@ In this course, I covered:
 
 ## 05 Accessing the Camera
 In this short course, I learned how to access to the camera.  
+
+
+#### Documentation
+[sys.argv](https://docs.python.org/3/library/sys.html)  
+[cv2.VideoCapture]()  
+[cv2.namedWindow]()  
+[cv2.WINDOW_NORMAL]()  
+[.read]()  
+[.release]()  
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/04_accessing_the_camera)**</sub>  
@@ -266,6 +298,14 @@ While building applications, it becomes important to save demo videos of your wo
 For example, in a surveiallance application, you might have to save a video clip as soon as you see something unusual happening.  
   
 In this course, I describe how to save a video in avi and mp4 formats using openCV.  
+
+#### Documentation
+[.isOpened]()  
+[.get]()  
+[cv2.VideoWriter]()  
+[cv2.VideoWriter_fourcc]()  
+[.write]()  
+[subprocess.call]()  
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/05_video_writing)**</sub>  
@@ -278,6 +318,12 @@ In this course, I describe how to save a video in avi and mp4 formats using open
 ## 07 Image Filtering (Edge Detection)
 In this short course, I learned how to set image filters.  
 
+#### Documentation
+[cv2.CAP_DSHOW]()  
+[cv2.goodFeaturesToTrack]()  
+[np.float32]()  
+[np.reshape]()  
+
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/06_image_filtering)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -287,6 +333,26 @@ In this short course, I learned how to set image filters.
 
 
 ## 08 Image Features and Alignment
+
+
+#### Documentation
+[cv2.COLOR_BGR2GRAY]()  
+[cv2.ORB_create]()  
+[cv2.detectAndCompute]()  
+[cv2.drawKeypoints]()  
+[np.array]()  
+[cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS]()  
+[cv2.DescriptorMatcher_create]()  
+[cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING]()  
+[.match]()  
+[cv2.drawMatches]()  
+[np.zeros]()  
+[.queryIdx]()  
+[.trainIdx]()  
+[cv2.findHomography]()  
+[cv2.RANSAC]()  
+[cv2.warpPerspective]() 
+  
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -304,6 +370,14 @@ Steps for Creating Panoramas:
 * Refine Homographies  
 * Stitch with Blending  
 
+#### Documentation
+[glob.glob]()  
+[os.sep]()  
+[.append]()  
+[math.ceil]()  
+[cv2.Stitcher_create]()  
+[.stitch]()
+  
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -358,6 +432,21 @@ Here are the different steps involved in creating an HDR (High Dynamic Range) im
 These steps will guide you through the process of creating an HDR image from a set of bracketed images.  
 OpenCV provides tools to perform these steps, making it easier to create HDR images from real shots.
   
+#### Documentation
+[cv2.createCalibrateDebevec]()  
+[.process]()  
+[np.arange]()  
+[np.squeeze]()  
+[plt.xlabel]()  
+[plt.ylabel]()  
+[plt.xlim]()  
+[plt.grid]()  
+[plt.plot]()  
+[cv2.createMergeDebevec]()  
+[cv2.createTonemapDrago]()  
+[cv2.createTonemapReinhard]()  
+[cv2.createTonemapMantiuk]()  
+
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -476,36 +565,36 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
 
 ## Documentation
 
-_  
+_2  
 [cv2.flip]()  
 [plt.figure]()  
 [cv2.resize]()  
 [cv2.INTER_AREA]()  
 
-_  
+_3  
 [cv2.line]()  
+[cv2.rectangle]()  
 [cv2.LINE_AA]()  
 [cv2.LINE_8]()  
-[cv2.rectangle]()  
 [cv2.FONT_HERSHEY_PLAIN]()  
 
-_  
-[np.ones]()  
+_4  
 [cv2.add]()  
 [cv2.subtract]()  
-[np.uint8]()  
 [cv2.multiply]()  
-[np.float64]()  
-[np.clip]()  
 [cv2.threshold]()  
-[cv2.THRESH_BINARY]()  
 [cv2.adaptiveThreshold]()  
+[cv2.bitwise_and]()  
+[cv2.bitwise_or]()  
+[cv2.bitwise_xor]()
+[cv2.THRESH_BINARY]()  
 [cv2.ADAPTIVE_THRESH_MEAN_C]()  
-[cv.bitwise_and]()  
-[cv.bitwise_or]()  
-[cv.bitwise_xor]()  
+[np.ones]()  
+[np.clip]()  
+[np.uint8]()  
+[np.float64]()  
 
-_  
+_5  
 [sys.argv]()  
 [cv2.VideoCapture]()  
 [cv2.namedWindow]()  
@@ -513,21 +602,21 @@ _
 [.read]()  
 [.release]()  
 
-_  
+_6  
 [.isOpened]()  
 [.get]()  
 [cv2.VideoWriter]()  
 [cv2.VideoWriter_fourcc]()  
-[.write(]()  
-[subprocess.call(]()  
+[.write]()  
+[subprocess.call]()  
 
-_  
+_7  
 [cv2.CAP_DSHOW]()  
 [cv2.goodFeaturesToTrack]()  
 [np.float32]()  
 [np.reshape]()  
 
-_  
+_8  
 [cv2.COLOR_BGR2GRAY]()  
 [cv2.ORB_create]()  
 [cv2.detectAndCompute]()  
@@ -545,7 +634,7 @@ _
 [cv2.RANSAC]()  
 [cv2.warpPerspective]()  
 
-_  
+_9  
 [glob.glob]()  
 [os.sep]()  
 [.append]()  
@@ -553,7 +642,7 @@ _
 [cv2.Stitcher_create]()  
 [.stitch]()  
 
-_  
+_10  
 [cv2.createCalibrateDebevec]()  
 [.process]()  
 [np.arange]()  
@@ -568,7 +657,7 @@ _
 [cv2.createTonemapReinhard]()  
 [cv2.createTonemapMantiuk]()  
 
-_
+_11
 []()  
 []()  
 
