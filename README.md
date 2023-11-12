@@ -371,12 +371,12 @@ Steps for Creating Panoramas:
 * Stitch with Blending  
 
 #### Documentation
-[cv2.Stitcher_create]()  
-[.append]()  
-[.stitch]()
-[glob.glob]()  
-[math.ceil]()  
-[os.sep]()  
+[cv2.Stitcher_create](https://docs.opencv.org/3.4/d2/d8d/classcv_1_1Stitcher.html#acb32106b3b3e7870d4b39082ab58a26e)  
+[.append](https://www.programiz.com/python-programming/methods/list/append)  
+[.stitch](https://docs.opencv.org/3.4/d2/d8d/classcv_1_1Stitcher.html)
+[glob.glob](https://docs.python.org/fr/3/library/glob.html)  
+[math.ceil](https://www.w3schools.com/python/ref_math_ceil.asp#:~:text=The%20math.,floor()%20method.)  
+[os.sep](https://www.programcreek.com/python/example/113/os.sep)  
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama)**</sub>  
@@ -433,19 +433,19 @@ These steps will guide you through the process of creating an HDR image from a s
 OpenCV provides tools to perform these steps, making it easier to create HDR images from real shots.
   
 #### Documentation
-[cv2.createCalibrateDebevec]()  
-[cv2.createMergeDebevec]()  
-[cv2.createTonemapDrago]()  
-[cv2.createTonemapReinhard]()  
-[cv2.createTonemapMantiuk]()  
-[plt.xlabel]()  
-[plt.ylabel]()  
-[plt.xlim]()  
-[plt.grid]()  
-[plt.plot]()  
-[np.arange]()  
-[np.squeeze]()  
-[.process]()   
+[cv2.createCalibrateDebevec](https://docs.opencv.org/3.4/d6/df5/group__photo__hdr.html#ga7fed9707ad5f2cc0e633888867109f90)  
+[cv2.createMergeDebevec](https://docs.opencv.org/3.4/d6/df5/group__photo__hdr.html#gaa8eab36bc764abb2a225db7c945f87f9)  
+[cv2.createTonemapDrago](https://docs.opencv.org/3.4/d6/df5/group__photo__hdr.html#ga72bf92bb6b8653ee4be650ac01cf50b6)  
+[cv2.createTonemapReinhard](https://docs.opencv.org/3.4/d6/df5/group__photo__hdr.html#gadabe7f6bf1fa96ad0fd644df9182c2fb)  
+[cv2.createTonemapMantiuk](https://docs.opencv.org/3.4/d6/df5/group__photo__hdr.html#ga3b3f3bf083b7515802f039a6a70f2d21)  
+[plt.xlabel](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html)  
+[plt.ylabel](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html)  
+[plt.xlim](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlim.html)  
+[plt.grid](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.grid.html)  
+[plt.plot](https://matplotlib.org/stable/users/prev_whats_new/dflt_style_changes.html#plot)  
+[np.arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html#numpy-arange)  
+[np.squeeze](https://numpy.org/doc/stable/reference/generated/numpy.squeeze.html#numpy-squeeze)  
+[.process](https://docs.opencv.org/3.4/d8/d5e/classcv_1_1Tonemap.html#aa705c3b7226f7028a5c117dffab60fe4)   
 
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/09_HDR)**</sub>  
