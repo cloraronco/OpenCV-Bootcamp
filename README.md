@@ -336,22 +336,22 @@ In this short course, I learned how to set image filters.
 
 
 #### Documentation
-[cv2.ORB_create]()  
-[cv2.detectAndCompute]()  
-[cv2.drawKeypoints]()  
-[cv2.drawMatches]()  
-[cv2.DescriptorMatcher_create]()  
-[cv2.findHomography]()  
-[cv2.warpPerspective]() 
-[cv2.COLOR_BGR2GRAY]()  
-[cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS]()  
-[cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING]()  
-[cv2.RANSAC]()  
-[np.zeros]()  
-[np.array]()  
-[.match]()  
-[.queryIdx]()  
-[.trainIdx]()  
+[cv2.ORB_create](https://docs.opencv.org/3.4/db/d95/classcv_1_1ORB.html)  
+[cv2.detectAndCompute](https://docs.opencv.org/3.4/d0/d13/classcv_1_1Feature2D.html#a8be0d1c20b08eb867184b8d74c15a677)  
+[cv2.drawKeypoints](https://docs.opencv.org/3.4/d4/d5d/group__features2d__draw.html#gab958f8900dd10f14316521c149a60433)  
+[cv2.drawMatches](https://docs.opencv.org/3.4/d4/d5d/group__features2d__draw.html#ga7421b3941617d7267e3f2311582f49e1)  
+[cv2.DescriptorMatcher_create](https://docs.opencv.org/3.4/db/d39/classcv_1_1DescriptorMatcher.html)  
+[cv2.findHomography](https://docs.opencv.org/3.4/d9/d0c/group__calib3d.html#ga4abc2ece9fab9398f2e560d53c8c9780)  
+[cv2.warpPerspective](https://docs.opencv.org/3.4/da/d54/group__imgproc__transform.html#gaf73673a7e8e18ec6963e3774e6a94b87) 
+[cv2.COLOR_BGR2GRAY](https://docs.opencv.org/3.4/d8/d01/group__imgproc__color__conversions.html#gga4e0972be5de079fed4e3a10e24ef5ef0a353a4b8db9040165db4dacb5bcefb6ea)  
+[cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS](https://docs.opencv.org/3.4/d4/d5d/group__features2d__draw.html#ga7421b3941617d7267e3f2311582f49e1)  
+[cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING](https://docs.opencv.org/3.4/db/d39/classcv_1_1DescriptorMatcher.html)  
+[cv2.RANSAC](https://docs.opencv.org/3.4/d9/d0c/group__calib3d.html#gga2a608ac7b6bde0c6a51b53b079f27aa4a724159df258a5d7e29410a6a2f4e6c87)  
+[np.zeros](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html#numpy.zeros)  
+[np.array](https://numpy.org/doc/stable/reference/generated/numpy.array.html)  
+[.match](https://www.programiz.com/python-programming/regex)  
+[.queryIdx](https://docs.opencv.org/3.4/d4/de0/classcv_1_1DMatch.html)  
+[.trainIdx](https://docs.opencv.org/3.4/d4/de0/classcv_1_1DMatch.html)  
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment)**</sub>  
