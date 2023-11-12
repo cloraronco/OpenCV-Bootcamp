@@ -498,7 +498,10 @@ The combination of the motion model and the appearance model allows tracking alg
 
 OpenCV offers a comprehensive set of tracking algorithms through its Tracker Class API. This API simplifies the process of implementing object tracking by providing access to a range of tracking algorithms and methods. These algorithms are optimized for various tracking scenarios and are designed to work with different types of objects, ensuring flexibility and applicability in a wide range of computer vision projects.  
   
-In summary, object tracking is a vital component of computer vision that allows for the continuous monitoring and prediction of an object's position across a sequence of images or video frames. It relies on motion and appearance models to accommodate variations in object movement and appearance. OpenCV's Tracker Class API is a valuable resource for developers seeking efficient and accurate object tracking solutions for diverse applications.
+In summary, object tracking is a vital component of computer vision that allows for the continuous monitoring and prediction of an object's position across a sequence of images or video frames. It relies on motion and appearance models to accommodate variations in object movement and appearance. OpenCV's Tracker Class API is a valuable resource for developers seeking efficient and accurate object tracking solutions for diverse applications.  
+  
+#### Documentation
+  
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -539,6 +542,10 @@ Properly Stopping the Camera and Closing the Window:
 The video sequence is released (source.release()), and the OpenCV window is destroyed (cv2.destroyWindow(win_name)).  
   
 In summary, this script uses OpenCV and a neural network model to detect faces in real-time from a video sequence coming from the camera or another video source.  
+  
+#### Documentation
+  
+
 ***
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -548,6 +555,11 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
 
 
 ## 13 TensorFlow Object Detection
+
+
+#### Documentation
+  
+
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
@@ -557,6 +569,12 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
 
 
 ## 14 Pose Estimation using OpenPose
+
+  
+
+#### Documentation
+  
+
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
