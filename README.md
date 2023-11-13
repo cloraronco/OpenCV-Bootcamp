@@ -300,17 +300,17 @@ Addressing overflow concerns is integral to achieving accurate and visually plea
   
 ### [Thresholding & Masking](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/C_image_tresholding.py)  
 
-#### Thresholding:
+#### **Thresholding**:
 
 **Definition:** Thresholding involves converting an image into a binary format by setting a threshold value. Pixels with intensities above the threshold are set to one value (e.g., white), while those below are set to another value (e.g., black).  
 **Purpose:** Thresholding is commonly used for image segmentation, where we want to separate objects or regions of interest from the background. It simplifies the image and highlights specific features.  
 
-#### Masking:
+#### **Masking**:
 
 **Definition:** Masking involves using a binary image (mask) to selectively apply operations to specific regions of another image. Pixels corresponding to the "on" (white) regions of the mask allow the operation, while "off" (black) regions exclude it.
 **Purpose:** Masking is versatile and can be used for various purposes, such as filtering, region-of-interest (ROI) selection, or combining images. It enables targeted processing on specific areas of interest within an image.  
 
-#### Combining Thresholding and Masking:
+#### **Combining Thresholding and Masking**:
 
 **Workflow:** Often, thresholding is used to create a binary mask, where certain areas are set to white based on intensity criteria. This mask is then applied to another image using masking techniques, allowing selective processing on specific regions.  
   
@@ -318,7 +318,7 @@ Addressing overflow concerns is integral to achieving accurate and visually plea
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/threshold.jpg" alt="c" width="80%";>
 </div>  
 
-#### Applications:
+#### **Applications**:
 
 **Image Segmentation:** Thresholding helps segment objects based on intensity, while masking allows selective processing within those objects.  
 **Object Detection:** By defining intensity thresholds and masks, specific objects or regions can be isolated for further analysis.  
