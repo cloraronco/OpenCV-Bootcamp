@@ -406,7 +406,11 @@ Note: Bitwise operations are particularly efficient in terms of computational re
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation1.png" alt="c" width="80%";>
+</div>  
+<div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation2.png" alt="c" width="80%";>
+<div align="center">
+</div>  
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation3.png" alt="c" width="80%";>
 </div>  
 
