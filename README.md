@@ -347,27 +347,47 @@ In summary, "Threshold and masking" are powerful techniques in image processing,
 ### [Bitwise Operations like OR, AND, XOR](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/D_bitwise_operations.py)  
 
 Bitwise operations like OR (|), AND (&), and XOR (^) are fundamental operations used in image processing to manipulate the individual bits of pixel values.  
+  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_operator.png" alt="c" width="80%";>
+</div>  
+  
 These operations are particularly powerful when working with binary images or masks. Here's a detailed breakdown:  
-
+  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_figure.png" alt="c" width="80%";>
+</div>  
+  
 #### 1. Bitwise OR (|)
 
 Definition: The OR operation combines the bits of two images. If at least one of the corresponding bits is set (1), the result will have that bit set.  
+  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_OR.png" alt="c" width="80%";>
+</div>  
+  
 Purpose: OR operations are commonly used in image blending, combining information from two images, or creating composite images.  
 
 #### 2. Bitwise AND (&)
 
 Definition: The AND operation combines the bits of two images. The result has a bit set only if the corresponding bits in both input images are set (1).  
+  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_AND.png" alt="c" width="80%";>
+</div>  
+  
 Purpose: AND operations are useful for masking. When combined with a binary mask, only the pixels where both the mask and the image have a white pixel will be set in the result.  
 
 #### 3. Bitwise XOR (^)
 
 Definition: The XOR operation combines the bits of two images. If the corresponding bits are different, the result will have that bit set.  
+  
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_XOR.png" alt="c" width="80%";>
+</div>  
+  
 Purpose: XOR operations are often used in applications like image differencing, where changes between two images are highlighted.  
 
-<div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_figure.png" alt="c" width="80%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_operator.png" alt="c" width="80%";>
-</div>  
 
 #### Applications
 
