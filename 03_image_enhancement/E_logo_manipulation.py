@@ -38,7 +38,7 @@ print(img_background_rgb.shape)
 plt.figure(figsize=[18, 5])
 plt.subplot(121), plt.axis("off"), plt.title("Logo"), plt.imshow(img_rgb)
 plt.subplot(122), plt.axis("off"), plt.title("Backgroung"), plt.imshow(img_background_rgb)
-plt.savefig("images/logo_tranformation1.png")
+plt.savefig("images/logo_transformation1.png")
 
 
 #______Create mask for original image______
@@ -61,7 +61,7 @@ img_mask_inv = cv.bitwise_not(img_mask)
 plt.figure(figsize=[18, 5])
 plt.subplot(121), plt.axis("off"), plt.title("Apply global thresholding to creat a binary mask of the logo"), plt.imshow(img_mask, cmap="gray")
 plt.subplot(122), plt.axis("off"), plt.title("Create an inverse mask"), plt.imshow(img_mask_inv, cmap="gray")
-plt.savefig("images/logo_tranformation2.png")
+plt.savefig("images/logo_transformation2.png")
 
 plt.show()
 
@@ -101,4 +101,4 @@ plt.subplot(133), plt.axis("off"), plt.title("Result: Merge Foreground and Backg
 plt.show()
 
 
-plt.savefig("images/logo_tranformation3.png")
+plt.savefig("images/logo_transformation3.png")
