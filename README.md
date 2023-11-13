@@ -260,11 +260,17 @@ Annotations can also be useful during development and debugging.
 
 
 
+
+
 ## 04 Image Enhancement
+
+
 Image Processing techniques take advantage of mathematical operations to achieve different results.  
 Most often we arrive at an enhanced version of the image using some basic operations.  
 We will take a look at some of the fundamental operations often used in computer vision pipelines.  
-  
+
+
+
 ### [Brightness adjustment or Addition](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/A_addition_or_brightness.py)
 
 Brightness adjustment, also known as addition, is a fundamental image processing operation that involves modifying the intensity values of pixels.  
@@ -276,7 +282,10 @@ The mathematical expression for this operation is: `New Intensity = Original Int
 </div>  
   
 This technique is widely used in computer vision pipelines to enhance images, making them brighter or darker as needed.  
-  
+
+
+
+
 ### [Contrast or Multiplication, handling overflow](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/B_multiplication_or_contrast.py)  
 
 Contrast adjustment, or multiplication, is a vital image processing operation where pixel intensity values are modified to enhance or diminish contrast.  
@@ -297,18 +306,20 @@ Managing overflow ensures that the adjusted contrast is applied effectively with
 
 In summary, contrast adjustment is a fundamental technique in image enhancement, allowing us to control the visibility of details.  
 Addressing overflow concerns is integral to achieving accurate and visually pleasing results in computer vision pipelines.
-  
+
+
+
 ### [Thresholding & Masking](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/C_image_tresholding.py)  
 
 #### **Thresholding**:
 
-**Definition:** Thresholding involves converting an image into a binary format by setting a threshold value. Pixels with intensities above the threshold are set to one value (e.g., white), while those below are set to another value (e.g., black).  
-**Purpose:** Thresholding is commonly used for image segmentation, where we want to separate objects or regions of interest from the background. It simplifies the image and highlights specific features.  
+Thresholding involves converting an image into a binary format by setting a threshold value. Pixels with intensities above the threshold are set to one value (e.g., white), while those below are set to another value (e.g., black).  
+Thresholding is commonly used for image segmentation, where we want to separate objects or regions of interest from the background. It simplifies the image and highlights specific features.  
 
 #### **Masking**:
 
-**Definition:** Masking involves using a binary image (mask) to selectively apply operations to specific regions of another image. Pixels corresponding to the "on" (white) regions of the mask allow the operation, while "off" (black) regions exclude it.
-**Purpose:** Masking is versatile and can be used for various purposes, such as filtering, region-of-interest (ROI) selection, or combining images. It enables targeted processing on specific areas of interest within an image.  
+Masking involves using a binary image (mask) to selectively apply operations to specific regions of another image. Pixels corresponding to the "on" (white) regions of the mask allow the operation, while "off" (black) regions exclude it.  
+Masking is versatile and can be used for various purposes, such as filtering, region-of-interest (ROI) selection, or combining images. It enables targeted processing on specific areas of interest within an image.  
 
 #### **Combining Thresholding and Masking**:
 
@@ -330,13 +341,47 @@ Addressing overflow concerns is integral to achieving accurate and visually plea
 
 In summary, "Threshold and masking" are powerful techniques in image processing, providing means to segment and selectively process images based on intensity criteria, contributing to various applications in computer vision and image analysis.  
 
+
+
   
-4. [Bitwise Operations like OR, AND, XOR](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/D_bitwise_operations.py)  
+### [Bitwise Operations like OR, AND, XOR](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/D_bitwise_operations.py)  
+
+Bitwise operations like OR (|), AND (&), and XOR (^) are fundamental operations used in image processing to manipulate the individual bits of pixel values.  
+These operations are particularly powerful when working with binary images or masks. Here's a detailed breakdown:  
+
+#### 1. Bitwise OR (|)
+
+Definition: The OR operation combines the bits of two images. If at least one of the corresponding bits is set (1), the result will have that bit set.  
+Purpose: OR operations are commonly used in image blending, combining information from two images, or creating composite images.  
+
+#### 2. Bitwise AND (&)
+
+Definition: The AND operation combines the bits of two images. The result has a bit set only if the corresponding bits in both input images are set (1).  
+Purpose: AND operations are useful for masking. When combined with a binary mask, only the pixels where both the mask and the image have a white pixel will be set in the result.  
+
+#### 3. Bitwise XOR (^)
+
+Definition: The XOR operation combines the bits of two images. If the corresponding bits are different, the result will have that bit set.  
+Purpose: XOR operations are often used in applications like image differencing, where changes between two images are highlighted.  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_figure.png" alt="c" width="80%";>
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_operator.png" alt="c" width="80%";>
 </div>  
+
+#### Applications
+
+Image Blending: Bitwise OR can be employed for blending images or combining specific features.  
+  
+Masking: Bitwise AND is valuable for applying masks, selectively affecting certain regions of an image.  
+  
+Image Differencing: Bitwise XOR can highlight differences between two images.  
+  
+Note: Bitwise operations are particularly efficient in terms of computational resources, making them widely used in computer vision and image processing algorithms.  
+  
+
+In summary, bitwise operations like OR, AND, and XOR are essential tools for manipulating image data at the bit level, offering a versatile set of operations for various applications in image processing and computer vision.
+
   
 
 ### Documentation
@@ -347,7 +392,7 @@ In summary, "Threshold and masking" are powerful techniques in image processing,
 [cv2.adaptiveThreshold](https://docs.opencv.org/3.4/d7/d1b/group__imgproc__misc.html#ga72b913f352e4a1b1b397736707afcde3)  
 [cv2.bitwise_and](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga60b4d04b251ba5eb1392c34425497e14)  
 [cv2.bitwise_or](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gab85523db362a4e26ff0c703793a719b4)  
-[cv2.bitwise_xor](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga84b2d8188ce506593dcc3f8cd00e8e2c)
+[cv2.bitwise_xor](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga84b2d8188ce506593dcc3f8cd00e8e2c)  
 [cv2.THRESH_BINARY](https://docs.opencv.org/3.4/d7/d1b/group__imgproc__misc.html#ggaa9e58d2860d4afa658ef70a9b1115576a147222a96556ebc1d948b372bcd7ac59)  
 [cv2.ADAPTIVE_THRESH_MEAN_C](https://docs.opencv.org/3.4/d7/d1b/group__imgproc__misc.html#ggaa42a3e6ef26247da787bf34030ed772cad0c5199ae8637a6b195062fea4789fa9)  
 [np.ones](https://numpy.org/doc/stable/reference/generated/numpy.ones.html#numpy.ones)  
