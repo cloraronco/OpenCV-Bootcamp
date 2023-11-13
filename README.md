@@ -394,7 +394,7 @@ Definition: The XOR operation combines the bits of two images. If the correspond
 Purpose: XOR operations are often used in applications like image differencing, where changes between two images are highlighted.  
 
 
-#### Applications
+#### [Applications]()
 
 Image Blending: Bitwise OR can be employed for blending images or combining specific features.  
   
@@ -403,6 +403,13 @@ Masking: Bitwise AND is valuable for applying masks, selectively affecting certa
 Image Differencing: Bitwise XOR can highlight differences between two images.  
   
 Note: Bitwise operations are particularly efficient in terms of computational resources, making them widely used in computer vision and image processing algorithms.  
+
+<div align="center">
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transormation1.png" alt="c" width="80%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transormation2.png" alt="c" width="80%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transormation3.png" alt="c" width="80%";>
+</div>  
+
   
 
 In summary, bitwise operations like OR, AND, and XOR are essential tools for manipulating image data at the bit level, offering a versatile set of operations for various applications in image processing and computer vision.
