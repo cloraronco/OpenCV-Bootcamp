@@ -245,7 +245,9 @@ Annotations can also be useful during development and debugging.
 
 #### Documentation
 [cv2.line](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#ga7078a9fae8c7e7d13d24dac2520ae4a2)  
+[cv2.circle](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#gaf10604b069374903dbd0f0488cb43670)  
 [cv2.rectangle](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#ga07d2f74cadcf8e305e810ce8eed13bc9)  
+[cv2.putTexte](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#ga5126f47f883d730f633d74f07456c576)  
 [cv2.LINE_AA](https://docs.opencv.org/3.4/d0/de1/group__core.html#ggaf076ef45de481ac96e0ab3dc2c29a777a85fdabe5335c9e6656563dfd7c94fb4f)  
 [cv2.LINE_8](https://docs.opencv.org/3.4/d0/de1/group__core.html#ggaf076ef45de481ac96e0ab3dc2c29a777a5d32eda7017db273a37f158e5b51442a)  
 [cv2.FONT_HERSHEY_PLAIN](https://docs.opencv.org/3.4/d0/de1/group__core.html#gga0f9314ea6e35f99bb23f29567fc16e11a08cf3b0a37729fbb62a3007d499cbd8b) 
@@ -653,7 +655,9 @@ _2
 
 _3  
 [cv2.line]()  
+[cv2.circle]()  
 [cv2.rectangle]()  
+[cv2.putTexte]()  
 [cv2.LINE_AA]()  
 [cv2.LINE_8]()  
 [cv2.FONT_HERSHEY_PLAIN]()  

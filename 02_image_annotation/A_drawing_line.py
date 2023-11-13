@@ -1,10 +1,10 @@
-import cv2 as cv
+import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
 
 # Read in an image
-image = cv.imread("images/Apollo_11_Launch.jpg", cv.IMREAD_COLOR)
+image = cv2.imread("images/Apollo_11_Launch.jpg", cv2.IMREAD_COLOR)
 
 # Display the original image
 plt.imshow(image[:, :, ::-1])
@@ -18,7 +18,7 @@ imageLine = image.copy()
 # Thickness of line is 5px
 # Linetype is cv2.LINE_AA
 
-cv.line(imageLine, (200, 100), (400, 100), (0, 255, 255), thickness=5, lineType=cv.LINE_AA)
+cv2.line(imageLine, (200, 100), (400, 100), (0, 255, 255), thickness=5, lineType=cv2.LINE_AA)
 
 # Display the image
 plt.imshow(imageLine[:,:,::-1])
