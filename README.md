@@ -216,21 +216,29 @@ In this notebook, I covered how to annotate images using OpenCV.
 I learned how to peform the following annotations to images.  
   
 1. [Draw lines](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/02_image_annotation/A_drawing_line.py)  
+
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/draw_line.jpg" alt="c" width="100%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/draw_line.jpg" alt="c" width="50%";>
 </div>  
+
 1. [Draw circles](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/02_image_annotation/B_drawing_circle.py)  
+
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/draw_circle.jpg" alt="c" width="100%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/draw_circle.jpg" alt="c" width="50%";>
 </div>  
+
 1. [Draw rectangles](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/02_image_annotation/C_drawing_rectangle.py)  
+
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/draw_rectangle.jpg" alt="c" width="100%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/draw_rectangle.jpg" alt="c" width="50%";>
 </div>  
+
 1. [Add text](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/02_image_annotation/C_drawing_rectangle.py)  
+
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/add_text.jpg" alt="c" width="100%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/add_text.jpg" alt="c" width="50%";>
 </div>  
+  
   
 These are useful when you want to annotate your results for presentations or show a demo of your application.  
 Annotations can also be useful during development and debugging.
