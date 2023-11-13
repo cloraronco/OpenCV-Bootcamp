@@ -405,9 +405,9 @@ Image Differencing: Bitwise XOR can highlight differences between two images.
 Note: Bitwise operations are particularly efficient in terms of computational resources, making them widely used in computer vision and image processing algorithms.  
 
 <div align="center">
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transormation1.png" alt="c" width="80%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transormation2.png" alt="c" width="80%";>
-  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transormation3.png" alt="c" width="80%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation1.png" alt="c" width="80%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation2.png" alt="c" width="80%";>
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation3.png" alt="c" width="80%";>
 </div>  
 
   
