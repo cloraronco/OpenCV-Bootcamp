@@ -122,7 +122,7 @@ First, launch `_init.py`.
   
 Please check `lib/` to understand functions.  
   
-#### Documentation
+### Documentation
 | OpenCV | Matplotlib | Numpy |
 | --- | --- | --- |
 | **Image Reading/Writing** | | |
@@ -195,7 +195,7 @@ In this course, I learned various methods of image transformations, exploring es
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/flip_img.png" alt="c" width="100%";>
 </div>  
 
-#### Documentation
+### Documentation
 [cv2.flip](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gaca7be533e3dac7feb70fc60635adf441)  
 [cv2.resize](https://docs.opencv.org/3.4/da/d54/group__imgproc__transform.html#ga47a974309e9102f5f08231edc7e7529d)  
 [cv2.INTER_AREA](https://docs.opencv.org/3.4/da/d54/group__imgproc__transform.html#gga5bb5a1fea74ea38e1a5445ca803ff121acf959dca2480cc694ca016b81b442ceb) 
@@ -243,7 +243,7 @@ I learned how to peform the following annotations to images.
 These are useful when you want to annotate your results for presentations or show a demo of your application.  
 Annotations can also be useful during development and debugging.
 
-#### Documentation
+### Documentation
 [cv2.line](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#ga7078a9fae8c7e7d13d24dac2520ae4a2)  
 [cv2.circle](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#gaf10604b069374903dbd0f0488cb43670)  
 [cv2.rectangle](https://docs.opencv.org/3.4/d6/d6e/group__imgproc__draw.html#ga07d2f74cadcf8e305e810ce8eed13bc9)  
@@ -298,12 +298,38 @@ Managing overflow ensures that the adjusted contrast is applied effectively with
 In summary, contrast adjustment is a fundamental technique in image enhancement, allowing us to control the visibility of details.  
 Addressing overflow concerns is integral to achieving accurate and visually pleasing results in computer vision pipelines.
   
-3. [Thresholding & Masking](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/C_image_tresholding.py)  
+### [Thresholding & Masking](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/C_image_tresholding.py)  
 
+#### Thresholding:
+
+**Definition:** Thresholding involves converting an image into a binary format by setting a threshold value. Pixels with intensities above the threshold are set to one value (e.g., white), while those below are set to another value (e.g., black).  
+**Purpose:** Thresholding is commonly used for image segmentation, where we want to separate objects or regions of interest from the background. It simplifies the image and highlights specific features.  
+
+#### Masking:
+
+**Definition:** Masking involves using a binary image (mask) to selectively apply operations to specific regions of another image. Pixels corresponding to the "on" (white) regions of the mask allow the operation, while "off" (black) regions exclude it.
+**Purpose:** Masking is versatile and can be used for various purposes, such as filtering, region-of-interest (ROI) selection, or combining images. It enables targeted processing on specific areas of interest within an image.  
+
+#### Combining Thresholding and Masking:
+
+**Workflow:** Often, thresholding is used to create a binary mask, where certain areas are set to white based on intensity criteria. This mask is then applied to another image using masking techniques, allowing selective processing on specific regions.  
+  
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/threshold.jpg" alt="c" width="80%";>
+</div>  
+
+#### Applications:
+
+**Image Segmentation:** Thresholding helps segment objects based on intensity, while masking allows selective processing within those objects.  
+**Object Detection:** By defining intensity thresholds and masks, specific objects or regions can be isolated for further analysis.  
+**Noise Reduction:** Masks can be used to filter out unwanted regions, aiding in noise reduction and improving the signal-to-noise ratio.  
+  
+<div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/threshold_perform.jpg" alt="c" width="80%";>
 </div>  
+
+In summary, "Threshold and masking" are powerful techniques in image processing, providing means to segment and selectively process images based on intensity criteria, contributing to various applications in computer vision and image analysis.  
+
   
 4. [Bitwise Operations like OR, AND, XOR](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/D_bitwise_operations.py)  
 
@@ -313,7 +339,7 @@ Addressing overflow concerns is integral to achieving accurate and visually plea
 </div>  
   
 
-#### Documentation
+### Documentation
 [cv2.add](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga10ac1bfb180e2cfda1701d06c24fdbd6)  
 [cv2.subtract](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gaa0f00d98b4b5edeaeb7b8333b2de353b)  
 [cv2.multiply](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga979d898a58d7f61c53003e162e7ad89f)  
@@ -341,7 +367,7 @@ Addressing overflow concerns is integral to achieving accurate and visually plea
 In this short course, I learned how to access to the camera.  
 
 
-#### Documentation
+### Documentation
 [cv2.VideoCapture](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html)  
 [cv2.namedWindow](https://docs.opencv.org/3.4/d7/dfc/group__highgui.html#ga5afdf8410934fd099df85c75b2e0888b)  
 [cv2.WINDOW_NORMAL](https://docs.opencv.org/3.4/d0/d90/group__highgui__window__flags.html#ggabf7d2c5625bc59ac130287f925557ac3a29e45c5af696f73ce5e153601e5ca0f1)  
@@ -363,7 +389,7 @@ For example, in a surveiallance application, you might have to save a video clip
   
 In this course, I describe how to save a video in avi and mp4 formats using openCV.  
 
-#### Documentation
+### Documentation
 [cv2.VideoWriter](https://docs.opencv.org/3.4/dd/d9e/classcv_1_1VideoWriter.html#ad59c61d8881ba2b2da22cff5487465b5)  
 [cv2.VideoWriter_fourcc](https://docs.opencv.org/4.x/dd/d9e/classcv_1_1VideoWriter.html#afec93f94dc6c0b3e28f4dd153bc5a7f0)  
 [.isOpened](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#a9d2ca36789e7fcfe7a7be3b328038585)  
@@ -382,7 +408,7 @@ In this course, I describe how to save a video in avi and mp4 formats using open
 ## 07 Image Filtering (Edge Detection)
 In this short course, I learned how to set image filters.  
 
-#### Documentation
+### Documentation
 [cv2.goodFeaturesToTrack](https://docs.opencv.org/3.4/dd/d1a/group__imgproc__feature.html#ga1d6bb77486c8f92d79c8793ad995d541)  
 [cv2.CAP_DSHOW](https://docs.opencv.org/3.4/d4/d15/group__videoio__flags__base.html#gga023786be1ee68a9105bf2e48c700294dab6ac3effa04f41ed5470375c85a23504)  
 [np.float32](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float32)  
@@ -399,7 +425,7 @@ In this short course, I learned how to set image filters.
 ## 08 Image Features and Alignment
 
 
-#### Documentation
+### Documentation
 [cv2.ORB_create](https://docs.opencv.org/3.4/db/d95/classcv_1_1ORB.html)  
 [cv2.detectAndCompute](https://docs.opencv.org/3.4/d0/d13/classcv_1_1Feature2D.html#a8be0d1c20b08eb867184b8d74c15a677)  
 [cv2.drawKeypoints](https://docs.opencv.org/3.4/d4/d5d/group__features2d__draw.html#gab958f8900dd10f14316521c149a60433)  
@@ -434,7 +460,7 @@ Steps for Creating Panoramas:
 * Refine Homographies  
 * Stitch with Blending  
 
-#### Documentation
+### Documentation
 [cv2.Stitcher_create](https://docs.opencv.org/3.4/d2/d8d/classcv_1_1Stitcher.html#acb32106b3b3e7870d4b39082ab58a26e)  
 [.append](https://www.programiz.com/python-programming/methods/list/append)  
 [.stitch](https://docs.opencv.org/3.4/d2/d8d/classcv_1_1Stitcher.html)
@@ -496,7 +522,7 @@ Here are the different steps involved in creating an HDR (High Dynamic Range) im
 These steps will guide you through the process of creating an HDR image from a set of bracketed images.  
 OpenCV provides tools to perform these steps, making it easier to create HDR images from real shots.
   
-#### Documentation
+### Documentation
 [cv2.createCalibrateDebevec](https://docs.opencv.org/3.4/d6/df5/group__photo__hdr.html#ga7fed9707ad5f2cc0e633888867109f90)  
 [cv2.createMergeDebevec](https://docs.opencv.org/3.4/d6/df5/group__photo__hdr.html#gaa8eab36bc764abb2a225db7c945f87f9)  
 [cv2.createTonemapDrago](https://docs.opencv.org/3.4/d6/df5/group__photo__hdr.html#ga72bf92bb6b8653ee4be650ac01cf50b6)  
@@ -564,7 +590,7 @@ OpenCV offers a comprehensive set of tracking algorithms through its Tracker Cla
   
 In summary, object tracking is a vital component of computer vision that allows for the continuous monitoring and prediction of an object's position across a sequence of images or video frames. It relies on motion and appearance models to accommodate variations in object movement and appearance. OpenCV's Tracker Class API is a valuable resource for developers seeking efficient and accurate object tracking solutions for diverse applications.  
   
-#### Documentation
+### Documentation
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking)**</sub>  
@@ -607,7 +633,7 @@ The video sequence is released (source.release()), and the OpenCV window is dest
   
 In summary, this script uses OpenCV and a neural network model to detect faces in real-time from a video sequence coming from the camera or another video source.  
   
-#### Documentation
+### Documentation
   
 
 ***
@@ -621,7 +647,7 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
 ## 13 TensorFlow Object Detection
 
 
-#### Documentation
+### Documentation
   
 
 ***  
@@ -636,7 +662,7 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
 
   
 
-#### Documentation
+### Documentation
   
 
 ***  
