@@ -264,7 +264,8 @@ Most often we arrive at an enhanced version of the image using some basic operat
 We will take a look at some of the fundamental operations often used in computer vision pipelines.  \
 In this course, I covered:  
   
-* Arithmetic Operations like addition, multiplication  
+* Brightness or addition
+* Contrast or Multiplication, handling overflow  
 * Thresholding & Masking  
 * Bitwise Operations like OR, AND, XOR  
 
