@@ -264,33 +264,53 @@ Most often we arrive at an enhanced version of the image using some basic operat
 We will take a look at some of the fundamental operations often used in computer vision pipelines.  \
 In this course, I covered:  
   
-1. [Brightness ajustement](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/A_addition_or_brightness.py), also known as addition, is a fundamental image processing operation that involves modifying the intensity values of pixels. By adding a constant value to each pixel's intensity, we can control the overall brightness of the image. This technique is widely used in computer vision pipelines to enhance images, making them brighter or darker as needed.
+### [Brightness adjustment or Addition](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/A_addition_or_brightness.py)
+
+Brightness adjustment, also known as addition, is a fundamental image processing operation that involves modifying the intensity values of pixels.  
+By adding a constant value to each pixel's intensity, we can control the overall brightness of the image.  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/brightness.jpg" alt="c" width="100%";>
 </div>  
+  
+This technique is widely used in computer vision pipelines to enhance images, making them brighter or darker as needed.  
+  
+### [Contrast or Multiplication, handling overflow](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/B_multiplication_or_contrast.py)  
 
-2. [Contrast or Multiplication, handling overflow](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/B_multiplication_or_contrast.py)  
+Contrast adjustment, or multiplication, is a vital image processing operation where pixel intensity values are modified to enhance or diminish contrast.  
+By multiplying each pixel's intensity by a constant factor, we control the overall contrast of the image.  
+The mathematical expression for this operation is:
+`New Intensity = Original Intensity x Constant`
+
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/contrast_overflow.jpg" alt="c" width="100%";>
+</div>  
+
+Handling overflow is crucial during this process. Overflow can occur when the calculated intensity exceeds the maximum representable value.  
+Managing overflow ensures that the adjusted contrast is applied effectively without causing unintended distortions.
+
+<div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/contrast.jpg" alt="c" width="100%";>
 </div>  
 
+In summary, contrast adjustment is a fundamental technique in image enhancement, allowing us to control the visibility of details.  
+Addressing overflow concerns is integral to achieving accurate and visually pleasing results in computer vision pipelines.
+  
 3. [Thresholding & Masking](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/C_image_tresholding.py)  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/threshold.jpg" alt="c" width="100%";>
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/threshold_perform.jpg" alt="c" width="100%";>
 </div>  
-
+  
 4. [Bitwise Operations like OR, AND, XOR](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/D_bitwise_operations.py)  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_figure.png" alt="c" width="100%";>
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_operator.png" alt="c" width="100%";>
 </div>  
-
+  
 
 #### Documentation
 [cv2.add](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#ga10ac1bfb180e2cfda1701d06c24fdbd6)  
