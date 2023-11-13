@@ -7,8 +7,6 @@ import matplotlib.pyplot as plt
 
 img_bgr = cv.imread("images/coca-cola-logo.png")
 img_rgb = cv.cvtColor(img_bgr, cv.COLOR_BGR2RGB)
-plt.imshow(img_rgb)
-plt.show()
 
 print(img_rgb.shape)
 
@@ -35,9 +33,12 @@ dim = (logo_w, int(img_background_rgb.shape[0] * aspect_ratio))
 # Resize background image to sae size as logo image
 img_background_rgb = cv.resize(img_background_rgb, dim, interpolation=cv.INTER_AREA)
 
-plt.imshow(img_background_rgb)
-plt.show()
 print(img_background_rgb.shape)
+
+plt.figure(figsize=[18, 5])
+plt.subplot(121), plt.axis("off"), plt.title("Logo"), plt.imshow(img_rgb)
+plt.subplot(122), plt.axis("off"), plt.title("Backgroung"), plt.imshow(img_background_rgb)
+plt.savefig("images/logo_tranformation1.png")
 
 
 #______Create mask for original image______
@@ -47,39 +48,57 @@ img_gray = cv.cvtColor(img_rgb, cv.COLOR_RGB2GRAY)
 # Apply global thresholding to creat a binary mask of the logo
 retval, img_mask = cv.threshold(img_gray, 127, 255, cv.THRESH_BINARY)
 
-plt.imshow(img_mask, cmap="gray")
-plt.show
 print(img_mask.shape)
+
 
 
 #______Invert the mask______
 
 # Create an inverse mask
 img_mask_inv = cv.bitwise_not(img_mask)
-plt.imshow(img_mask_inv, cmap="gray")
+
+
+plt.figure(figsize=[18, 5])
+plt.subplot(121), plt.axis("off"), plt.title("Apply global thresholding to creat a binary mask of the logo"), plt.imshow(img_mask, cmap="gray")
+plt.subplot(122), plt.axis("off"), plt.title("Create an inverse mask"), plt.imshow(img_mask_inv, cmap="gray")
+plt.savefig("images/logo_tranformation2.png")
+
 plt.show()
 
-
-#______Apply background on the mask______
+#______Apply the mask on background______
 
 # Create colorful background "behind" the logo lettering
 img_background = cv.bitwise_and(img_background_rgb, img_background_rgb, mask=img_mask)
-plt.imshow(img_background)
-plt.show()
 
 
 #______Isolate foreground from image______
 
 # Isolate foreground (red from original image) using the inverse mask
 img_foreground = cv.bitwise_and(img_rgb, img_rgb, mask=img_mask_inv)
-plt.imshow(img_foreground)
-plt.show()
+
 
 
 #______Result: Merge Foreground and Background______
 
 # Add the two previous results obtain the final result
 result = cv.add(img_background, img_foreground)
-plt.imshow(result)
-plt.show()
 cv.imwrite("images/logo_final.png", result[:, :, ::-1])
+
+
+
+# Affichage sur deux lignes
+
+
+plt.figure(figsize=[18, 5])
+
+# Première ligne
+plt.subplot(131), plt.axis("off"), plt.title("Apply the mask on background"), plt.imshow(img_background)
+plt.subplot(132), plt.axis("off"), plt.title("Create an inverse mask"), plt.imshow(img_foreground)
+
+# Deuxième ligne
+plt.subplot(133), plt.axis("off"), plt.title("Result: Merge Foreground and Background"), plt.imshow(result)
+
+plt.show()
+
+
+plt.savefig("images/logo_tranformation3.png")
