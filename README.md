@@ -264,27 +264,27 @@ Most often we arrive at an enhanced version of the image using some basic operat
 We will take a look at some of the fundamental operations often used in computer vision pipelines.  \
 In this course, I covered:  
   
-* [Brightness or addition](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/A_addition_or_brightness.py)  
+1. [Brightness ajustement](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/A_addition_or_brightness.py), also known as addition, is a fundamental image processing operation that involves modifying the intensity values of pixels. By adding a constant value to each pixel's intensity, we can control the overall brightness of the image. This technique is widely used in computer vision pipelines to enhance images, making them brighter or darker as needed.
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/brightness.jpg" alt="c" width="100%";>
 </div>  
 
-* [Contrast or Multiplication, handling overflow](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/B_multiplication_or_contrast.py)  
+2. [Contrast or Multiplication, handling overflow](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/B_multiplication_or_contrast.py)  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/contrast_overflow.jpg" alt="c" width="100%";>
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/contrast.jpg" alt="c" width="100%";>
 </div>  
 
-* [Thresholding & Masking](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/C_image_tresholding.py)  
+3. [Thresholding & Masking](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/C_image_tresholding.py)  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/threshold.jpg" alt="c" width="100%";>
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/threshold_perform.jpg" alt="c" width="100%";>
 </div>  
 
-* [Bitwise Operations like OR, AND, XOR](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/D_bitwise_operations.py)  
+4. [Bitwise Operations like OR, AND, XOR](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/D_bitwise_operations.py)  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_figure.png" alt="c" width="100%";>
