@@ -269,6 +269,7 @@ We will take a look at some of the fundamental operations often used in computer
 
 Brightness adjustment, also known as addition, is a fundamental image processing operation that involves modifying the intensity values of pixels.  
 By adding a constant value to each pixel's intensity, we can control the overall brightness of the image.  
+The mathematical expression for this operation is: `New Intensity = Original Intensity x Constant`
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/brightness.jpg" alt="c" width="80%";>
@@ -280,8 +281,7 @@ This technique is widely used in computer vision pipelines to enhance images, ma
 
 Contrast adjustment, or multiplication, is a vital image processing operation where pixel intensity values are modified to enhance or diminish contrast.  
 By multiplying each pixel's intensity by a constant factor, we control the overall contrast of the image.  
-The mathematical expression for this operation is:
-`New Intensity = Original Intensity x Constant`
+The mathematical expression for this operation is: `New Intensity = Original Intensity x Constant`
 
 
 <div align="center">
