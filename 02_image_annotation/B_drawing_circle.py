@@ -14,4 +14,5 @@ cv.circle(imageCircle, (900, 500), 100, (0, 0, 255), thickness=5, lineType=cv.LI
 cv.imshow("imageCircle", imageCircle)
 
 plt.imshow(imageCircle[:, :, ::-1])
+plt.savefig("images/draw_circle.jpg")
 plt.show()

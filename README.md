@@ -215,10 +215,10 @@ In this course, I learned various methods of image transformations, exploring es
 In this notebook, I covered how to annotate images using OpenCV.  
 I learned how to peform the following annotations to images.  
   
-* Draw lines  
-* Draw circles  
-* Draw rectangles  
-* Add text
+1. [Draw lines]()  
+1. [Draw circles]()  
+1. [Draw rectangles]()  
+1. [Add text]()  
   
 These are useful when you want to annotate your results for presentations or show a demo of your application.  
 Annotations can also be useful during development and debugging.

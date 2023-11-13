@@ -16,4 +16,5 @@ cv.putText(imageText, text, (200, 700), fontFace, fontScale, fontColor, fontThic
 
 # Display the image
 plt.imshow(imageText[:, :, ::-1])
+plt.savefig("images/add_text.jpg")
 plt.show()

@@ -22,4 +22,5 @@ cv.line(imageLine, (200, 100), (400, 100), (0, 255, 255), thickness=5, lineType=
 
 # Display the image
 plt.imshow(imageLine[:,:,::-1])
+plt.savefig("images/draw_line.jpg")
 plt.show()

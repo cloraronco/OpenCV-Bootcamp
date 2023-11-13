@@ -12,4 +12,5 @@ cv.rectangle(imageRectangle, (500, 100), (700, 600), (255, 0, 255), thickness=5,
 
 # Display the image
 plt.imshow(imageRectangle[:, :, ::-1])
+plt.savefig("images/draw_rectangle.jpg")
 plt.show()
