@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 from zipfile import ZipFile
 from urllib.request import urlretrieve
 
-from IPython.display import YouTubeVideo, display, HTML
 from base64 import b64encode
 
 def download_and_unzip(url, save_path):

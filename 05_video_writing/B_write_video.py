@@ -2,7 +2,6 @@ import os
 import cv2
 import matplotlib.pyplot as plt
 
-from IPython.display import YouTubeVideo, display, HTML
 from base64 import b64encode
 
 
@@ -12,6 +11,7 @@ cap = cv2.VideoCapture(source)
 
 if not cap.isOpened():
     print("Error opening video stream or file")
+
 
 # Default resolutions of the frame are obtained.
 # Convert the resolutions from float to integer.
