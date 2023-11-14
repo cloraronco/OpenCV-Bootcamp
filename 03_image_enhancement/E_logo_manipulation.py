@@ -91,9 +91,9 @@ cv.imwrite("images/logo_final.png", result[:, :, ::-1])
 
 plt.figure(figsize=[18, 5])
 
-plt.subplot(131), plt.axis("off"), plt.title("Apply the mask on background", fontsize=14), plt.imshow(img_background)
-plt.subplot(132), plt.axis("off"), plt.title("Create an inverse mask", fontsize=14), plt.imshow(img_foreground)
-plt.subplot(133), plt.axis("off"), plt.title("Result: Merge Foreground and Background", fontsize=14), plt.imshow(result)
+plt.subplot(131), plt.axis("off"), plt.title("Apply the mask on background", fontsize=16), plt.imshow(img_background)
+plt.subplot(132), plt.axis("off"), plt.title("Create an inverse mask", fontsize=16), plt.imshow(img_foreground)
+plt.subplot(133), plt.axis("off"), plt.title("Result: Merge Foreground and Background", fontsize=16), plt.imshow(result)
 
 plt.savefig("images/logo_transformation3.png")
 
