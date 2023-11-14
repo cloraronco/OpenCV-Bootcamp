@@ -493,6 +493,10 @@ In this course, I describe how to save a video in avi and mp4 formats using open
 ## 07 Image Filtering (Edge Detection)
 In this short course, I learned how to set image filters.  
 
+I cannot show examples as I do not have a camera. Refer to the [code](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/A_accessing_the_camera/00_accessing_camera.py) for more information.  
+
+If you are using Windows 10 with WSL, you probably won't have access to your camera from the VM. To enable it, follow this [tutorial](https://github.com/PINTO0309/wsl2_linux_kernel_usbcam_enable_conf).  
+
 ### Documentation
 [cv2.goodFeaturesToTrack](https://docs.opencv.org/3.4/dd/d1a/group__imgproc__feature.html#ga1d6bb77486c8f92d79c8793ad995d541)  
 [cv2.CAP_DSHOW](https://docs.opencv.org/3.4/d4/d15/group__videoio__flags__base.html#gga023786be1ee68a9105bf2e48c700294dab6ac3effa04f41ed5470375c85a23504)  
