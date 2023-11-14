@@ -394,7 +394,7 @@ Definition: The XOR operation combines the bits of two images. If the correspond
 Purpose: XOR operations are often used in applications like image differencing, where changes between two images are highlighted.  
 
 
-#### [Applications](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/E_logo_manipulation.py)
+### [Applications](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/E_logo_manipulation.py)
 
 Image Blending: Bitwise OR can be employed for blending images or combining specific features.  
   
