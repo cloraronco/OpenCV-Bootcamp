@@ -9,7 +9,7 @@ retval, img_thresh = cv2.threshold(img_read, 100, 255, cv2.THRESH_BINARY)
 # Show the images
 plt.figure(figsize=[18, 5])
 
-plt.subplot(121), plt.axis("off"), plt.imshow(img_read, cmap="gray"), plt.title("Original", fontsize=18)
+plt.subplot(121), plt.axis("off"), plt.imshow(img_read,   cmap="gray"), plt.title("Original", fontsize=18)
 plt.subplot(122), plt.axis("off"), plt.imshow(img_thresh, cmap="gray"), plt.title("Thresholded", fontsize=18)
 plt.savefig("images/threshold.jpg")
 plt.show()
