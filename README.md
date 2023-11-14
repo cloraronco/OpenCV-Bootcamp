@@ -356,7 +356,7 @@ These operations are particularly powerful when working with binary images or ma
   
 #### [1. Bitwise OR (|)]()
 
-Definition: The OR operation combines the bits of two images. If at least one of the corresponding bits is set (1), the result will have that bit set.  
+The OR operation combines the bits of two images. If at least one of the corresponding bits is set (1), the result will have that bit set.  
   
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_figure.png" alt="c" width="80%";>
@@ -365,11 +365,11 @@ Definition: The OR operation combines the bits of two images. If at least one of
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_OR.png" alt="c" width="40%";>
 </div>  
   
-Purpose: OR operations are commonly used in image blending, combining information from two images, or creating composite images.  
+OR operations are commonly used in image blending, combining information from two images, or creating composite images.  
 
 #### [2. Bitwise AND (&)]()
 
-Definition: The AND operation combines the bits of two images. The result has a bit set only if the corresponding bits in both input images are set (1).  
+The AND operation combines the bits of two images. The result has a bit set only if the corresponding bits in both input images are set (1).  
   
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_figure.png" alt="c" width="80%";>
@@ -378,7 +378,7 @@ Definition: The AND operation combines the bits of two images. The result has a 
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_AND.png" alt="c" width="40%";>
 </div>  
   
-Purpose: AND operations are useful for masking. When combined with a binary mask, only the pixels where both the mask and the image have a white pixel will be set in the result.  
+AND operations are useful for masking. When combined with a binary mask, only the pixels where both the mask and the image have a white pixel will be set in the result.  
 
 #### [3. Bitwise XOR (^)]()
 
@@ -391,18 +391,18 @@ Definition: The XOR operation combines the bits of two images. If the correspond
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/bitwise_XOR.png" alt="c" width="40%";>
 </div>  
   
-Purpose: XOR operations are often used in applications like image differencing, where changes between two images are highlighted.  
+XOR operations are often used in applications like image differencing, where changes between two images are highlighted.  
 
 
 ### [Applications](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/03_image_enhancement/E_logo_manipulation.py)
 
-Image Blending: Bitwise OR can be employed for blending images or combining specific features.  
+**Image Blending:** Bitwise OR can be employed for blending images or combining specific features.  
   
-Masking: Bitwise AND is valuable for applying masks, selectively affecting certain regions of an image.  
+**Masking:** Bitwise AND is valuable for applying masks, selectively affecting certain regions of an image.  
   
-Image Differencing: Bitwise XOR can highlight differences between two images.  
+**Image Differencing:** Bitwise XOR can highlight differences between two images.  
   
-Note: Bitwise operations are particularly efficient in terms of computational resources, making them widely used in computer vision and image processing algorithms.  
+**Note:** Bitwise operations are particularly efficient in terms of computational resources, making them widely used in computer vision and image processing algorithms.  
 
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation1.png" alt="c" width="90%";>
