@@ -437,7 +437,7 @@ In summary, bitwise operations like OR, AND, and XOR are essential tools for man
 [np.float64](https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float64)  
   
 ***  
-<sub>**(https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/03_image_enhancement)**</sub>  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/03_image_enhancement)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
