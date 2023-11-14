@@ -446,6 +446,9 @@ In summary, bitwise operations like OR, AND, and XOR are essential tools for man
 
 ## 05 Accessing the Camera
 In this short course, I learned how to access to the camera.  
+I cannot show examples as I do not have a camera. Refer to the [code](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/04_accessing_the_camera/00_accessing_camera.py) for more information.
+
+If you are using Windows 10 with WSL, you probably won't have access to your camera from the VM. To enable it, follow this [tutorial](https://github.com/PINTO0309/wsl2_linux_kernel_usbcam_enable_conf).
 
 
 ### Documentation
