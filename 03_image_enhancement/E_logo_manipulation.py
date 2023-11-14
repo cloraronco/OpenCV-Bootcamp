@@ -36,8 +36,8 @@ img_background_rgb = cv.resize(img_background_rgb, dim, interpolation=cv.INTER_A
 print(img_background_rgb.shape)
 
 plt.figure(figsize=[18, 5])
-plt.subplot(121), plt.axis("off"), plt.title("Logo"), plt.imshow(img_rgb)
-plt.subplot(122), plt.axis("off"), plt.title("Backgroung"), plt.imshow(img_background_rgb)
+plt.subplot(121), plt.axis("off"), plt.title("Logo", fontsize=18), plt.imshow(img_rgb)
+plt.subplot(122), plt.axis("off"), plt.title("Backgroung", fontsize=18), plt.imshow(img_background_rgb)
 plt.savefig("images/logo_transformation1.png")
 
 
@@ -59,8 +59,8 @@ img_mask_inv = cv.bitwise_not(img_mask)
 
 
 plt.figure(figsize=[18, 5])
-plt.subplot(121), plt.axis("off"), plt.title("Apply global thresholding to creat a binary mask of the logo"), plt.imshow(img_mask, cmap="gray")
-plt.subplot(122), plt.axis("off"), plt.title("Create an inverse mask"), plt.imshow(img_mask_inv, cmap="gray")
+plt.subplot(121), plt.axis("off"), plt.title("Apply global thresholding to create\n a binary mask of the logo", fontsize=18), plt.imshow(img_mask, cmap="gray")
+plt.subplot(122), plt.axis("off"), plt.title("Create an inverse mask", fontsize=18), plt.imshow(img_mask_inv, cmap="gray")
 plt.savefig("images/logo_transformation2.png")
 
 plt.show()
@@ -91,9 +91,9 @@ cv.imwrite("images/logo_final.png", result[:, :, ::-1])
 
 plt.figure(figsize=[18, 5])
 
-plt.subplot(131), plt.axis("off"), plt.title("Apply the mask on background", fontsize=16), plt.imshow(img_background)
-plt.subplot(132), plt.axis("off"), plt.title("Create an inverse mask", fontsize=16), plt.imshow(img_foreground)
-plt.subplot(133), plt.axis("off"), plt.title("Result: Merge Foreground and Background", fontsize=16), plt.imshow(result)
+plt.subplot(131), plt.axis("off"), plt.title("Apply the mask on background", fontsize=18), plt.imshow(img_background)
+plt.subplot(132), plt.axis("off"), plt.title("Create an inverse mask", fontsize=18), plt.imshow(img_foreground)
+plt.subplot(133), plt.axis("off"), plt.title("Result: Merge Foreground\n and Background", fontsize=18), plt.imshow(result)
 
 plt.savefig("images/logo_transformation3.png")
 

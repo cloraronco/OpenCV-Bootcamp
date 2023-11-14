@@ -20,8 +20,8 @@ img_rgb_darker   = cv2.subtract(img_rgb, matrix)
 
 # Show the images
 plt.figure(figsize=[18, 5])
-plt.subplot(131), plt.axis("off"), plt.imshow(img_rgb_darker),  plt.title("Darker")
-plt.subplot(132), plt.axis("off"), plt.imshow(img_rgb),         plt.title("Original")
-plt.subplot(133), plt.axis("off"), plt.imshow(img_rgb_brighter),plt.title("Brighter")
+plt.subplot(131), plt.axis("off"), plt.imshow(img_rgb_darker),  plt.title("Darker", fontsize=18)
+plt.subplot(132), plt.axis("off"), plt.imshow(img_rgb),         plt.title("Original", fontsize=18)
+plt.subplot(133), plt.axis("off"), plt.imshow(img_rgb_brighter),plt.title("Brighter", fontsize=18)
 plt.savefig("images/brightness.jpg")
 plt.show()

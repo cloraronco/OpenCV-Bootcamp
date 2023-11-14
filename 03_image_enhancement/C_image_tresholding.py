@@ -9,8 +9,8 @@ retval, img_thresh = cv2.threshold(img_read, 100, 255, cv2.THRESH_BINARY)
 # Show the images
 plt.figure(figsize=[18, 5])
 
-plt.subplot(121), plt.axis("off"), plt.imshow(img_read, cmap="gray"), plt.title("Original")
-plt.subplot(122), plt.axis("off"), plt.imshow(img_thresh, cmap="gray"), plt.title("Thresholded")
+plt.subplot(121), plt.axis("off"), plt.imshow(img_read, cmap="gray"), plt.title("Original", fontsize=18)
+plt.subplot(122), plt.axis("off"), plt.imshow(img_thresh, cmap="gray"), plt.title("Thresholded", fontsize=18)
 plt.savefig("images/threshold.jpg")
 plt.show()
 
@@ -34,9 +34,9 @@ img_thresh_adp = cv2.adaptiveThreshold(img_read, 255, cv2.ADAPTIVE_THRESH_MEAN_C
 
 # Show the images
 plt.figure(figsize=[18,15])
-plt.subplot(221), plt.axis("off"), plt.imshow(img_read,        cmap="gray"), plt.title("Original")
-plt.subplot(222), plt.axis("off"), plt.imshow(img_thresh_gbl_1,cmap="gray"), plt.title("Thresholded (global: 50)")
-plt.subplot(223), plt.axis("off"), plt.imshow(img_thresh_gbl_2,cmap="gray"), plt.title("Thresholded (global: 130)")
-plt.subplot(224), plt.axis("off"), plt.imshow(img_thresh_adp,  cmap="gray"), plt.title("Thresholded (adaptive)")
+plt.subplot(221), plt.axis("off"), plt.imshow(img_read,        cmap="gray"), plt.title("Original", fontsize=18)
+plt.subplot(222), plt.axis("off"), plt.imshow(img_thresh_gbl_1,cmap="gray"), plt.title("Thresholded (global: 50)", fontsize=18)
+plt.subplot(223), plt.axis("off"), plt.imshow(img_thresh_gbl_2,cmap="gray"), plt.title("Thresholded (global: 130)", fontsize=18)
+plt.subplot(224), plt.axis("off"), plt.imshow(img_thresh_adp,  cmap="gray"), plt.title("Thresholded (adaptive)", fontsize=18)
 plt.savefig("images/threshold_perform.jpg")
 plt.show()

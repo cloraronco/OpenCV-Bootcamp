@@ -14,9 +14,9 @@ img_rgb_brighter = np.uint8(cv2.multiply(np.float64(img_rgb), matrix2))
 
 # Show the images
 plt.figure(figsize=[18,5])
-plt.subplot(131), plt.axis("off"), plt.imshow(img_rgb_darker),  plt.title("Lower Contrast")
-plt.subplot(132), plt.axis("off"), plt.imshow(img_rgb),         plt.title("Original")
-plt.subplot(133), plt.axis("off"), plt.imshow(img_rgb_brighter),plt.title("Higher Contrast")
+plt.subplot(131), plt.axis("off"), plt.imshow(img_rgb_darker),  plt.title("Lower Contrast", fontsize=18)
+plt.subplot(132), plt.axis("off"), plt.imshow(img_rgb),         plt.title("Original", fontsize=18)
+plt.subplot(133), plt.axis("off"), plt.imshow(img_rgb_brighter),plt.title("Higher Contrast", fontsize=18)
 plt.savefig("images/contrast_overflow.jpg")
 plt.show()
 
@@ -31,8 +31,8 @@ img_rgb_higher = np.uint8(np.clip(cv2.multiply(np.float64(img_rgb), matrix2), 0,
 
 # Show the images
 plt.figure(figsize=[18,5])
-plt.subplot(131), plt.axis("off"), plt.imshow(img_rgb_lower), plt.title("Lower Contrast")
-plt.subplot(132), plt.axis("off"), plt.imshow(img_rgb),       plt.title("Original")
-plt.subplot(133), plt.axis("off"), plt.imshow(img_rgb_higher),plt.title("Higher Contrast")
+plt.subplot(131), plt.axis("off"), plt.imshow(img_rgb_lower), plt.title("Lower Contrast", fontsize=18)
+plt.subplot(132), plt.axis("off"), plt.imshow(img_rgb),       plt.title("Original", fontsize=18)
+plt.subplot(133), plt.axis("off"), plt.imshow(img_rgb_higher),plt.title("Higher Contrast", fontsize=18)
 plt.savefig("images/contrast.jpg")
 plt.show()
