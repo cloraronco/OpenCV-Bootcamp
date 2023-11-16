@@ -513,7 +513,7 @@ If you are using Windows 10 with WSL, you probably won't have access to your cam
 
 ## 08 Image Features and Alignment
 
-### [Find Keypoints](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/01_find_keypoints.py)
+### [Find Keypoints](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/B_find_keypoints.py)
 1. Convert images to grayscale  
 Grayscale images simplify the feature extraction process by reducing the dimensionality and focusing on intensity variations. It's a common practice to convert color images to grayscale before extracting keypoints.  
 
@@ -521,7 +521,7 @@ Grayscale images simplify the feature extraction process by reducing the dimensi
 Use the ORB (Oriented FAST and Rotated BRIEF) algorithm to detect keypoints and compute descriptors for each keypoint.  
 ORB is efficient and suitable for real-time applications. Keypoints represent distinctive features, while descriptors capture information about the local image region around each keypoint.  
   
-### [Match Keypoints](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/02_match_keypoints.py)
+### [Match Keypoints](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/C_match_keypoints.py)
 1. Match features  
 Utilize a feature matching algorithm (e.g., Brute-Force Matcher) to find correspondences between keypoints in the two images.  
 Matching involves associating keypoints from one image with their potential matches in the other image. 
@@ -539,7 +539,7 @@ Filter out matches that do not meet a certain quality threshold. This step is cr
 5. Draw top matches  
 Visualize the top matches by drawing lines or other graphical elements connecting the matched keypoints. This step helps in understanding the quality and accuracy of the feature matching process.  
   
-### [Find homography and wrap](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/03_find_homography_and_wrap.py)
+### [Find homography and wrap](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/D_find_homography_and_wrap.py)
 1. Extract location of good matches  
 Identify the locations of good matches based on a selected criterion, such as a ratio test. Good matches are essential for accurate homography estimation.  
 
