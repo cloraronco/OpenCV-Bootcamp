@@ -513,6 +513,44 @@ If you are using Windows 10 with WSL, you probably won't have access to your cam
 
 ## 08 Image Features and Alignment
 
+### [Find Keypoints](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/01_find_keypoints.py)
+1. Convert images to grayscale  
+Grayscale images simplify the feature extraction process by reducing the dimensionality and focusing on intensity variations. It's a common practice to convert color images to grayscale before extracting keypoints.  
+
+2. Detect ORB features and compute descriptors  
+Use the ORB (Oriented FAST and Rotated BRIEF) algorithm to detect keypoints and compute descriptors for each keypoint.  
+ORB is efficient and suitable for real-time applications. Keypoints represent distinctive features, while descriptors capture information about the local image region around each keypoint.  
+  
+### [Match Keypoints](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/02_match_keypoints.py)
+1. Match features  
+Utilize a feature matching algorithm (e.g., Brute-Force Matcher) to find correspondences between keypoints in the two images.  
+Matching involves associating keypoints from one image with their potential matches in the other image. 
+
+2. Converting to list for sorting as tuples are immutables objects  
+Convert the matched keypoints into a list to facilitate sorting.  
+Since tuples, often used in matching results, are immutable, converting them to a list allows for easier manipulation, especially when sorting based on specific criteria.  
+
+3. Sort matching by score  
+Sort the list of matches based on a matching score. The score reflects the quality of the match, usually determined by the distance between feature descriptors. Lower distances indicate better matches.  
+
+4. Remove not so good matches  
+Filter out matches that do not meet a certain quality threshold. This step is crucial for removing outliers or mismatches, ensuring that only reliable correspondences are considered in subsequent steps.
+
+5. Draw top matches  
+Visualize the top matches by drawing lines or other graphical elements connecting the matched keypoints. This step helps in understanding the quality and accuracy of the feature matching process.  
+  
+### [Find homography and wrap](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/03_find_homography_and_wrap.py)
+1. Extract location of good matches  
+Identify the locations of good matches based on a selected criterion, such as a ratio test. Good matches are essential for accurate homography estimation.  
+
+2. Find homography  
+Employ the RANSAC algorithm to robustly estimate the homography matrix.  
+RANSAC minimizes the impact of outliers, ensuring that the homography is calculated based on a set of inliers, resulting in a more accurate alignment.  
+
+3. Use homography to wrap image  
+Apply the obtained homography matrix to warp (align) one image onto the other.  
+This transformation corrects for geometric differences, ensuring that the matched keypoints in the two images are spatially aligned.  
+
 
 ### Documentation
 [cv2.ORB_create](https://docs.opencv.org/3.4/db/d95/classcv_1_1ORB.html)  
@@ -533,7 +571,7 @@ If you are using Windows 10 with WSL, you probably won't have access to your cam
 [.trainIdx](https://docs.opencv.org/3.4/d4/de0/classcv_1_1DMatch.html)  
   
 ***  
-<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#07_image_features_and_alignment)**</sub>  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/07_image_features_and_alignment)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
@@ -558,7 +596,7 @@ Steps for Creating Panoramas:
 [os.sep](https://www.programcreek.com/python/example/113/os.sep)  
   
 ***  
-<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#08_panorama)**</sub>  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/08_panorama)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
@@ -682,7 +720,7 @@ In summary, object tracking is a vital component of computer vision that allows 
 ### Documentation
   
 ***  
-<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#10_object_tracking)**</sub>  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/10_object_tracking)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
@@ -726,7 +764,7 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
   
 
 ***
-<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#11_face_detection)**</sub>  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/11_face_detection)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
@@ -740,7 +778,7 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
   
 
 ***  
-<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#12_TensorFlow_object_detection)**</sub>  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/12_TensorFlow_object_detection)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***
@@ -755,7 +793,7 @@ In summary, this script uses OpenCV and a neural network model to detect faces i
   
 
 ***  
-<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/#13_pose_estimation_using_OpenPose)**</sub>  
+<sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/13_pose_estimation_using_OpenPose)**</sub>  
 <sub>**[Table of Contents](#table-of-contents)**</sub>  
 <sub>**[Top of page](#opencv-bootcamp)**</sub>
 ***

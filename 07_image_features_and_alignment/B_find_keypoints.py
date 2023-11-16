@@ -35,6 +35,7 @@ im2_display = cv2.drawKeypoints(im2, keypoints2, outImage=np.array([]),
                                 color=(255, 0, 0), flags=cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
 
 plt.figure(figsize=[20,10])
-plt.subplot(121); plt.axis('off'); plt.imshow(im1_display); plt.title("Original Form")
-plt.subplot(122); plt.axis('off'); plt.imshow(im2_display); plt.title("Scanned Form")
+plt.subplot(121), plt.axis('off'), plt.imshow(im1_display), plt.title("Original Form", fontsize=18)
+plt.subplot(122), plt.axis('off'), plt.imshow(im2_display), plt.title("Scanned Form", fontsize=18)
+plt.savefig("images/ft_align_find_keypoints.png")
 plt.show()

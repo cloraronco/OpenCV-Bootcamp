@@ -1,4 +1,4 @@
-import cv2 as cv
+import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -27,6 +27,8 @@ keypoints1, descriptors1 = orb.detectAndCompute(im1_gray, None)
 keypoints2, descriptors2 = orb.detectAndCompute(im2_gray, None)
 
 
+#_____________________________________________________
+
 # Match features.
 matcher = cv2.DescriptorMatcher_create(cv2.DESCRIPTOR_MATCHER_BRUTEFORCE_HAMMING)
 
@@ -43,29 +45,7 @@ matches = matches[:numGoodMatches]
 # Draw top matches
 im_matches = cv2.drawMatches(im1, keypoints1, im2, keypoints2, matches, None)
 
-
-#_____________________________________________________
-#           FIND HOMOGRAPHY
-
-# Extract location of good matches
-points1 = np.zeros((len(matches), 2), dtype=np.float32)
-points2 = np.zeros((len(matches), 2), dtype=np.float32)
-
-for i, match in enumerate(matches):
-    points1[i, :] = keypoints1[match.queryIdx].pt
-    points2[i, :] = keypoints2[match.trainIdx].pt
-
-# Find homography
-h, mask = cv2.findHomography(points2, points1, cv2.RANSAC)
-
-#           WRAP IMAGE
-
-# Use homography to warp image
-height, width, channels = im1.shape
-im2_reg = cv2.warpPerspective(im2, h, (width, height))
-
-# Display results
-plt.figure(figsize=[20, 10])
-plt.subplot(121);plt.imshow(im1);    plt.axis("off");plt.title("Original Form")
-plt.subplot(122);plt.imshow(im2_reg);plt.axis("off");plt.title("Scanned Form")
+plt.figure(figsize=[40, 10])
+plt.imshow(im_matches), plt.axis("off"), plt.title("Original Form", fontsize=18)
+plt.savefig("images/ft_align_match_keypoints.png")
 plt.show()
