@@ -45,7 +45,7 @@ matches = matches[:numGoodMatches]
 # Draw top matches
 im_matches = cv2.drawMatches(im1, keypoints1, im2, keypoints2, matches, None)
 
-plt.figure(figsize=[40, 10])
+plt.figure(figsize=[15, 10])
 plt.imshow(im_matches), plt.axis("off"), plt.title("Original Form", fontsize=18)
 plt.savefig("images/ft_align_match_keypoints.png")
 plt.show()
