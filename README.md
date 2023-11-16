@@ -409,8 +409,8 @@ XOR operations are often used in applications like image differencing, where cha
 </div>  
 <div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation2.png" alt="c" width="90%";>
-<div align="center">
 </div>  
+<div align="center">
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation3.png" alt="c" width="90%";>
 </div>  
 
@@ -515,7 +515,7 @@ If you are using Windows 10 with WSL, you probably won't have access to your cam
 
 ### [Find Keypoints](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/B_find_keypoints.py)
   
-</div>  
+<div align="center">  
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/ft_align_base.png" alt="c" width="90%";>
 </div> 
   
@@ -526,7 +526,7 @@ Grayscale images simplify the feature extraction process by reducing the dimensi
 Use the ORB (Oriented FAST and Rotated BRIEF) algorithm to detect keypoints and compute descriptors for each keypoint.  
 ORB is efficient and suitable for real-time applications. Keypoints represent distinctive features, while descriptors capture information about the local image region around each keypoint.  
   
-</div>  
+<div align="center">  
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/ft_align_find_keypoints.png" alt="c" width="90%";>
 </div>  
   
@@ -549,7 +549,7 @@ Filter out matches that do not meet a certain quality threshold. This step is cr
 #### 5. Draw top matches  
 Visualize the top matches by drawing lines or other graphical elements connecting the matched keypoints. This step helps in understanding the quality and accuracy of the feature matching process.  
 
-</div>  
+<div align="center">  
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/ft_align_match_keypoints.png" alt="c" width="90%";>
 </div>  
   
@@ -566,7 +566,7 @@ RANSAC minimizes the impact of outliers, ensuring that the homography is calcula
 Apply the obtained homography matrix to warp (align) one image onto the other.  
 This transformation corrects for geometric differences, ensuring that the matched keypoints in the two images are spatially aligned.  
 
-</div>  
+<div align="center">  
   <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/ft_align_find_homography_n_wrap.png" alt="c" width="90%";>
 </div>  
 
