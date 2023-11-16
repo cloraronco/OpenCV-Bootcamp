@@ -514,6 +514,11 @@ If you are using Windows 10 with WSL, you probably won't have access to your cam
 ## 08 Image Features and Alignment
 
 ### [Find Keypoints](https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/07_image_features_and_alignment/B_find_keypoints.py)
+
+</div>  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/logo_transformation3.png" alt="c" width="90%";>
+</div>  
+  
 #### 1. Convert images to grayscale  
 Grayscale images simplify the feature extraction process by reducing the dimensionality and focusing on intensity variations. It's a common practice to convert color images to grayscale before extracting keypoints.  
 
