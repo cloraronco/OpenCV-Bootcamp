@@ -20,16 +20,15 @@ for filename in imagefiles:
 
 num_images = len(images)
 
-# Display Images
-plt.figure(figsize=[30, 10])
-num_cols = 3
-num_rows = math.ceil(num_images / num_cols)
-for i in range(0, num_images):
-    plt.subplot(num_rows, num_cols, i + 1)
-    plt.axis("off")
-    plt.imshow(images[i])
-# plt.savefig("plot.png")
-# plt.show()
+# # Display Images
+# plt.figure(figsize=[30, 10])
+# num_cols = 3
+# num_rows = math.ceil(num_images / num_cols)
+# for i in range(0, num_images):
+#     plt.subplot(num_rows, num_cols, i + 1)
+#     plt.axis("off")
+#     plt.imshow(images[i])
+# # plt.show()
 
 
 # Stitch Images
@@ -39,4 +38,6 @@ status, result = stitcher.stitch(images)
 if status == 0:
     plt.figure(figsize=[30, 10])
     plt.imshow(result)
+
+plt.savefig("plot.png")
 plt.show()
