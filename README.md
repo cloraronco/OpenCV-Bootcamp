@@ -744,28 +744,28 @@ OpenCV offers a comprehensive set of tracking algorithms through its Tracker Cla
   
 Here's a detailed breakdown of the tracking algorithms available in the OpenCV Tracker class:  
 
-#### [BOOSTING]()
+#### [BOOSTING](https://github.com/cloraronco/OpenCV-Bootcamp#boosting)
 This algorithm is based on online boosting and is suitable for tracking objects with changing appearance.  
 
-#### [MIL (Multiple Instance Learning)]()
+#### [MIL (Multiple Instance Learning)](https://github.com/cloraronco/OpenCV-Bootcamp#mil-multiple-instance-learning)
 MIL is effective when dealing with multiple instances of an object in the scene. It models the object and the background.  
 
-#### [KCF (Kernelized Correlation Filters)]()
+#### [KCF (Kernelized Correlation Filters)](https://github.com/cloraronco/OpenCV-Bootcamp#kcf-kernelized-correlation-filters)
 KCF is a fast and accurate algorithm that utilizes kernelized correlation filters for object tracking. It is particularly efficient for tracking in challenging scenarios.  
 
-#### [CRST (Discriminative Correlation Filter with Channel and Spatial Reliability)]()
+#### [CRST (Discriminative Correlation Filter with Channel and Spatial Reliability)](https://github.com/cloraronco/OpenCV-Bootcamp#crst-discriminative-correlation-filter-with-channel-and-spatial-reliability)
 CRST is an extension of KCF and aims to enhance tracking performance by incorporating channel and spatial reliability.  
 
-#### [TLD (Tracking, Learning, and Detection)]()
+#### [TLD (Tracking, Learning, and Detection)](https://github.com/cloraronco/OpenCV-Bootcamp#tld-tracking-learning-and-detection)
 TLD combines tracking, learning, and detection. It is capable of recovering from partial and full occlusions, making it robust in challenging tracking scenarios.  
 
-#### [MEDIANFLOW]()
+#### [MEDIANFLOW](https://github.com/cloraronco/OpenCV-Bootcamp#medianflow)
 This algorithm is suitable for tracking objects with predictable slow motion. It computes the robust median of the tracked features.  
 
-#### [GOTURN (Generic Object Tracking Using Regression Networks)]()
+#### [GOTURN (Generic Object Tracking Using Regression Networks)](https://github.com/cloraronco/OpenCV-Bootcamp#goturn-generic-object-tracking-using-regression-networks)
 GOTURN is a deep learning-based tracking algorithm. It formulates object tracking as a regression problem and is known for its high accuracy.  
 
-#### [MOSSE (Minimum Output Sum of Squared Errors)]()
+#### [MOSSE (Minimum Output Sum of Squared Errors)](https://github.com/cloraronco/OpenCV-Bootcamp#mosse-minimum-output-sum-of-squared-errors)
 MOSSE is a lightweight and fast tracking algorithm based on correlation filters. It is suitable for real-time applications where speed is crucial.
 
 In summary, object tracking is a vital component of computer vision that allows for the continuous monitoring and prediction of an object's position across a sequence of images or video frames. It relies on motion and appearance models to accommodate variations in object movement and appearance. OpenCV's Tracker Class API is a valuable resource for developers seeking efficient and accurate object tracking solutions for diverse applications.  
