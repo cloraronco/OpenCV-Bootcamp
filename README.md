@@ -598,13 +598,21 @@ This transformation corrects for geometric differences, ensuring that the matche
 
 
 ## 09 Panorama
-Steps for Creating Panoramas:  
   
+<div align="center">  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/stitch_before.png" alt="c" width="90%";>
+</div>  
+
+Steps for Creating Panoramas:  
 * Find keypoints in all images  
 * Find pairwise correspondences  
 * Estimate pairwise Homographies  
 * Refine Homographies  
 * Stitch with Blending  
+
+<div align="center">  
+  <img src="https://github.com/cloraronco/OpenCV-Bootcamp/blob/main/utils/stitch_after.png" alt="c" width="90%";>
+</div>  
 
 ### Documentation
 [cv2.Stitcher_create](https://docs.opencv.org/3.4/d2/d8d/classcv_1_1Stitcher.html#acb32106b3b3e7870d4b39082ab58a26e)  
