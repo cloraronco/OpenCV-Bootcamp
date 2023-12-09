@@ -771,6 +771,20 @@ MOSSE is a lightweight and fast tracking algorithm based on correlation filters.
 In summary, object tracking is a vital component of computer vision that allows for the continuous monitoring and prediction of an object's position across a sequence of images or video frames. It relies on motion and appearance models to accommodate variations in object movement and appearance. OpenCV's Tracker Class API is a valuable resource for developers seeking efficient and accurate object tracking solutions for diverse applications.  
   
 ### Documentation
+[cv2.legacy.TrackerBoosting.create]()
+[cv2.legacy.TrackerMIL.create]()
+[cv2.TrackerKCF.create]()
+[cv2.TrackerCSRT.create]()
+[cv2.legacy.TrackerTLD.create]()
+[cv2.legacy.TrackerMedianFlow.create]()
+[cv2.TrackerGOTURN.create]()
+[cv2.legacy.TrackerMOSSE.create]()
+[sys.exit]()
+[video.get]()
+[cv2.CAP_PROP_FRAME_WIDTH]()
+[cv2.CAP_PROP_FRAME_HEIGHT]()
+[cv2.getTickCount]()
+[cv2.getTickFrequency]()
   
 ***  
 <sub>**[View code](https://github.com/cloraronco/OpenCV-Bootcamp/tree/main/10_object_tracking)**</sub>  
@@ -814,6 +828,14 @@ The video sequence is released (source.release()), and the OpenCV window is dest
 In summary, this script uses OpenCV and a neural network model to detect faces in real-time from a video sequence coming from the camera or another video source.  
   
 ### Documentation
+[cv2.dnn.readNetFromCaffe]()
+[cv2.dnn.blobFromImage]()
+[net.setInput]()
+[net.forward]()
+[cv2.getTextSize]()
+[cv2.FONT_HERSHEY_SIMPLEX]()
+[cv2.FILLED]()
+[net.getPerfProfile]()
   
 
 ***
